@@ -41,7 +41,7 @@ jobs:
       #   Rscript -e 'remotes::install_git("https://research-git.uiowa.edu/PetersenLab/petersenlab.git")'
 
       - name: Render blog
-        run: Rscript -e 'rmarkdown::render_site()'
+        run: Rscript -e 'library("rmarkdown"); rmarkdown::render_site()'
 
       - uses: actions/upload-artifact@v4 # update
         with:
