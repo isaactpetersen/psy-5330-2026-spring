@@ -13,7 +13,7 @@ Last Updated: `r format(Sys.Date(), "%m/%d/%Y")`
 
 # Course Title {#title}
 
-PSY:5330 – Principles of Psychological Assessment (Spring 2024)
+PSY:5330 – Principles of Psychological Assessment (Spring 2026)
 
 # Course Meeting Time and Place {#lectureTime}
 

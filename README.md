@@ -1,7 +1,7 @@
-# PSY:5330 – Principles of Psychological Assessment (Spring 2024)
+# PSY:5330 – Principles of Psychological Assessment (Spring 2026)
 
-This is the code that creates the Wiki for PSY:5330 - Principles of Psychological Assessment (Spring 2024).
-The Class Wiki is located here: **https://isaactpetersen.github.io/psy-5330-2024-spring**
+This is the code that creates the Wiki for PSY:5330 - Principles of Psychological Assessment (Spring 2026).
+The Class Wiki is located here: **https://isaactpetersen.github.io/psy-5330-2026-spring**
 
 # License
 
