@@ -1,0 +1,2123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Course Syllabus</title>
+
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<script src="site_libs/navigation-1.1/sourceembed.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CD13WE2PJ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CD13WE2PJ3');
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+<style type="text/css">
+#rmd-source-code {
+  display: none;
+}
+</style>
+
+
+<link rel="stylesheet" href="includes/custom.css" type="text/css" />
+<link rel="stylesheet" href="font/css/roboto.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Class Wiki for Principles of Psychological Assessment (Spring 2026)</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Course Syllabus</a>
+</li>
+<li>
+  <a href="https://isaactpetersen.github.io/Principles-Psychological-Assessment">Textbook</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Miscellaneous
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="help.html">I Think I Might Need Some Help...</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+<li role="separator" class="divider"></li>
+<li><a id="rmd-download-source" href="#">Download Rmd</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Course Syllabus</h1>
+
+</div>
+
+
+<p>Last Updated: 05/15/2024</p>
+<div id="title" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Course Title</h1>
+<p>PSY:5330 – Principles of Psychological Assessment (Spring 2026)</p>
+</div>
+<div id="lectureTime" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Course Meeting Time and
+Place</h1>
+<p>Tuesday &amp; Thursday 9:30 a.m.–10:45 a.m., 109 Stuit Hall (STH)</p>
+</div>
+<div id="website" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Course Website</h1>
+<p><a href="https://icon.uiowa.edu"
+class="uri">https://icon.uiowa.edu</a></p>
+<p>To access the course site, log into <a
+href="https://icon.uiowa.edu">Iowa Courses Online (ICON)</a> using your
+Hawk ID and password.</p>
+</div>
+<div id="home" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Course Home</h1>
+<p>The College of Liberal Arts and Sciences (CLAS) is the home of this
+course, and CLAS governs the policies and procedures for its courses.
+Graduate students, however, must adhere to the <a
+href="https://grad.uiowa.edu/academics/deadlines">academic deadlines set
+by the Graduate College</a>.</p>
+</div>
+<div id="instructor" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Instructor Contact
+Information</h1>
+<p><a href="https://psychology.uiowa.edu/people/isaac-petersen">Isaac T.
+Petersen, Ph.D.</a><br />
+Office: 175 Psychological and Brain Sciences Building (PBSB)<br />
+E-mail: <a
+href="mailto:isaac-t-petersen@uiowa.edu">isaac-t-petersen@uiowa.edu</a><br />
+Office Phone: 467-1014<br />
+Office Hours: by appointment<br />
+</p>
+</div>
+<div id="deptResources" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Departmental
+Resources</h1>
+<p>Department of Psychological and Brain Sciences: <a
+href="https://psychology.uiowa.edu">https://psychology.uiowa.edu</a><br />
+Department of Psychological and Brain Sciences Main Office: G60
+Psychological and Brain Sciences Building (335-2406)<br />
+Director of Graduate Studies: Ryan LaLumiere (<a
+href="mailto:ryan-lalumiere@uiowa.edu">ryan-lalumiere@uiowa.edu</a>;
+335-3681)<br />
+Chair of Department: Mark Blumberg (<a
+href="mailto:mark-blumberg@uiowa.edu">mark-blumberg@uiowa.edu</a>;
+335-2424)</p>
+</div>
+<div id="prereqs" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Prerequisites</h1>
+<p>To succeed in the class, it is helpful to have foundational
+understanding of correlation and multiple regression.</p>
+</div>
+<div id="description" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> Description of
+Course</h1>
+<p>Much of the current discussion in psychology surrounding the
+replication crisis deals with questionable research practices. However,
+the field has paid insufficient attention to how lousy/noisy measures
+might contribute to the replication crisis (Loken &amp; Gelman, 2017).
+In this class, we cover content that is relevant to all of Psychology
+and science more broadly, including how to develop, administer, score,
+integrate, and interpret measures. Topics will include, for example,
+psychometrics (<a href="#section2">reliability</a> and <a
+href="#section4">validity</a>), <a href="#section8">prediction</a>, <a
+href="#section6">structural equation modeling</a>, <a
+href="#section20">factor analysis</a>, <a href="#section9">signal
+detection theory</a>, <a href="#section7">item response theory</a>, <a
+href="#section25">adaptive testing</a>, <a
+href="#section27">longitudinal/repeated measurement</a>, and issues in
+<a href="#section29">cognitive</a>, <a
+href="#section26">social/behavioral</a>, and <a
+href="#section24">psychophysiological</a> assessment.</p>
+<p>In this course, we examine basic psychometrics and the background,
+development, evaluation, administration, scoring, integration, and
+interpretation of selected techniques in psychological assessment. The
+course applies a scientific perspective to psychological assessment.
+<em>You are urged to reconsider your decision to take this class if you
+are reluctant to examine these topics in a scientific manner.</em></p>
+</div>
+<div id="objectives" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Learning
+Objectives</h1>
+<p>The focus of this class is NOT on application (e.g., how to assess
+each psychological disorder, how to use particular measures, etc). This
+course is focused on important <em>principles</em> of psychological
+assessment. The goal of the class is to give you lots of “thinking
+tools” relevant to psychological assessment—i.e., “how to think” about
+and critically evaluate assessments in psychology—to help you advance
+your research program. Learning the important principles will put you in
+a better position to learn any assessment, and to develop better
+ones.</p>
+</div>
+<div id="supplemental" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Supplemental
+Resources</h1>
+<p>Even though the course is focused on principles of psychological
+assessment and not on application, I want you to be able to apply the
+principles we discuss. So, I provide lots of additional readings and
+resources on the assessment of particular disorders, using particular
+measures, etc. These supplemental resources are in the “For More Info”
+folder in <a href="https://icon.uiowa.edu">ICON</a>. The folder also
+includes an EndNote file with the course readings. In addition, I
+provide a companion book (see <a href="#textbook">below</a>).</p>
+</div>
+<div id="textbook" class="section level1" number="11">
+<h1><span class="header-section-number">11</span> Companion Book</h1>
+<p>I want those who are interested to be in the best position to apply
+the principles we discuss. Thus, I created a companion book for the
+course that includes practical data and analysis examples to help you
+better understand the principles and how to apply them in your own
+research. The companion book includes exercises to help you test your
+comprehension. <u>The companion book is NOT intended to replace the
+importance of reading the <a href="#readings">required primary source
+articles</a></u> (which are covered on the exams). <u>You are NOT
+required or expected to read the companion book for this class.</u> The
+companion book is merely meant to be a helpful supplementary resource
+for those who are interested. You can access the companion book here: <a
+href="https://isaactpetersen.github.io/Principles-Psychological-Assessment"
+class="uri">https://isaactpetersen.github.io/Principles-Psychological-Assessment</a></p>
+</div>
+<div id="academicHonesty" class="section level1" number="12">
+<h1><span class="header-section-number">12</span> Academic Honesty and
+Misconduct</h1>
+<p>All students in CLAS courses are expected to abide by the <a
+href="https://clas.uiowa.edu/students/handbook/academic-fraud-honor-code">CLAS
+Code of Academic Honesty</a>. Academic misconduct must be reported to
+the Graduate College according to Section F of the <a
+href="https://grad.uiowa.edu/academics/manual/academic-program/section-iv-academic-standing-probation-and-dismissal">Graduate
+College Manual</a>. Please note that collaboration with other classmates
+during exams is not permitted. However, I do encourage you to
+collaborate with classmates on readings and to <em>prepare</em> for
+exams (e.g., informal study groups). Because writing, analytical, and
+critical thinking skills are part of the learning outcomes of this
+course, all work submitted by students should be prepared by the
+student. Developing strong competencies in these domains will prepare
+you for a competitive workplace. Therefore, AI-generated submissions are
+not permitted and will be treated as plagiarism.</p>
+</div>
+<div id="requirements" class="section level1" number="13">
+<h1><span class="header-section-number">13</span> Course Requirements
+and Policies</h1>
+<ul>
+<li><a href="#readings">Assigned readings</a></li>
+<li><a href="#attendanceParticipation">Class participation</a></li>
+<li><a href="#exams">Midterm Exam</a></li>
+<li><a href="#exams">Final Exam</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<div id="lecture" class="section level2" number="13.1">
+<h2><span class="header-section-number">13.1</span> Lecture</h2>
+<p>The course is primarily lecture. We will meet twice weekly for
+lectures, at the time and location described <a
+href="#lectureTime">above</a>. There is considerable material to cover,
+and we will move quickly. You should feel free to ask questions during
+lecture, although some questions may need to be deferred given the need
+to complete coverage of specific material. <u>Questions and further
+discussion of class material are always welcome</u> during office hours
+and via e-mail. Please bear in mind that extensive or complex questions
+may not be addressable over e-mail.</p>
+<div id="recordings" class="section level3" number="13.1.1">
+<h3><span class="header-section-number">13.1.1</span> Lecture
+Recordings</h3>
+<p>My intention is to record lectures so the lectures are available to
+you virtually and in person so you have the choice of viewing them how
+you see fit and so you may review them. Recorded lectures will be posted
+on the “UICapture” tab in <a href="https://icon.uiowa.edu">ICON</a>.
+Unfortunately, the recordings do not capture when I draw on the
+classroom whiteboard. Recordings will be available up to 48 hours after
+class (for Thursday lectures) or until the Thursday class period (for
+Tuesday lectures). However, <u>please do not count on recordings being
+available</u>, in case I accidentally forget to initiate the recording
+or there is a technical malfunction. The availability of lecture
+recordings will not be extended beyond 48 hours after lecture—the
+recordings are meant to help people keep up with lectures and for
+students to retrieve the relevant content if they missed anything during
+the live lecture or if they miss the lecture; they are not meant to be a
+study method that allows people to fall behind in class from week to
+week. If you miss something and are unable to watch the lecture
+recording, you can get/review notes with a peer, and then come to office
+hours if you have specific questions.</p>
+</div>
+</div>
+<div id="attendanceParticipation" class="section level2" number="13.2">
+<h2><span class="header-section-number">13.2</span> Attendance and
+Participation</h2>
+<p>Attendance and participation are strongly encouraged to maximize your
+and others’ learning.</p>
+</div>
+<div id="readings" class="section level2" number="13.3">
+<h2><span class="header-section-number">13.3</span> Readings</h2>
+<p>We have lots of content to cover, and the lectures will move quickly.
+Thus, doing the relevant readings <em>before</em> each class will help
+you best come prepared to learn the material presented in class.
+Readings and other materials will be posted on <a
+href="https://icon.uiowa.edu">ICON</a>. The articles to read are
+specified in the <a href="#articles">Articles</a> section of the
+syllabus.</p>
+</div>
+<div id="exams" class="section level2" number="13.4">
+<h2><span class="header-section-number">13.4</span> Examinations</h2>
+<p>There will be 2 exams. The exams will be short answer/essay
+questions. The final exam is non-cumulative; each exam will emphasize
+information presented for the half of the class that precedes it.
+However, some integration of information will be required for questions
+on the second exam. Exam questions can come from lectures or required
+readings.</p>
+<div id="missingExams" class="section level3" number="13.4.1">
+<h3><span class="header-section-number">13.4.1</span> Missing Exams</h3>
+<p>Students are allowed to make up exams that have been missed due to
+illness, mandatory religious observations, official University
+activities, or other unavoidable circumstances. Note: the format of the
+make-up exam may differ from the original exam. If you know that you
+must be away at the time of an exam for one of these reasons, please
+contact me in advance whenever possible to schedule a make-up exam.</p>
+</div>
+</div>
+<div id="paper" class="section level2" number="13.5">
+<h2><span class="header-section-number">13.5</span> Paper</h2>
+<p>You will write a final/term paper on a topic pertaining to
+assessment. The paper can be a literature review pertaining to
+assessment (with recommendations), or it can be a paper on the
+development of an assessment technique. The goal is for the paper to be
+as relevant to your research interests as possible, so it directly
+advances your research program. Please do not stress about the paper.
+Your paper should be less than 20 pages (excluding references). It is
+okay (and encouraged!) for you to use, as your paper, something that you
+are already working on or to write a paper that you are submitting for
+another assignment—consider writing a paper that could be a publication.
+I want to keep the topic requirements of the paper flexible and
+open-ended so the paper can be as relevant for your research program as
+possible—the only requirement is that the paper topic is relevant to
+assessment, and that your paper incorporates ideas we discuss in
+class.</p>
+<p>Your final paper is due before the last class (<u><strong>Deadline:
+9:30 am on Thursday, May 2</strong></u>). Please submit your paper via
+<a href="https://icon.uiowa.edu">ICON</a>.</p>
+</div>
+</div>
+<div id="articles" class="section level1" number="14">
+<h1><span class="header-section-number">14</span> Articles</h1>
+<p>The section covered for each class is described in the <a
+href="#outline">Course Outline</a>. The articles to read for each
+section are specified below. Articles are posted in the “Files” tab on
+<a href="https://icon.uiowa.edu">ICON</a>.</p>
+<p>*Designates a paper that you should read, get the basic idea, and
+remember where to find it if you need further information. These are
+typically historical papers, illustrations of specific techniques, or
+useful references.</p>
+<p>References highlighted in yellow are the readings that you should pay
+closest attention to. Blue highlights provide additional useful
+information.</p>
+<div id="psychometrics-prediction-and-general-issues"
+class="section level2" number="14.1">
+<h2><span class="header-section-number">14.1</span> Psychometrics,
+Prediction, and General Issues</h2>
+<div id="section1" class="section level3" number="14.1.1">
+<h3><span class="header-section-number">14.1.1</span> Science and the
+Replication Crisis</h3>
+<div style="text-indent: -40px; padding-left: 40px;">
+<div id="section-1" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 1</u></h4>
+<p>Loken, E., &amp; Gelman, A. (2017). Measurement error and the
+replication crisis. <em>Science, 355</em>(6325), 584–585. <a
+href="https://doi.org/10.1126/science.aal3618"
+class="uri">https://doi.org/10.1126/science.aal3618</a></p>
+<p><mark>McFall, R. M. (1991). Manifesto for a science of clinical
+psychology. <em>The Clinical Psychologist, 44</em>(6), 75–91.</mark></p>
+<p><mark>McFall, R. M. (2000). Elaborate reflections on a simple
+manifesto. <em>Applied &amp; Preventive Psychology, 9</em>(1), 5–21. <a
+href="https://doi.org/10.1016/s0962-1849(05)80035-6"
+class="uri">https://doi.org/10.1016/s0962-1849(05)80035-6</a></mark></p>
+</div>
+<div id="section2" class="section level3" number="14.1.2">
+<h3><span class="header-section-number">14.1.2</span> Reliability</h3>
+<div id="section-2" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 2</u></h4>
+<p><mark>McNeish, D. (2018). Thanks coefficient alpha, we’ll take it
+from here. <em>Psychological Methods, 23</em>(3), 412–433. <a
+href="https://doi.org/10.1037/met0000144"
+class="uri">https://doi.org/10.1037/met0000144</a></mark></p>
+<p>*Galton, F. (1948). Classification of men according to their natural
+gifts, 1869. In W. Dennis (Ed.), <em>Readings in the history of
+psychology</em> (pp. 231–247). Appleton-Century-Crofts. <a
+href="https://psycnet.apa.org/record/2006-10213-000"
+class="uri">https://psycnet.apa.org/record/2006-10213-000</a></p>
+<p>*Garland, L. H. (1960). The problem of observer error. <em>Bulletin
+of the New York Academy of Medicine, 36</em>(9), 570–584.</p>
+</div>
+<div id="section3" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 3</u></h4>
+<p><mark>Schmidt, F. L., &amp; Hunter, J. E. (1996). Measurement error
+in psychological research: Lessons from 26 research scenarios.
+<em>Psychological Methods, 1</em>(2), 199–223. <a
+href="https://doi.org/10.1037/1082-989X.1.2.199"
+class="uri">https://doi.org/10.1037/1082-989X.1.2.199</a></mark></p>
+<p>Wiggins, J. S. (1973). Observational techniques: I. Generalizability
+and facets of observation. In J. S. Wiggins (Ed.), <em>Personality and
+prediction: Principles of personality assessment</em> (pp. 277–295).
+Addison-Wesley.</p>
+</div>
+</div>
+<div id="section4" class="section level3" number="14.1.3">
+<h3><span class="header-section-number">14.1.3</span> Validity</h3>
+<div id="section-4" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 4</u></h4>
+<p><mark>Campbell, D. T., &amp; Fiske, D. W. (1959). Convergent and
+discriminant validation by the multitrait-multimethod matrix.
+<em>Psychological Bulletin, 56</em>(2), 81–105. <a
+href="https://doi.org/10.1037/h0046016"
+class="uri">https://doi.org/10.1037/h0046016</a></mark></p>
+<p>Hayes, S. C., Nelson, R. O., &amp; Jarrett, R. B. (1987). The
+treatment utility of assessment: A functional approach to evaluating
+assessment quality. <em>American Psychologist, 42</em>, 963–974. <a
+href="https://doi.org/10.1037/0003-066X.42.11.963"
+class="uri">https://doi.org/10.1037/0003-066X.42.11.963</a></p>
+<p><mark>Meehl, P. E. (1973). Chapter 1. <em>Psychodiagnosis: Selected
+papers</em>. University of Minnesota Press.</mark>
+<mark style="background-color: lightblue">[This is Cronbach, L. J.,
+&amp; Meehl, P. E. (1955). Construct validity in psychological tests.
+<em>Psychological Bulletin, 52</em>(4), 281–302. <a
+href="https://doi.org/10.1037/h0040957"
+class="uri">https://doi.org/10.1037/h0040957</a>]</mark></p>
+</div>
+<div id="section5" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 5</u></h4>
+<p><mark>Sechrest, L. (1963). Incremental validity: A recommendation.
+<em>Educational and Psychological Measurement, 23</em>, 153–158. <a
+href="https://doi.org/10.1177/001316446302300113"
+class="uri">https://doi.org/10.1177/001316446302300113</a></mark></p>
+<p><mark>Shavelson, R. J., Webb, N. M., &amp; Rawley, R. L. (1989).
+Generalizability theory. <em>American Psychologist, 44</em>, 922–932. <a
+href="https://doi.org/10.1037/0003-066X.44.6.922"
+class="uri">https://doi.org/10.1037/0003-066X.44.6.922</a></mark></p>
+<p>Bornstein, R. F. (2011). Toward a process-focused model of test score
+validity: Improving psychological assessment in science and practice.
+<em>Psychological Assessment, 23</em>(2), 532–544. <a
+href="https://doi.org/10.1037/a0022402"
+class="uri">https://doi.org/10.1037/a0022402</a></p>
+<p>*American Educational Research Association, American Psychological
+Association, &amp; National Council on Measurement in Education. (2014).
+<em>Standards for educational and psychological testing</em>. American
+Educational Research Association.
+<mark style="background-color: lightblue">[This is available in the
+clinic library. You don’t need to read this for our class, but you
+should know it exists as a reference, because it sets the standard for
+APA journals, licensure exams, and beyond.]</mark></p>
+</div>
+</div>
+<div id="emerging-perspectives-in-measurement" class="section level3"
+number="14.1.4">
+<h3><span class="header-section-number">14.1.4</span> Emerging
+Perspectives in Measurement</h3>
+<div id="section6" class="section level4" number="14.1.4.1">
+<h4><span class="header-section-number">14.1.4.1</span> Structural
+Equation Modeling (SEM)</h4>
+</div>
+<div id="section-6" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 6</u></h4>
+<p><mark>Bollen, K. A., &amp; Lennox, R. D. (1991). Conventional wisdom
+on measurement: A structural equation perspective. <em>Psychological
+Bulletin, 110</em>(2), 305–314. <a
+href="https://doi.org/10.1037/0033-2909.110.2.305"
+class="uri">https://doi.org/10.1037/0033-2909.110.2.305</a></mark></p>
+<p><mark>Podsakoff, P. M., MacKenzie, S. B., &amp; Podsakoff, N. P.
+(2012). Sources of method bias in social science research and
+recommendations on how to control it. <em>Annual Review of Psychology,
+63</em>(1), 539–569. <a
+href="https://doi.org/10.1146/annurev-psych-120710-100452"
+class="uri">https://doi.org/10.1146/annurev-psych-120710-100452</a></mark></p>
+<p>Edwards, J. R., &amp; Bagozzi, R. P. (2000). On the nature and
+direction of relationships between constructs and measures.
+<em>Psychological Methods, 5</em>(2), 155–174. <a
+href="https://doi.org/10.1037/1082-989X.5.2.155"
+class="uri">https://doi.org/10.1037/1082-989X.5.2.155</a>
+<mark style="background-color: lightblue">[read pp. 155–162 carefully,
+but don’t worry about the complex path models that follow unless they
+are relevant to your own research.]</mark></p>
+</div>
+<div id="section7" class="section level4" number="14.1.4.2">
+<h4><span class="header-section-number">14.1.4.2</span> Item Response
+Theory (IRT)</h4>
+</div>
+<div id="section-7" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 7</u></h4>
+<p><mark>Embretson, S. E. (1996). The new rules of measurement.
+<em>Psychological Assessment, 8</em>, 341–349. <a
+href="https://doi.org/10.1037/1040-3590.8.4.341"
+class="uri">https://doi.org/10.1037/1040-3590.8.4.341</a></mark></p>
+<p><mark>Krueger, R. F., Nichol, P. E., Hicks, B. M., Markon, K. E.,
+Patrick, C. J., lacono, W. G., &amp; McGue, M. (2004). Using latent
+trait modeling to conceptualize an alcohol problems continuum.
+<em>Psychological Assessment, 16</em>(2), 107–119. <a
+href="https://doi.org/10.1037/1040-3590.16.2.107"
+class="uri">https://doi.org/10.1037/1040-3590.16.2.107</a></mark></p>
+<p>Cooper, L. D., &amp; Balsis, S. (2009). When less is more: How fewer
+diagnostic criteria can indicate greater severity. <em>Psychological
+Assessment, 21</em>(3), 285–293. <a
+href="https://doi.org/10.1037/a0016698"
+class="uri">https://doi.org/10.1037/a0016698</a></p>
+<p>Reise, S. P., &amp; Waller, N. G. (2009). Item response theory and
+clinical measurement. <em>Annual Review of Clinical Psychology,
+5</em>(1), 27–48. <a
+href="https://doi.org/10.1146/annurev.clinpsy.032408.153553"
+class="uri">https://doi.org/10.1146/annurev.clinpsy.032408.153553</a></p>
+</div>
+</div>
+<div id="section8" class="section level2" number="14.2">
+<h2><span class="header-section-number">14.2</span> Prediction</h2>
+<div id="basics" class="section level3" number="14.2.1">
+<h3><span class="header-section-number">14.2.1</span> Basics</h3>
+<div id="section-8" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 8</u></h4>
+<p><mark>Meehl, P. E. (1973). Chapter 2. <em>Psychodiagnosis: Selected
+papers</em>. University of Minnesota Press.</mark>
+<mark style="background-color: lightblue">[This is Meehl, P. E., &amp;
+Rosen, A. (1955). Antecedent probability and the efficiency of
+psychometric signs, patterns, or cutting scores. <em>Psychological
+Bulletin, 52</em>(3), 194–216. <a
+href="https://doi.org/10.1037/h0048070"
+class="uri">https://doi.org/10.1037/h0048070</a>]</mark></p>
+</div>
+</div>
+<div id="section9" class="section level3" number="14.2.2">
+<h3><span class="header-section-number">14.2.2</span> Signal Detection
+Theory</h3>
+<div id="section-9" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 9</u></h4>
+<p><mark>Treat, T. A., &amp; Viken, R. J. (2023). Measuring test
+performance with signal detection theory techniques. In H. Cooper, M. N.
+Coutanche, L. M. McMullen, A. T. Panter, D. Rindskopf, &amp; K. J. Sher
+(Eds.), <em>APA handbook of research methods in psychology: Foundations,
+planning, measures, and psychometrics</em> (2nd ed., Vol. 1,
+pp. 837–858). American Psychological Association. <a
+href="https://doi.org/10.1037/0000318-038"
+class="uri">https://doi.org/10.1037/0000318-038</a></mark></p>
+<p>Swets, J. A., Dawes, R. M., &amp; Monahan, J. (2000). Psychological
+science can improve diagnostic decisions. <em>Psychological Science in
+the Public Interest, 1</em>(1), 1–26. <a
+href="https://doi.org/10.1111/1529-1006.001"
+class="uri">https://doi.org/10.1111/1529-1006.001</a></p>
+<p>Lindhiem, O., Petersen, I. T., Mentch, L. K., &amp; Youngstrom, E. A.
+(2020). The importance of calibration in clinical psychology.
+<em>Assessment, 27</em>(4), 840–854. <a
+href="https://doi.org/10.1177/1073191117752055"
+class="uri">https://doi.org/10.1177/1073191117752055</a></p>
+</div>
+</div>
+<div id="section10" class="section level3" number="14.2.3">
+<h3><span class="header-section-number">14.2.3</span> Clinical Judgment
+vs. Algorithmic Prediction</h3>
+<div id="section-10" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 10</u></h4>
+<p>Garb, H. N. (2005). Clinical judgment and decision making. <em>Annual
+Review of Clinical Psychology, 1</em>, 67–89. <a
+href="https://doi.org/10.1146/annurev.clinpsy.1.102803.143810"
+class="uri">https://doi.org/10.1146/annurev.clinpsy.1.102803.143810</a></p>
+<p><mark>Dawes, R. M., Faust, D., &amp; Meehl, P. E. (1989). Clinical
+versus actuarial judgment. <em>Science, 243</em>(4899), 1668–1674. <a
+href="https://doi.org/10.1126/science.2648573"
+class="uri">https://doi.org/10.1126/science.2648573</a></mark></p>
+<p><mark>Dawes, R. M. (1986). Representative thinking in clinical
+judgment. <em>Clinical Psychology Review, 6</em>, 425–441. <a
+href="https://doi.org/10.1016/0272-7358(86)90030-9"
+class="uri">https://doi.org/10.1016/0272-7358(86)90030-9</a></mark></p>
+<p>Youngstrom, E. A., Halverson, T. F., Youngstrom, J. K., Lindhiem, O.,
+&amp; Findling, R. L. (2018). Evidence-based assessment from simple
+clinical judgments to statistical learning: Evaluating a range of
+options using pediatric bipolar disorder as a diagnostic challenge.
+<em>Clinical Psychological Science, 6</em>(2), 243–265. <a
+href="https://doi.org/10.1177/2167702617741845"
+class="uri">https://doi.org/10.1177/2167702617741845</a></p>
+</div>
+</div>
+</div>
+<div id="section11" class="section level2" number="14.3">
+<h2><span class="header-section-number">14.3</span> General Issues in
+Clinical Assessment</h2>
+<div id="section-11" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 11</u></h4>
+<p>*Benjamin, L. T. (2005). A history of clinical psychology as a
+profession in America (and a glimpse of its future). <em>Annual Review
+of Clinical Psychology, 1</em>, 1–30. <a
+href="https://doi.org/10.1146/annurev.clinpsy.1.102803.143758"
+class="uri">https://doi.org/10.1146/annurev.clinpsy.1.102803.143758</a></p>
+<p><mark>Kazdin, A. E. (1995). Preparing and evaluating research
+reports. <em>Psychological Assessment, 7</em>(3), 228–237. <a
+href="https://doi.org/10.1037/1040-3590.7.3.228"
+class="uri">https://doi.org/10.1037/1040-3590.7.3.228</a></mark></p>
+<p>Sechrest, L., Stickle, T. R., &amp; Stewart, M. (1998). The role of
+assessment in clinical psychology. In A. Bellack, M. Hersen, &amp; C. R.
+Reynolds (Eds.), <em>Comprehensive clinical psychology</em> (Vol. 4:
+Assessment). Pergamon.</p>
+</div>
+</div>
+<div id="section12" class="section level2" number="14.4">
+<h2><span class="header-section-number">14.4</span> Evidence-Based
+Assessment</h2>
+<div id="section-12" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 12</u></h4>
+<p><mark>Hunsley, J., &amp; Mash, E. J. (2007). Evidence-based
+assessment. <em>Annual Review of Clinical Psychology, 3</em>, 29–51. <a
+href="https://doi.org/10.1146/annurev.clinpsy.3.022806.091419"
+class="uri">https://doi.org/10.1146/annurev.clinpsy.3.022806.091419</a></mark></p>
+<p>Antony, M. M., &amp; Rowa, K. (2005). Evidence-based assessment of
+anxiety disorders in adults. <em>Psychological Assessment, 17</em>(3),
+256–266. <a href="https://doi.org/10.1037/1040-3590.17.3.256"
+class="uri">https://doi.org/10.1037/1040-3590.17.3.256</a>
+<mark style="background-color: lightblue">[This is a case study in
+evidence-based assessment—it’s the general approach that matters, not
+what is specific about anxiety.]</mark></p>
+<p>Youngstrom, E. A., &amp; Van Meter, A. (2016). Empirically supported
+assessment of children and adolescents. <em>Clinical Psychology: Science
+and Practice, 23</em>(4), 327–347. <a
+href="https://doi.org/10.1111/cpsp.12172"
+class="uri">https://doi.org/10.1111/cpsp.12172</a></p>
+<p><mark>Youngstrom, E. A., Van Meter, A., Frazier, T. W., Hunsley, J.,
+Prinstein, M. J., Ong, M.-L., &amp; Youngstrom, J. K. (2017).
+Evidence-based assessment as an integrative model for applying
+psychological science to guide the voyage of treatment. <em>Clinical
+Psychology: Science and Practice, 24</em>(4), 331–363. <a
+href="https://doi.org/10.1111/cpsp.12207"
+class="uri">https://doi.org/10.1111/cpsp.12207</a></mark></p>
+</div>
+</div>
+<div id="section13" class="section level2" number="14.5">
+<h2><span class="header-section-number">14.5</span> Ethical Issues in
+Assessment</h2>
+<div id="section-13" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 13</u></h4>
+<p><mark>American Psychological Association. (2017). Ethical principles
+of psychologists and code of conduct. <a
+href="https://www.apa.org/ethics/code"
+class="uri">https://www.apa.org/ethics/code</a></mark>
+<mark style="background-color: lightblue">(Sections 1, 2, 9).</mark></p>
+<p>Nagy, T. F. (2011). Ethics in psychological assessment. In T. F. Nagy
+(Ed.), <em>Essential ethics for psychologists: a primer for
+understanding and mastering core issues</em> (pp. 171–183). American
+Psychological Association. <a href="https://doi.org/10.1037/12345-009"
+class="uri">https://doi.org/10.1037/12345-009</a></p>
+<p>Campbell, L., Vasquez, M., Behnke, S., &amp; Kinscherff, R. (2010).
+Assessment. In L. Campbell, M. Vasquez, S. Behnke, &amp; R. Kinscherff
+(Eds.), <em>APA Ethics Code commentary and case illustrations</em>.
+American Psychological Association.</p>
+<p><mark>Bersoff, D. N., DeMatteo, D., &amp; Foster, E. E. (2012).
+Assessment and testing. In S. J. Knapp (Ed.), <em>APA handbook of ethics
+in psychology</em> (Vol. 2: Practice, Teaching, and Research,
+pp. 45–74). American Psychological Association.</mark></p>
+<p>*Tackett, J. L., Brandes, C. M., &amp; Reardon, K. W. (2019).
+Leveraging the Open Science Framework in clinical psychological
+assessment research. <em>Psychological Assessment, 31</em>(12),
+1386–1394. <a href="https://doi.org/10.1037/pas0000583"
+class="uri">https://doi.org/10.1037/pas0000583</a></p>
+</div>
+</div>
+<div id="section15" class="section level2" number="14.6">
+<h2><span class="header-section-number">14.6</span> Intellectual
+Assessment</h2>
+<div id="section-15" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 15</u></h4>
+<p><mark>Ackerman, P. L. (2013). Assessment of intellectual functioning
+in adults. In K. F. Geisinger, J. F. Carlson, J.-I. C. Hansen, N. R.
+Kuncel, S. P. Reise, &amp; M. C. Rodriguez (Eds.), <em>APA handbook of
+testing and assessment in psychology</em> (Vol. 2: Testing and
+Assessment in Clinical and Counseling Psychology, pp. 119–132). American
+Psychological Association. <a href="https://doi.org/10.1037/14048-008"
+class="uri">https://doi.org/10.1037/14048-008</a></mark></p>
+<p>*Binet, A., &amp; Simon, T. (1948). Upon the necessity of
+establishing a scientific diagnosis of inferior states of intelligence.
+In W. Dennis (Ed.), <em>Readings in the history of psychology</em>
+(pp. 407–411). Appleton-Century-Crofts.</p>
+<p>*Binet, A., &amp; Simon, T. (1948). The development of the
+Binet-Simon Scale, 1905–1908. In W. Dennis (Ed.), <em>Readings in the
+history of psychology</em> (pp. 412–424). Appleton-Century-Crofts.</p>
+<p>*Cattell, J. M. (1948). Mental tests and measurements, 1890. In W.
+Dennis (Ed.), <em>Readings in the history of psychology</em>
+(pp. 347–354). Appleton-Century-Crofts.</p>
+</div>
+<div id="section16" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 16</u></h4>
+<p><mark>McClelland, D. C. (1973). Testing for competence rather than
+for “intelligence.”. American Psychologist, 28, 1–14. <a
+href="https://doi.org/10.1037/h0034092"
+class="uri">https://doi.org/10.1037/h0034092</a></mark>
+<mark style="background-color: lightblue">[See also paper by Barrett and
+Depinet (1991), A reconsideration of Testing for Competence rather than
+for intelligence, <em>American Psychologist, 46</em>, 1012–1024; and
+McClelland and various others in reply (1994), <em>American
+Psychologist, 49</em>, 64–71.]</mark></p>
+</div>
+<div id="section17" class="section level3" number="14.6.1">
+<h3><span class="header-section-number">14.6.1</span> Bias</h3>
+<div id="section-17" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 17</u></h4>
+<p><mark>Cole, N. S. (1981). Bias in testing. <em>American Psychologist,
+36</em>(10), 1067–1077. <a
+href="https://doi.org/10.1037/0003-066X.36.10.1067"
+class="uri">https://doi.org/10.1037/0003-066X.36.10.1067</a></mark></p>
+<p><mark>Sackett, P. R., &amp; Wilk, S. L. (1994). Within-group norming
+and other forms of score adjustment in preemployment testing.
+<em>American Psychologist, 49</em>(11), 929–954. <a
+href="https://doi.org/10.1037/0003-066X.49.11.929"
+class="uri">https://doi.org/10.1037/0003-066X.49.11.929</a></mark></p>
+</div>
+<div id="section18" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 18</u></h4>
+<p><mark>Sackett, P. R., Schmitt, N., Ellingson, J. E., &amp; Kabin, M.
+B. (2001). High-stakes testing in employment, credentialing, and higher
+education. <em>American Psychologist, 56</em>, 301–318. <a
+href="https://doi.org/10.1037/0003-066X.56.4.302"
+class="uri">https://doi.org/10.1037/0003-066X.56.4.302</a></mark></p>
+<p><mark>Sackett, P. R., Borneman, M. J., &amp; Connelly, B. S. (2008).
+High stakes testing in higher education and employment: Appraising the
+evidence for validity and fairness. <em>American Psychologist, 63</em>,
+215–227. <a href="https://doi.org/10.1037/0003-066X.63.4.215"
+class="uri">https://doi.org/10.1037/0003-066X.63.4.215</a></mark></p>
+</div>
+</div>
+</div>
+<div id="section19" class="section level2" number="14.7">
+<h2><span class="header-section-number">14.7</span> The Interview and
+the DSM</h2>
+<div id="section-19" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 19</u></h4>
+<p><mark>Faraone, S. V., &amp; Tsuang, M. T. (1994). Measuring
+diagnostic accuracy in the absence of a “gold standard”. <em>American
+Journal of Psychiatry, 151</em>, 650–657. <a
+href="https://doi.org/10.1176/ajp.151.5.650"
+class="uri">https://doi.org/10.1176/ajp.151.5.650</a></mark></p>
+<p>*Sullivan, H. S. (1970). <em>The psychiatric interview</em>. Norton.
+Chapters 1–4, 7 <mark style="background-color: lightblue">[This is
+available in the UI library. You don’t need to read it for this class.
+But you should read it at some point, as an example of a master
+clinician assessing patients by way of interview.]</mark></p>
+<p>Summerfeldt, L. J., Kloosterman, P. H., &amp; Antony, M. M. (2010).
+Structured and semistructured diagnostic interviews. In M. M. Antony
+&amp; D. H. Barlow (Eds.), <em>Handbook of assessment and treatment
+planning for psychological disorders</em> (2nd ed., pp. 95–137).
+Guilford Press.</p>
+<p>Mullins-Sweatt, S. N., &amp; Widiger, T. A. (2009). Clinical utility
+and DSM-V. <em>Psychological Assessment, 21</em>(3), 302–312. <a
+href="https://doi.org/10.1037/a0016607"
+class="uri">https://doi.org/10.1037/a0016607</a></p>
+<p><mark>Sharp, K. L., Williams, A. J., Rhyner, K. T., &amp; Ilardi, S.
+S. (2013). The clinical interview. In K. F. Geisinger, J. F. Carlson,
+J.-I. C. Hansen, N. R. Kuncel, S. P. Reise, &amp; M. C. Rodriguez
+(Eds.), <em>APA handbook of testing and assessment in psychology</em>
+(Vol. 2: Testing and assessment in clinical and counseling psychology,
+pp. 103–117). American Psychological Association. <a
+href="https://doi.org/10.1037/14048-007"
+class="uri">https://doi.org/10.1037/14048-007</a></mark></p>
+</div>
+</div>
+<div id="section20" class="section level2" number="14.8">
+<h2><span class="header-section-number">14.8</span> Assessment of
+personality and other symptomatology</h2>
+<div id="objective-tests" class="section level3" number="14.8.1">
+<h3><span class="header-section-number">14.8.1</span> Objective
+tests</h3>
+<div id="section-20" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 20</u></h4>
+<p><mark>Burisch, M. (1984). Approaches to personality inventory
+construction: A comparison of merits. <em>American Psychologist,
+39</em>, 214–227. <a href="https://doi.org/10.1037/0003-066X.39.3.214"
+class="uri">https://doi.org/10.1037/0003-066X.39.3.214</a></mark></p>
+<p>Clark, L. A., &amp; Watson, D. (2019). Constructing validity: New
+developments in creating objective measuring instruments.
+<em>Psychological Assessment, 31</em>(12), 1412–1427. <a
+href="https://doi.org/10.1037/pas0000626"
+class="uri">https://doi.org/10.1037/pas0000626</a></p>
+<p><mark>Floyd, F. J., &amp; Widaman, K. F. (1995). Factor analysis in
+the development and refinement of clinical assessment instruments.
+<em>Psychological Assessment, 7</em>, 286–299. <a
+href="https://doi.org/10.1037/1040-3590.7.3.286"
+class="uri">https://doi.org/10.1037/1040-3590.7.3.286</a></mark></p>
+</div>
+<div id="section21" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 21</u></h4>
+<p>*Graham, J. R. (2022). <em>MMPI instruments: Assessing personality
+and psychopathology</em> (6th ed.). Oxford University Press. (Chapters
+1–5, 13). <mark style="background-color: lightblue">[This is available
+in the clinic library. Get a feel for this measure and the way it was
+developed; you don’t need to remember details about the
+scales.]</mark></p>
+<p>Sellbom, M. (2019). The MMPI-2-Restructured Form (MMPI-2-RF):
+Assessment of personality and psychopathology in the twenty-first
+century. <em>Annual Review of Clinical Psychology, 15</em>(1), 149–177.
+<a href="https://doi.org/10.1146/annurev-clinpsy-050718-095701"
+class="uri">https://doi.org/10.1146/annurev-clinpsy-050718-095701</a></p>
+<p><mark>Wiggins, J. S. (1973). Structured techniques. In J. S. Wiggins
+(Ed.), <em>Personality and prediction: Principles of personality
+assessment</em> (pp. 380–440). Addison-Wesley.</mark></p>
+</div>
+<div id="section22" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 22</u></h4>
+<p><mark>Dunning, D., Heath, C., &amp; Suls, J. M. (2004). Flawed
+self-assessment: Implications for health, education, and the workplace.
+<em>Psychological Science in the Public Interest, 5</em>, 69–106. <a
+href="https://doi.org/10.1111/j.1529-1006.2004.00018.x"
+class="uri">https://doi.org/10.1111/j.1529-1006.2004.00018.x</a></mark></p>
+<p><mark>Krosnick, J. A. (1999). Survey research. <em>Annual Review of
+Psychology, 50</em>, 537–567. <a
+href="https://doi.org/10.1146/annurev.psych.50.1.537"
+class="uri">https://doi.org/10.1146/annurev.psych.50.1.537</a></mark></p>
+</div>
+</div>
+<div id="section23" class="section level3" number="14.8.2">
+<h3><span class="header-section-number">14.8.2</span> Projective
+tests</h3>
+<div id="section-23" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 23</u></h4>
+<p>*Frank, L. K. (1939). Projective methods for the study of
+personality. <em>Journal of Psychology, 8</em>, 389–413. <a
+href="https://doi.org/10.1080/00223980.1939.9917671"
+class="uri">https://doi.org/10.1080/00223980.1939.9917671</a></p>
+<p>*Lindzey, G. (1952). Thematic Apperception Test: Interpretive
+assumptions and related empirical evidence. <em>Psychological Bulletin,
+49</em>, 1–25. <a href="https://doi.org/10.1037/h0062363"
+class="uri">https://doi.org/10.1037/h0062363</a></p>
+<p><mark>Lilienfeld, S. O., Wood, J. M., &amp; Garb, H. N. (2000). The
+scientific status of projective techniques. <em>Psychological Science in
+the Public Interest, 1</em>, 27–66. <a
+href="https://doi.org/10.1111/1529-1006.002"
+class="uri">https://doi.org/10.1111/1529-1006.002</a></mark></p>
+<p>*Wood, J. M., Nezworski, M. T., &amp; Stejskal, W. J. (1996). The
+comprehensive system for the Rorschach: A critical examination.
+<em>Psychological Science, 7</em>(1), 3–10. <a
+href="https://doi.org/10.1111/j.1467-9280.1996.tb00658.x"
+class="uri">https://doi.org/10.1111/j.1467-9280.1996.tb00658.x</a>.
+<mark style="background-color: lightblue">[See also the response from
+Exner and reply by Wood et al. on pp. 11–17.]</mark></p>
+</div>
+</div>
+<div id="section24" class="section level3" number="14.8.3">
+<h3><span class="header-section-number">14.8.3</span>
+Psychophysiological Measures and RDoC</h3>
+<div id="section-24" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 24</u></h4>
+<p>Dubois, J., &amp; Adolphs, R. (2016). Building a science of
+individual differences from fMRI. <em>Trends in Cognitive Sciences,
+20</em>(6), 425–443. <a
+href="https://doi.org/10.1016/j.tics.2016.03.014"
+class="uri">https://doi.org/10.1016/j.tics.2016.03.014</a>
+<mark style="background-color: lightblue">[Students not working in
+imaging can skip over most of the technical details in this article.
+Read it as a model for taking measurement seriously in an emerging area
+of clinical research.]</mark></p>
+<p><mark>Haynes, S. N., &amp; Yoshioka, D. T. (2007). Clinical
+assessment applications of ambulatory biosensors. <em>Psychological
+Assessment, 19</em>(1), 44–57. <a
+href="https://doi.org/10.1037/1040-3590.19.1.44"
+class="uri">https://doi.org/10.1037/1040-3590.19.1.44</a></mark></p>
+<p><mark>Kozak, M. J., &amp; Cuthbert, B. N. (2016). The NIMH research
+domain criteria initiative: Background, issues, and pragmatics.
+<em>Psychophysiology, 53</em>(3), 286–297. <a
+href="https://doi.org/10.1111/psyp.12518"
+class="uri">https://doi.org/10.1111/psyp.12518</a></mark>
+<mark style="background-color: lightblue">[Students already familiar
+with RDoC can skim this introduction. Our interest is in examining RDoC
+from a measurement perspective.]</mark></p>
+<p>MacNamara, A., &amp; Phan, K. L. (2016). Psychobiological
+operationalization of RDoC constructs: Methodological and conceptual
+opportunities and challenges. <em>Psychophysiology, 53</em>(3), 406–409.
+<a href="https://doi.org/10.1111/psyp.12587"
+class="uri">https://doi.org/10.1111/psyp.12587</a></p>
+<p>Miller, G. A., Rockstroh, B. S., Hamilton, H. K., &amp; Yee, C. M.
+(2016). Psychophysiology as a core strategy in RDoC.
+<em>Psychophysiology, 53</em>(3), 410–414. <a
+href="https://doi.org/10.1111/psyp.12581"
+class="uri">https://doi.org/10.1111/psyp.12581</a></p>
+<p><mark>Miller, G. A., Elbert, T., Sutton, B. P., &amp; Heller, W.
+(2007). Innovative clinical assessment technologies: Challenges and
+opportunities in neuroimaging. <em>Psychological Assessment, 19</em>(1),
+58–73. <a href="https://doi.org/10.1037/1040-3590.19.1.58"
+class="uri">https://doi.org/10.1037/1040-3590.19.1.58</a></mark></p>
+<p>*Stone, A. A., Schneider, S., &amp; Smyth, J. M. (2023). Evaluation
+of pressing issues in ecological momentary assessment. <em>Annual Review
+of Clinical Psychology, 19</em>(1), 107–131. <a
+href="https://doi.org/10.1146/annurev-clinpsy-080921-083128"
+class="uri">https://doi.org/10.1146/annurev-clinpsy-080921-083128</a></p>
+</div>
+</div>
+<div id="section25" class="section level3" number="14.8.4">
+<h3><span class="header-section-number">14.8.4</span> Computers and
+Adaptive Testing</h3>
+<div id="section-25" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 25</u></h4>
+<p><mark>Buchanan, T. (2002). Online assessment: Desirable or dangerous?
+<em>Professional Psychology: Research and Practice, 33</em>(2), 148–154.
+<a href="https://doi.org/10.1037/0735-7028.33.2.148"
+class="uri">https://doi.org/10.1037/0735-7028.33.2.148</a></mark></p>
+<p>*Galatzer-Levy, I. R., &amp; Onnela, J.-P. (2023). Machine learning
+and the digital measurement of psychological health. <em>Annual Review
+of Clinical Psychology, 19</em>, 133–154. <a
+href="https://doi.org/10.1146/annurev-clinpsy-080921-073212"
+class="uri">https://doi.org/10.1146/annurev-clinpsy-080921-073212</a></p>
+<p>Garb, H. N. (2007). Computer-administered interviews and rating
+scales. <em>Psychological Assessment, 19</em>(1), 4–13. <a
+href="https://doi.org/10.1037/1040-3590.19.1.4"
+class="uri">https://doi.org/10.1037/1040-3590.19.1.4</a></p>
+<p>Ruiz, M. A., Drake, E. B., Glass, A., Marcotte, D., &amp; van Gorp,
+W. G. (2002). Trying to beat the system: Misuse of the internet to
+assist in avoiding the detection of psychological symptom dissimulation.
+<em>Professional Psychology: Research and Practice, 33</em>(3), 294–299.
+<a href="https://doi.org/10.1037/0735-7028.33.3.294"
+class="uri">https://doi.org/10.1037/0735-7028.33.3.294</a></p>
+<p>Forbey, J. D., &amp; Ben-Porath, Y. S. (2007). Computerized adaptive
+personality testing: A review and illustration with the MMPI-2
+computerized adaptive version. <em>Psychological Assessment, 19</em>(1),
+14–24. <a href="https://doi.org/10.1037/1040-3590.19.1.14"
+class="uri">https://doi.org/10.1037/1040-3590.19.1.14</a></p>
+<p><mark>Gibbons, R. D., Weiss, D. J., Frank, E., &amp; Kupfer, D.
+(2016). Computerized adaptive diagnosis and testing of mental health
+disorders. <em>Annual Review of Clinical Psychology, 12</em>(1), 83–104.
+<a href="https://doi.org/10.1146/annurev-clinpsy-021815-093634"
+class="uri">https://doi.org/10.1146/annurev-clinpsy-021815-093634</a></mark></p>
+</div>
+</div>
+</div>
+<div id="section26" class="section level2" number="14.9">
+<h2><span class="header-section-number">14.9</span> Behavioral
+Assessment</h2>
+<div id="section-26" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 26</u></h4>
+<p><mark>Girard, J. M., &amp; Cohn, J. F. (2016). A primer on
+observational measurement. <em>Assessment, 23</em>(4), 404–413. <a
+href="https://doi.org/10.1177/1073191116635807"
+class="uri">https://doi.org/10.1177/1073191116635807</a></mark></p>
+<p><mark>Haynes, S. N. (2001). Clinical applications of analogue
+behavioral observation: Dimensions of psychometric evaluation.
+<em>Psychological Assessment, 13</em>(1), 73–85. <a
+href="https://doi.org/10.1037/1040-3590.13.1.73"
+class="uri">https://doi.org/10.1037/1040-3590.13.1.73</a></mark></p>
+<p>Korotitsch, W. J., &amp; Nelson-Gray, R. O. (1999). An overview of
+self-monitoring research in assessment and treatment. <em>Psychological
+Assessment, 11</em>(4), 415–425. <a
+href="https://doi.org/10.1037/1040-3590.11.4.415"
+class="uri">https://doi.org/10.1037/1040-3590.11.4.415</a></p>
+<p>Piasecki, T. M., Hufford, M. R., Solhan, M., &amp; Trull, T. J.
+(2007). Assessing clients in their natural environments with electronic
+diaries: Rationale, benefits, limitations, and barriers.
+<em>Psychological Assessment, 19</em>(1), 25–43. <a
+href="https://doi.org/10.1037/1040-3590.19.1.25"
+class="uri">https://doi.org/10.1037/1040-3590.19.1.25</a></p>
+</div>
+</div>
+<div id="section27" class="section level2" number="14.10">
+<h2><span class="header-section-number">14.10</span> Repeated
+Assessments across Time</h2>
+<div id="section-27" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 27</u></h4>
+<p>Sobell, L. C., &amp; Sobell, M. B. (2008). Timeline followback
+(TLFB). In A. J. Rush Jr., M. B. First, &amp; D. Blacker (Eds.),
+<em>Handbook of psychiatric measures</em> (2nd ed., pp. 466–468).
+American Psychiatric Publishing.</p>
+<p><mark>Carpenter, R. W., Wycoff, A. M., &amp; Trull, T. J. (2016).
+Ambulatory assessment: New adventures in characterizing dynamic
+processes. <em>Assessment, 23</em>(4), 414–424. <a
+href="https://doi.org/10.1177/1073191116632341"
+class="uri">https://doi.org/10.1177/1073191116632341</a></mark></p>
+<p><mark>Matthews, M., Abdullah, S., Murnane, E., Voida, S., Choudhury,
+T., Gay, G., &amp; Frank, E. (2016). Development and evaluation of a
+smartphone-based measure of social rhythms for bipolar disorder.
+<em>Assessment, 23</em>(4), 472–483. <a
+href="https://doi.org/10.1177/1073191116656794"
+class="uri">https://doi.org/10.1177/1073191116656794</a></mark>
+<mark style="background-color: lightblue">[a case study in self-report
+across time. Specifics of their study are less important.]</mark></p>
+</div>
+<div id="section28" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 28</u></h4>
+<p><mark>Hertzog, C., &amp; Nesselroade, J. R. (2003). Assessing
+psychological change in adulthood: An overview of methodological issues.
+<em>Psychology and Aging, 18</em>(4), 639–657. <a
+href="https://doi.org/10.1037/0882-7974.18.4.639"
+class="uri">https://doi.org/10.1037/0882-7974.18.4.639</a></mark></p>
+<p>Petersen, I. T., Choe, D. E., &amp; LeBeau, B. (2020). Studying a
+moving target in development: The challenge and opportunity of
+heterotypic continuity. <em>Developmental Review, 58</em>, 100935. <a
+href="https://doi.org/10.1016/j.dr.2020.100935"
+class="uri">https://doi.org/10.1016/j.dr.2020.100935</a></p>
+<p>Beltz, A. M., Wright, A. G. C., Sprague, B. N., &amp; Molenaar, P. C.
+M. (2016). Bridging the nomothetic and idiographic approaches to the
+analysis of clinical data. <em>Assessment, 23</em>(4), 447–458. <a
+href="https://doi.org/10.1177/1073191116648209"
+class="uri">https://doi.org/10.1177/1073191116648209</a>
+<mark style="background-color: lightblue">[focus on the general issues
+of combining idiographic and nomothetic data. You don’t need to know the
+technical details of their GIMME model.]</mark></p>
+</div>
+</div>
+<div id="section29" class="section level2" number="14.11">
+<h2><span class="header-section-number">14.11</span> Assessment of
+Cognition</h2>
+<div id="section-29" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 29</u></h4>
+<p>*Busemeyer, J. R., &amp; Stout, J. C. (2002). A contribution of
+cognitive decision models to clinical assessment: Decomposing
+performance on the Bechara gambling task. <em>Psychological Assessment,
+14</em>(3), 253–262. <a
+href="https://doi.org/10.1037/1040-3590.14.3.253"
+class="uri">https://doi.org/10.1037/1040-3590.14.3.253</a></p>
+<p><mark>Dunkley, D. M., Segal, Z. V., &amp; Blankstein, K. R. (2019).
+Cognitive assessment: Issues and methods. In K. S. Dobson &amp; D. J. A.
+Dozois (Eds.), <em>Handbook of cognitive-behavioral therapies</em> (4th
+ed., pp. 85–119). Guilford Press.</mark></p>
+<p>Davison, G. C., Vogel, R. S., &amp; Coffman, S. G. (1997).
+Think-aloud approaches to cognitive assessment and the articulated
+thoughts in simulated situations paradigm. <em>Journal of Consulting and
+Clinical Psychology, 65</em>(6), 950–958. <a
+href="https://doi.org/10.1037/0022-006X.65.6.950"
+class="uri">https://doi.org/10.1037/0022-006X.65.6.950</a></p>
+<p>Hurlburt, R. T. (1997). Randomly sampling thinking in the natural
+environment. <em>Journal of Consulting and Clinical Psychology,
+65</em>(6), 941–949. <a
+href="https://doi.org/10.1037/0022-006X.65.6.941"
+class="uri">https://doi.org/10.1037/0022-006X.65.6.941</a></p>
+<p><mark>Rodebaugh, T. L., Scullin, R. B., Langer, J. K., Dixon, D. J.,
+Huppert, J. D., Bernstein, A., Zvielli, A., &amp; Lenze, E. J. (2016).
+Unreliability as a threat to understanding psychopathology: The
+cautionary tale of attentional bias. <em>Journal of Abnormal Psychology,
+125</em>(6), 840–851. <a href="https://doi.org/10.1037/abn0000184"
+class="uri">https://doi.org/10.1037/abn0000184</a></mark></p>
+<p>Treat, T. A., McFall, R. M., Viken, R. J., Kruschke, J. K., Nosofsky,
+R. M., &amp; Wang, S. S. (2007). Clinical cognitive science: Applying
+quantitative models of cognitive processing to examine cognitive aspects
+of psychopathology. In R. W. J. Neufeld (Ed.), <em>Advances in clinical
+cognitive science: Formal modeling of processes and symptoms</em>
+(pp. 179–205). American Psychological Association. <a
+href="https://doi.org/10.1037/11556-006"
+class="uri">https://doi.org/10.1037/11556-006</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="section30" class="section level2" number="14.12">
+<h2><span class="header-section-number">14.12</span> Cultural and
+Individual Diversity</h2>
+<div id="section-30" class="section level4 unnumbered">
+<h4 class="unnumbered"><u>Section 30</u></h4>
+<p><mark style="background-color: lightblue">It may be helpful to review
+the three Sackett papers and the Cole paper from the Intellectual
+Assessment section. Also review relevant sections of the APA Standards
+for Educational and Psychological Testing from the Validity
+section.</mark></p>
+<div style="text-indent: -40px; padding-left: 40px;">
+<p>Byrd, D. A., Rivera Mindt, M. M., Clark, U. S., Clarke, Y., Thames,
+A. D., Gammada, E. Z., &amp; Manly, J. J. (2021). Creating an antiracist
+psychology by addressing professional complicity in psychological
+assessment. <em>Psychological Assessment, 33</em>(3), 279-285. <a
+href="https://doi.org/10.1037/pas0000993"
+class="uri">https://doi.org/10.1037/pas0000993</a></p>
+<p><mark>Okazaki, S., &amp; Sue, S. (1995). Methodological issues in
+assessment research with ethnic minorities. <em>Psychological
+Assessment, 7</em>(3), 367–375. <a
+href="https://doi.org/10.1037/1040-3590.7.3.367"
+class="uri">https://doi.org/10.1037/1040-3590.7.3.367</a></mark></p>
+<p>Garb, H. N. (1997). Race bias, social class bias, and gender bias in
+clinical judgment. <em>Clinical Psychology: Science and Practice,
+4</em>(2), 99–120. <a
+href="https://doi.org/10.1111/j.1468-2850.1997.tb00104.x"
+class="uri">https://doi.org/10.1111/j.1468-2850.1997.tb00104.x</a></p>
+<p>Leong, F. T. L., &amp; Kalibatseva, Z. (2016). Threats to cultural
+validity in clinical diagnosis and assessment: Illustrated with the case
+of Asian Americans. In N. Zane, G. Bernal, &amp; F. T. L. Leong (Eds.),
+<em>Evidence-based psychological practice with ethnic minorities:
+Culturally informed research and clinical strategies</em> (pp. 57–74).
+American Psychological Association.</p>
+<p><mark>Suzuki, L. A., Onoue, M. A., &amp; Hill, J. S. (2013). Clinical
+assessment: A multicultural perspective. In K. F. Geisinger, J. F.
+Carlson, J.-I. C. Hansen, N. R. Kuncel, S. P. Reise, &amp; M. C.
+Rodriguez (Eds.), <em>APA handbook of testing and assessment in
+psychology</em> (Vol. 2: Testing and assessment in clinical and
+counseling psychology, pp. 193–212). American Psychological Association.
+<a href="https://doi.org/10.1037/14048-012"
+class="uri">https://doi.org/10.1037/14048-012</a></mark></p>
+</div>
+</div>
+</div>
+</div>
+<div id="grading" class="section level1" number="15">
+<h1><span class="header-section-number">15</span> Grading</h1>
+<p>Final grades will be assigned at the end of the semester on the basis
+of your total percentage of points earned on examinations and your final
+paper. Grades will be assigned on an absolute scale
+(criterion-referenced grading; see below); course grades will not be
+curved. No extra-credit opportunities are available for this course.
+Please note: As a matter of fairness to all students, I assign grades
+based on performance and do not negotiate grades. Additionally, a
+penalty of 20% per day will be applied to all assignments turned in
+late. Final grades will be assigned based on the following ranges:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Grade</th>
+<th align="left">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">A+</td>
+<td align="left">97–100%</td>
+</tr>
+<tr class="even">
+<td align="left">A</td>
+<td align="left">93–96</td>
+</tr>
+<tr class="odd">
+<td align="left">A-</td>
+<td align="left">90–92</td>
+</tr>
+<tr class="even">
+<td align="left">B+</td>
+<td align="left">87–89</td>
+</tr>
+<tr class="odd">
+<td align="left">B</td>
+<td align="left">83–86</td>
+</tr>
+<tr class="even">
+<td align="left">B-</td>
+<td align="left">80–82</td>
+</tr>
+<tr class="odd">
+<td align="left">C+</td>
+<td align="left">77–79</td>
+</tr>
+<tr class="even">
+<td align="left">C</td>
+<td align="left">73–76</td>
+</tr>
+<tr class="odd">
+<td align="left">C-</td>
+<td align="left">70–72</td>
+</tr>
+<tr class="even">
+<td align="left">D+</td>
+<td align="left">67–69</td>
+</tr>
+<tr class="odd">
+<td align="left">D</td>
+<td align="left">63–66</td>
+</tr>
+<tr class="even">
+<td align="left">D-</td>
+<td align="left">60–62</td>
+</tr>
+<tr class="odd">
+<td align="left">F</td>
+<td align="left">0–59</td>
+</tr>
+</tbody>
+</table>
+<p>The relative contribution of each component to your final grade is as
+follows:</p>
+<ul>
+<li>30% Exam 1 (Mid-Term)</li>
+<li>40% Exam 2 (Final)</li>
+<li>30% Final Paper</li>
+</ul>
+</div>
+<div id="outline" class="section level1" number="16">
+<h1><span class="header-section-number">16</span> Tentative Course
+Outline (exam dates fixed)</h1>
+<p>This is a <em>tentative</em> course outline. Changes will be
+discussed in class. There are 15 weeks in the semester, and class meets
+twice per week (30 sections). We will have one exam during the semester
+and one final exam during finals week.</p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="8%" />
+<col width="9%" />
+<col width="63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Section</strong></th>
+<th align="left"><strong>Day</strong></th>
+<th align="left"><strong>Date</strong></th>
+<th align="left"><strong>Content</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="#section1">1</a></td>
+<td align="left">T</td>
+<td align="left">01/16</td>
+<td align="left">Overview of Class; Clinical Science and the Replication
+Crisis</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section2">2</a></td>
+<td align="left">Th</td>
+<td align="left">01/18</td>
+<td align="left">Reliability</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section3">3</a></td>
+<td align="left">T</td>
+<td align="left">01/23</td>
+<td align="left">Reliability</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section4">4</a></td>
+<td align="left">Th</td>
+<td align="left">01/25</td>
+<td align="left">Validity</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section5">5</a></td>
+<td align="left">T</td>
+<td align="left">01/30</td>
+<td align="left">Validity</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section6">6</a></td>
+<td align="left">Th</td>
+<td align="left">02/01</td>
+<td align="left">Structural Equation Modeling (SEM)</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section7">7</a></td>
+<td align="left">T</td>
+<td align="left">02/06</td>
+<td align="left">Item Response Theory (IRT)</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section8">8</a></td>
+<td align="left">Th</td>
+<td align="left">02/08</td>
+<td align="left">Prediction Basics</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section9">9</a></td>
+<td align="left">T</td>
+<td align="left">02/13</td>
+<td align="left">Signal Detection Theory</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section10">10</a></td>
+<td align="left">Th</td>
+<td align="left">02/15</td>
+<td align="left">Clinical Judgment vs. Algorithmic Prediction</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section11">11</a></td>
+<td align="left">T</td>
+<td align="left">02/20</td>
+<td align="left">General Issues in Clinical Assessment</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section12">12</a></td>
+<td align="left">Th</td>
+<td align="left">02/22</td>
+<td align="left">Evidence-Based Assessment</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section13">13</a></td>
+<td align="left">T</td>
+<td align="left">02/27</td>
+<td align="left">Ethical Issues in Assessment</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section14">14</a></td>
+<td align="left">Th</td>
+<td align="left">02/29</td>
+<td align="left"><strong>Midterm Exam</strong></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section15">15</a></td>
+<td align="left">T</td>
+<td align="left">03/05</td>
+<td align="left">Intellectual Assessment</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section16">16</a></td>
+<td align="left">Th</td>
+<td align="left">03/07</td>
+<td align="left">Intellectual Assessment</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">T</td>
+<td align="left">03/12</td>
+<td align="left">Spring Break!</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Th</td>
+<td align="left">03/14</td>
+<td align="left">Spring Break!</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section17">17</a></td>
+<td align="left">T</td>
+<td align="left">03/19</td>
+<td align="left">Bias</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section18">18</a></td>
+<td align="left">Th</td>
+<td align="left">03/21</td>
+<td align="left">Bias</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section19">19</a></td>
+<td align="left">T</td>
+<td align="left">03/26</td>
+<td align="left">The Interview and the DSM</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section20">20</a></td>
+<td align="left">Th</td>
+<td align="left">03/28</td>
+<td align="left">Objective Personality Testing</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section21">21</a></td>
+<td align="left">T</td>
+<td align="left">04/02</td>
+<td align="left">Objective Personality Testing</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section22">22</a></td>
+<td align="left">Th</td>
+<td align="left">04/04</td>
+<td align="left">Objective Personality Testing</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section23">23</a></td>
+<td align="left">T</td>
+<td align="left">04/09</td>
+<td align="left">Projective Personality Testing</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section24">24</a></td>
+<td align="left">Th</td>
+<td align="left">04/11</td>
+<td align="left">Psychophysiological Measures and RDoC</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section25">25</a></td>
+<td align="left">T</td>
+<td align="left">04/16</td>
+<td align="left">Computers and Adaptive Testing</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section26">26</a></td>
+<td align="left">Th</td>
+<td align="left">04/18</td>
+<td align="left">Behavioral Assessment</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section27">27</a></td>
+<td align="left">T</td>
+<td align="left">04/23</td>
+<td align="left">Repeated Assessments across Time</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section28">28</a></td>
+<td align="left">Th</td>
+<td align="left">04/25</td>
+<td align="left">Repeated Assessments across Time</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="#section29">29</a></td>
+<td align="left">T</td>
+<td align="left">04/30</td>
+<td align="left">Assessment of Cognition</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#section30">30</a></td>
+<td align="left">Th</td>
+<td align="left">05/02</td>
+<td align="left">Cultural and Individual Diversity; <strong>Final paper
+due!</strong></td>
+</tr>
+<tr class="odd">
+<td align="left">Finals Week</td>
+<td align="left"></td>
+<td align="left">TBD (week of 5/6)</td>
+<td align="left"><strong>Final Exam</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="finalExam" class="section level1" number="17">
+<h1><span class="header-section-number">17</span> Date and Time of the
+Final Exam</h1>
+<p>The final examination date and time will be announced by the
+Registrar generally by the fifth week of classes and it will be
+announced on the course ICON site once it is known. <u>Do not plan your
+end of the semester travel plans until the final exam schedule is made
+public. It is your responsibility to know the date, time, and place of
+the final exam.</u> According to Registrar’s final exam policy, students
+<u>have a maximum of two weeks after the announced final exam
+schedule</u> to request a change if an exam conflict exists or if a
+student has more than two exams in one day (see the <a
+href="https://registrar.uiowa.edu/makeup-final-examination-policies">policy</a>
+here).</p>
+</div>
+<div id="courseResources" class="section level1" number="18">
+<h1><span class="header-section-number">18</span> Course Resources</h1>
+<p>There are many course resources available to help you succeed in the
+class, including:</p>
+<ul>
+<li>Lectures</li>
+<li>Lecture slides</li>
+<li><a href="#recordings">Lecture recordings</a></li>
+<li><a href="#articles">Readings</a></li>
+<li><a href="#textbook">Companion book</a></li>
+<li><a href="#supplemental">Supplemental resources</a></li>
+<li>Discussions on <a href="https://icon.uiowa.edu">ICON</a></li>
+<li>Office hours</li>
+<li>Peer study groups</li>
+<li>the UI <a href="https://writingcenter.uiowa.edu">Writing
+Center</a></li>
+<li>Tutor Iowa: <a href="https://tutor.uiowa.edu"
+class="uri">https://tutor.uiowa.edu</a></li>
+</ul>
+</div>
+<div id="howToStudy" class="section level1" number="19">
+<h1><span class="header-section-number">19</span> How to Study for this
+Class</h1>
+<p>To study for this class, my suggestions are:</p>
+<ol style="list-style-type: decimal">
+<li>Read the <a href="#articles">assigned readings</a> <em>before</em>
+each class. We have lots of content to cover, and the lectures will move
+quickly. Thus, doing the relevant readings <em>before</em> each class
+will help you best come prepared to learn the material presented in
+class.</li>
+<li>Take good notes while doing the <a href="#articles">assigned
+readings</a>. After reading each article, leave a few bullet points at
+the top of the article regarding the key points and take-away messages
+from the article. That way, when you go back and review it, the key
+ideas will refresh your memory and will help you make the relevant
+connections to the rest of your notes on the article and to the points
+discussed in lecture.</li>
+<li>After doing the <a href="#articles">assigned readings</a> and before
+class period, review your notes and try to determine what are the key
+messages intended to conveyed by the collection of readings. The will
+set you up to be in the best position to acquire the material covered in
+lecture.</li>
+<li>Take good notes in class.</li>
+<li>If something is unclear about the reading or about a point discussed
+in lecture, feel free to consult the <a href="#textbook">companion
+book</a>, to review the <a href="#recordings">lecture recording</a>, or
+to ask questions during or after class, or in office hours. Don’t
+struggle in silence!</li>
+<li>As you prepare for the exam, review the material covered by each
+article and lecture. If there is an exam review or example study
+questions, make sure to review those closely. The exam review presents
+some of the key take-away messages from each lecture and thus represents
+prime material for exam questions. The example study questions are NOT
+comprehensive and are NOT necessarily the same questions that will be
+asked on the exam, but they should give you a sense of the style in
+which questions may be asked. If there is a question you do not know the
+full answer to, that is a clue that you need to study that topic more
+closely.</li>
+<li>I strongly encourage you to study with your peers. Studying with
+your peers helps give you a sense about the topics where you feel
+stronger and the topics where you feel weaker (and need to study more).
+It helps both peers in the exchange when one peer explains a topic to
+another. In addition to helping the listening student learn, peer
+instruction also helps the explaining student via consolidation of the
+student’s knowledge. There is a difference between “knowing something”
+and “knowing it <em>well</em>.” Explaining a topic to someone else helps
+you figure out where your knowledge gaps are and can help you make sure
+you understand the topic <em>well</em>. Additionally, studying by
+explaining topics to others aligns more closely with the exam format
+(short answer/essay), which demands recall rather than mere
+recognition—recognition alone being typically adequate for
+multiple-choice exams.</li>
+<li>Come to office hours if you still have questions!</li>
+</ol>
+</div>
+<div id="dropDeadline" class="section level1" number="20">
+<h1><span class="header-section-number">20</span> Drop Deadline for this
+Course</h1>
+<p>You may drop an individual course before the deadline; after this
+deadline you will need collegiate approval. You can look up the <a
+href="https://registrar.uiowa.edu/course-deadlines">drop deadline for
+this course</a> here. When you drop a course, a “W” will appear on your
+transcript. The mark of “W” is a neutral mark that does not affect your
+GPA. Directions for adding or dropping a course and other registration
+changes can be found on the <a
+href="https://registrar.uiowa.edu/change-registration-myui">Registrar’s
+website</a>. Students should adhere to the <a
+href="https://grad.uiowa.edu/academics/deadlines">academic deadlines</a>
+and policies set by the Graduate College.</p>
+</div>
+<div id="feedback" class="section level1" number="21">
+<h1><span class="header-section-number">21</span> Feedback about the
+Course</h1>
+<p>I welcome feedback at any point during the class. If you have
+comments on the class or my teaching, please feel free to meet with me
+during office hours.</p>
+<div id="complaints" class="section level2" number="21.1">
+<h2><span class="header-section-number">21.1</span> Student
+Complaints</h2>
+<p>Students with a complaint about a grade or a related matter should
+first discuss the situation with the instructor, and finally with the
+Director or Chair of the school, department, or program offering the
+course. Students should contact the CLAS <a
+href="https://clas.uiowa.edu/deans-office/christine-getz">Associate Dean
+for Graduate Education and Outreach and Engagement</a> when additional
+support is needed.</p>
+</div>
+</div>
+<div id="email" class="section level1" number="22">
+<h1><span class="header-section-number">22</span> Communication: UI
+Email</h1>
+<p>Students are responsible for all official correspondences sent to
+their UI email address (uiowa.edu) and must use this address for any
+communication with instructors or staff in the UI community. For the
+privacy and the protection of student records, UI faculty and staff can
+only correspond with UI email addresses.</p>
+</div>
+<div id="health" class="section level1" number="23">
+<h1><span class="header-section-number">23</span> Health and Safety</h1>
+<p>The University of Iowa strongly encourages students, faculty, and
+staff to be vaccinated against COVID-19. For information about COVID-19
+vaccines on campus, please see <a href="https://coronavirus.uiowa.edu"
+class="uri">https://coronavirus.uiowa.edu</a>. If you are feeling sick,
+test positive for COVID-19, or may have been exposed to COVID-19, please
+refer to the campus guidance for the appropriate action (<a
+href="https://coronavirus.uiowa.edu/returning-campus/showing-symptoms"
+class="uri">https://coronavirus.uiowa.edu/returning-campus/showing-symptoms</a>).
+Regardless of your vaccination status, if you have symptoms consistent
+with COVID-19, please stay home and follow the appropriate
+isolation/quarantine guidance. For up-to-date information throughout the
+semester, please refer to <a href="https://coronavirus.uiowa.edu"
+class="uri">https://coronavirus.uiowa.edu</a>.</p>
+</div>
+<div id="clasPolicies" class="section level1" number="24">
+<h1><span class="header-section-number">24</span> College of Liberal
+Arts and Sciences (CLAS) Course Policies</h1>
+<ul>
+<li><a
+href="https://clas.uiowa.edu/faculty/student-attendance-and-absences">Attendance
+and Absences</a><br />
+<a href="https://opsmanual.uiowa.edu/students/absences-class">University
+regulations require that students be allowed to make up examinations</a>
+that have been missed due to illness, religious holy days, military
+service obligations (including service-related medical appointments), or
+other unavoidable circumstances or University-sponsored activities. See
+the section above on “<a href="#missingExams">Missing Exams</a>” for the
+documentation necessary for an absence to be excused and to be eligible
+to take a make-up exam. Students with UI-authorized activities must
+discuss their absences with the instructor or TA as soon as possible.
+Religious obligations must be communicated within the first three weeks
+of classes.</li>
+</ul>
+<div id="otherExpectations" class="section level2" number="24.1">
+<h2><span class="header-section-number">24.1</span> Other Expectations
+of Student Performance</h2>
+<p>Students have the right to a distraction-free learning environment.
+You have the responsibility to help create such a classroom environment.
+Please treat other students in the class and the instructor with
+respect. Students are expected to help each other learn and to
+contribute overall to the learning environment of the course. Arriving
+prepared for class is part of this expectation.</p>
+</div>
+</div>
+<div id="UIowaPolicies" class="section level1" number="25">
+<h1><span class="header-section-number">25</span> University
+Policies</h1>
+<p><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#accommodations-for-students-with-disabilities">Accommodations
+for Students with Disabilities</a><br />
+The University is committed to providing an educational experience that
+is accessible to all. If a student has a diagnosed disability or other
+disabling condition that may impact the student’s ability to complete
+the course requirements as stated in the syllabus, the student may seek
+accommodations through <a
+href="https://sds.studentlife.uiowa.edu/students">Student Disability
+Services</a> (SDS). SDS is responsible for making Letters of
+Accommodation (LOA) available. <u>The student must provide an LOA to the
+instructor as early in the semester as possible, but requests not made
+at least two weeks prior to the scheduled activity for which an
+accommodation is sought may not be accommodated.</u> The LOA will
+specify what reasonable course accommodations the student is eligible
+for and those the instructor should provide. Additional information can
+be found on the <a
+href="https://sds.studentlife.uiowa.edu/students/apply">SDS
+website</a>.</p>
+<ul>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#free-speech-and-expression">Free
+Speech and Expression</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-for-religious-holy-days">Absences
+for Religious Holy Days</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#non-discrimination-statement">Non-discrimination</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#classroom-expectations">Classroom
+Expectations</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#sexual-harassment--sexual-misconduct-and-supportive-measures">Sexual
+Harassment/Misconduct and Supportive Measures</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#conflict-resolution">Conflict
+Resolution</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#mental-health">Mental
+Health</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#basic-needs-and-student-support">Basic
+Needs and Student Support</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#sharing-of-class-recordings-if-appropriate">Sharing
+of Class Recordings</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-from-class">Absences
+from Class</a></li>
+<li><a
+href="https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-for-military-service-obligations">Absences
+for Military Service Obligations</a></li>
+</ul>
+</div>
+<div id="academic-support" class="section level1" number="26">
+<h1><span class="header-section-number">26</span> Where to Get Academic
+Support for This Course</h1>
+<ul>
+<li>Drop-in study groups and one-on-one tutoring: office hours of the
+instructor</li>
+<li>Formal tutoring: Tutor Iowa: <a href="https://tutor.uiowa.edu"
+class="uri">https://tutor.uiowa.edu</a></li>
+<li>Academic accommodations: <a href="https://sds.studentlife.uiowa.edu"
+class="uri">https://sds.studentlife.uiowa.edu</a></li>
+</ul>
+</div>
+<div id="mental-health" class="section level1" number="27">
+<h1><span class="header-section-number">27</span> Mental Health
+Resources and Student Support</h1>
+<p>Students are encouraged to be mindful of their mental health and seek
+help as a preventive measure or if feeling overwhelmed and/or struggling
+to meet course expectations. Students are encouraged to talk to their
+instructor for assistance with specific class-related concerns. For
+additional support and counseling, students are encouraged to contact
+University Counseling Service (UCS). Information about UCS, including
+resources and how to schedule an appointment, can be found at <a
+href="https://counseling.uiowa.edu">counseling.uiowa.edu</a>. Find out
+more about UI mental health services at <a
+href="https://mentalhealth.uiowa.edu">mentalhealth.uiowa.edu</a>.</p>
+<p><a href="https://dos.uiowa.edu/assistance">Student Care and
+Assistance</a> provides assistance to University of Iowa students who
+are experiencing a variety of crisis and emergency situations, including
+but not limited to medical issues, family emergencies, unexpected
+challenges, and sourcing basic needs such as food and shelter. More
+information on the resources related to basic needs can be found at <a
+href="https://basicneeds.uiowa.edu/resources">basicneeds.uiowa.edu/resources</a>.
+Students are encouraged to contact Student Care &amp; Assistance in the
+Office of the Dean of Students (Room 135 IMU, <a
+href="dos-assistance@uiowa.edu">dos-assistance@uiowa.edu</a>, or
+319-335-1162) for support and assistance with resources.</p>
+<p>If you feel that you or someone you know may be struggling with an
+academic, emotional, or psychological problem, the following
+organizations are available for assistance:</p>
+<table>
+<colgroup>
+<col width="53%" />
+<col width="46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Service</th>
+<th align="left">Contact Info</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">University of Iowa Academic Advising Center</td>
+<td align="left">353-5700, <a href="https://advisingcenter.uiowa.edu"
+class="uri">https://advisingcenter.uiowa.edu</a></td>
+</tr>
+<tr class="even">
+<td align="left">University Counseling Services</td>
+<td align="left">335-7294, <a href="https://www.uiowa.edu/ucs"
+class="uri">https://www.uiowa.edu/ucs</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Student Health Service - Mental Health</td>
+<td align="left">335-8394, <a
+href="https://studenthealth.uiowa.edu/services/psychiatry"
+class="uri">https://studenthealth.uiowa.edu/services/psychiatry</a></td>
+</tr>
+<tr class="even">
+<td align="left">University of Iowa Hospitals and Clinics Adult
+Psychiatry Services Clinic</td>
+<td align="left">353-6314, <a
+href="https://www.uihealthcare.org/Psychiatry"
+class="uri">https://www.uihealthcare.org/Psychiatry</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Seashore Clinic (in the UI Department of Psychological
+and Brain Sciences)</td>
+<td align="left">335-2467, <a
+href="https://psychology.uiowa.edu/resources/seashore-clinic"
+class="uri">https://psychology.uiowa.edu/resources/seashore-clinic</a></td>
+</tr>
+<tr class="even">
+<td align="left">Women’s Resource and Action Center</td>
+<td align="left">335-1486, <a href="https://wrac.uiowa.edu"
+class="uri">https://wrac.uiowa.edu</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Rape Victim Advocacy Program</td>
+<td align="left">319-335-6000 or 800-228-1625, <a
+href="https://www.uiowa.edu/~rvap"
+class="uri">https://www.uiowa.edu/~rvap</a></td>
+</tr>
+<tr class="even">
+<td align="left">Office of Sexual Misconduct</td>
+<td align="left">319-335-6200, <a href="https://osmrc.uiowa.edu"
+class="uri">https://osmrc.uiowa.edu</a></td>
+</tr>
+<tr class="odd">
+<td align="left">CommUnity</td>
+<td align="left">855-325-4296, <a
+href="https://builtbycommunity.org/crisis"
+class="uri">https://builtbycommunity.org/crisis</a></td>
+</tr>
+<tr class="even">
+<td align="left">Community &amp; Family Resources</td>
+<td align="left">351-4357, <a href="https://www.cfrhelps.org/"
+class="uri">https://www.cfrhelps.org/</a></td>
+</tr>
+</tbody>
+</table>
+<p><u>If you or someone you know is contemplating suicide</u>, either
+call or text the Suicide and Crisis Lifeline at 988, or call 911.</p>
+</div>
+<div id="disclaimer" class="section level1" number="28">
+<h1><span class="header-section-number">28</span> Disclaimer</h1>
+<p>This syllabus is subject to change. Any changes will be discussed in
+class, via email, and/or on ICON.</p>
+</div>
+
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiQ291cnNlIFN5bGxhYnVzIgotLS0KCmBgYHtyIHNldHVwLCBpbmNsdWRlID0gRkFMU0V9CmtuaXRyOjpvcHRzX2NodW5rJHNldCgKICBlY2hvID0gVFJVRSwKICBlcnJvciA9IFRSVUUsCiAgY29tbWVudCA9ICIiKQpgYGAKCkxhc3QgVXBkYXRlZDogYHIgZm9ybWF0KFN5cy5EYXRlKCksICIlbS8lZC8lWSIpYAoKIyBDb3Vyc2UgVGl0bGUgeyN0aXRsZX0KClBTWTo1MzMwIOKAkyBQcmluY2lwbGVzIG9mIFBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCAoU3ByaW5nIDIwMjYpCgojIENvdXJzZSBNZWV0aW5nIFRpbWUgYW5kIFBsYWNlIHsjbGVjdHVyZVRpbWV9CgpUdWVzZGF5ICYgVGh1cnNkYXkgOTozMCBhLm0u4oCTMTA6NDUgYS5tLiwgMTA5IFN0dWl0IEhhbGwgKFNUSCkKCiMgQ291cnNlIFdlYnNpdGUgeyN3ZWJzaXRlfQoKaHR0cHM6Ly9pY29uLnVpb3dhLmVkdQoKVG8gYWNjZXNzIHRoZSBjb3Vyc2Ugc2l0ZSwgbG9nIGludG8gW0lvd2EgQ291cnNlcyBPbmxpbmUgKElDT04pXShodHRwczovL2ljb24udWlvd2EuZWR1KSB1c2luZyB5b3VyIEhhd2sgSUQgYW5kIHBhc3N3b3JkLgoKIyBDb3Vyc2UgSG9tZSB7I2hvbWV9CgpUaGUgQ29sbGVnZSBvZiBMaWJlcmFsIEFydHMgYW5kIFNjaWVuY2VzIChDTEFTKSBpcyB0aGUgaG9tZSBvZiB0aGlzIGNvdXJzZSwgYW5kIENMQVMgZ292ZXJucyB0aGUgcG9saWNpZXMgYW5kIHByb2NlZHVyZXMgZm9yIGl0cyBjb3Vyc2VzLgpHcmFkdWF0ZSBzdHVkZW50cywgaG93ZXZlciwgbXVzdCBhZGhlcmUgdG8gdGhlIFthY2FkZW1pYyBkZWFkbGluZXMgc2V0IGJ5IHRoZSBHcmFkdWF0ZSBDb2xsZWdlXShodHRwczovL2dyYWQudWlvd2EuZWR1L2FjYWRlbWljcy9kZWFkbGluZXMpLgoKIyBJbnN0cnVjdG9yIENvbnRhY3QgSW5mb3JtYXRpb24geyNpbnN0cnVjdG9yfQoKW0lzYWFjIFQuIFBldGVyc2VuLCBQaC5ELl0oaHR0cHM6Ly9wc3ljaG9sb2d5LnVpb3dhLmVkdS9wZW9wbGUvaXNhYWMtcGV0ZXJzZW4pXApPZmZpY2U6IDE3NSBQc3ljaG9sb2dpY2FsIGFuZCBCcmFpbiBTY2llbmNlcyBCdWlsZGluZyAoUEJTQilcCkUtbWFpbDogW2lzYWFjLXQtcGV0ZXJzZW5AdWlvd2EuZWR1XShtYWlsdG86aXNhYWMtdC1wZXRlcnNlbkB1aW93YS5lZHUpXApPZmZpY2UgUGhvbmU6IDQ2Ny0xMDE0XApPZmZpY2UgSG91cnM6IGJ5IGFwcG9pbnRtZW50XAoKIyBEZXBhcnRtZW50YWwgUmVzb3VyY2VzIHsjZGVwdFJlc291cmNlc30KCkRlcGFydG1lbnQgb2YgUHN5Y2hvbG9naWNhbCBhbmQgQnJhaW4gU2NpZW5jZXM6IFtodHRwczovL3BzeWNob2xvZ3kudWlvd2EuZWR1XShodHRwczovL3BzeWNob2xvZ3kudWlvd2EuZWR1KVwKRGVwYXJ0bWVudCBvZiBQc3ljaG9sb2dpY2FsIGFuZCBCcmFpbiBTY2llbmNlcyBNYWluIE9mZmljZTogRzYwIFBzeWNob2xvZ2ljYWwgYW5kIEJyYWluIFNjaWVuY2VzIEJ1aWxkaW5nICgzMzUtMjQwNilcCkRpcmVjdG9yIG9mIEdyYWR1YXRlIFN0dWRpZXM6IFJ5YW4gTGFMdW1pZXJlIChbcnlhbi1sYWx1bWllcmVAdWlvd2EuZWR1XShtYWlsdG86cnlhbi1sYWx1bWllcmVAdWlvd2EuZWR1KTsgMzM1LTM2ODEpXApDaGFpciBvZiBEZXBhcnRtZW50OiBNYXJrIEJsdW1iZXJnIChbbWFyay1ibHVtYmVyZ0B1aW93YS5lZHVdKG1haWx0bzptYXJrLWJsdW1iZXJnQHVpb3dhLmVkdSk7IDMzNS0yNDI0KQoKIyBQcmVyZXF1aXNpdGVzIHsjcHJlcmVxc30KClRvIHN1Y2NlZWQgaW4gdGhlIGNsYXNzLCBpdCBpcyBoZWxwZnVsIHRvIGhhdmUgZm91bmRhdGlvbmFsIHVuZGVyc3RhbmRpbmcgb2YgY29ycmVsYXRpb24gYW5kIG11bHRpcGxlIHJlZ3Jlc3Npb24uCgojIERlc2NyaXB0aW9uIG9mIENvdXJzZSB7I2Rlc2NyaXB0aW9ufQoKTXVjaCBvZiB0aGUgY3VycmVudCBkaXNjdXNzaW9uIGluIHBzeWNob2xvZ3kgc3Vycm91bmRpbmcgdGhlIHJlcGxpY2F0aW9uIGNyaXNpcyBkZWFscyB3aXRoIHF1ZXN0aW9uYWJsZSByZXNlYXJjaCBwcmFjdGljZXMuCkhvd2V2ZXIsIHRoZSBmaWVsZCBoYXMgcGFpZCBpbnN1ZmZpY2llbnQgYXR0ZW50aW9uIHRvIGhvdyBsb3VzeS9ub2lzeSBtZWFzdXJlcyBtaWdodCBjb250cmlidXRlIHRvIHRoZSByZXBsaWNhdGlvbiBjcmlzaXMgKExva2VuICYgR2VsbWFuLCAyMDE3KS4KSW4gdGhpcyBjbGFzcywgd2UgY292ZXIgY29udGVudCB0aGF0IGlzIHJlbGV2YW50IHRvIGFsbCBvZiBQc3ljaG9sb2d5IGFuZCBzY2llbmNlIG1vcmUgYnJvYWRseSwgaW5jbHVkaW5nIGhvdyB0byBkZXZlbG9wLCBhZG1pbmlzdGVyLCBzY29yZSwgaW50ZWdyYXRlLCBhbmQgaW50ZXJwcmV0IG1lYXN1cmVzLgpUb3BpY3Mgd2lsbCBpbmNsdWRlLCBmb3IgZXhhbXBsZSwgcHN5Y2hvbWV0cmljcyAoW3JlbGlhYmlsaXR5XSgjc2VjdGlvbjIpIGFuZCBbdmFsaWRpdHldKCNzZWN0aW9uNCkpLCBbcHJlZGljdGlvbl0oI3NlY3Rpb244KSwgW3N0cnVjdHVyYWwgZXF1YXRpb24gbW9kZWxpbmddKCNzZWN0aW9uNiksIFtmYWN0b3IgYW5hbHlzaXNdKCNzZWN0aW9uMjApLCBbc2lnbmFsIGRldGVjdGlvbiB0aGVvcnldKCNzZWN0aW9uOSksIFtpdGVtIHJlc3BvbnNlIHRoZW9yeV0oI3NlY3Rpb243KSwgW2FkYXB0aXZlIHRlc3RpbmddKCNzZWN0aW9uMjUpLCBbbG9uZ2l0dWRpbmFsL3JlcGVhdGVkIG1lYXN1cmVtZW50XSgjc2VjdGlvbjI3KSwgYW5kIGlzc3VlcyBpbiBbY29nbml0aXZlXSgjc2VjdGlvbjI5KSwgW3NvY2lhbC9iZWhhdmlvcmFsXSgjc2VjdGlvbjI2KSwgYW5kIFtwc3ljaG9waHlzaW9sb2dpY2FsXSgjc2VjdGlvbjI0KSBhc3Nlc3NtZW50LiAKCkluIHRoaXMgY291cnNlLCB3ZSBleGFtaW5lIGJhc2ljIHBzeWNob21ldHJpY3MgYW5kIHRoZSBiYWNrZ3JvdW5kLCBkZXZlbG9wbWVudCwgZXZhbHVhdGlvbiwgYWRtaW5pc3RyYXRpb24sIHNjb3JpbmcsIGludGVncmF0aW9uLCBhbmQgaW50ZXJwcmV0YXRpb24gb2Ygc2VsZWN0ZWQgdGVjaG5pcXVlcyBpbiBwc3ljaG9sb2dpY2FsIGFzc2Vzc21lbnQuClRoZSBjb3Vyc2UgYXBwbGllcyBhIHNjaWVudGlmaWMgcGVyc3BlY3RpdmUgdG8gcHN5Y2hvbG9naWNhbCBhc3Nlc3NtZW50LgoqWW91IGFyZSB1cmdlZCB0byByZWNvbnNpZGVyIHlvdXIgZGVjaXNpb24gdG8gdGFrZSB0aGlzIGNsYXNzIGlmIHlvdSBhcmUgcmVsdWN0YW50IHRvIGV4YW1pbmUgdGhlc2UgdG9waWNzIGluIGEgc2NpZW50aWZpYyBtYW5uZXIuKgoKIyBMZWFybmluZyBPYmplY3RpdmVzIHsjb2JqZWN0aXZlc30KClRoZSBmb2N1cyBvZiB0aGlzIGNsYXNzIGlzIE5PVCBvbiBhcHBsaWNhdGlvbiAoZS5nLiwgaG93IHRvIGFzc2VzcyBlYWNoIHBzeWNob2xvZ2ljYWwgZGlzb3JkZXIsIGhvdyB0byB1c2UgcGFydGljdWxhciBtZWFzdXJlcywgZXRjKS4KVGhpcyBjb3Vyc2UgaXMgZm9jdXNlZCBvbiBpbXBvcnRhbnQgKnByaW5jaXBsZXMqIG9mIHBzeWNob2xvZ2ljYWwgYXNzZXNzbWVudC4KVGhlIGdvYWwgb2YgdGhlIGNsYXNzIGlzIHRvIGdpdmUgeW91IGxvdHMgb2YgInRoaW5raW5nIHRvb2xzIiByZWxldmFudCB0byBwc3ljaG9sb2dpY2FsIGFzc2Vzc21lbnTigJRpLmUuLCAiaG93IHRvIHRoaW5rIiBhYm91dCBhbmQgY3JpdGljYWxseSBldmFsdWF0ZSBhc3Nlc3NtZW50cyBpbiBwc3ljaG9sb2d54oCUdG8gaGVscCB5b3UgYWR2YW5jZSB5b3VyIHJlc2VhcmNoIHByb2dyYW0uCkxlYXJuaW5nIHRoZSBpbXBvcnRhbnQgcHJpbmNpcGxlcyB3aWxsIHB1dCB5b3UgaW4gYSBiZXR0ZXIgcG9zaXRpb24gdG8gbGVhcm4gYW55IGFzc2Vzc21lbnQsIGFuZCB0byBkZXZlbG9wIGJldHRlciBvbmVzLgoKIyBTdXBwbGVtZW50YWwgUmVzb3VyY2VzIHsjc3VwcGxlbWVudGFsfQoKRXZlbiB0aG91Z2ggdGhlIGNvdXJzZSBpcyBmb2N1c2VkIG9uIHByaW5jaXBsZXMgb2YgcHN5Y2hvbG9naWNhbCBhc3Nlc3NtZW50IGFuZCBub3Qgb24gYXBwbGljYXRpb24sIEkgd2FudCB5b3UgdG8gYmUgYWJsZSB0byBhcHBseSB0aGUgcHJpbmNpcGxlcyB3ZSBkaXNjdXNzLgpTbywgSSBwcm92aWRlIGxvdHMgb2YgYWRkaXRpb25hbCByZWFkaW5ncyBhbmQgcmVzb3VyY2VzIG9uIHRoZSBhc3Nlc3NtZW50IG9mIHBhcnRpY3VsYXIgZGlzb3JkZXJzLCB1c2luZyBwYXJ0aWN1bGFyIG1lYXN1cmVzLCBldGMuClRoZXNlIHN1cHBsZW1lbnRhbCByZXNvdXJjZXMgYXJlIGluIHRoZSAiRm9yIE1vcmUgSW5mbyIgZm9sZGVyIGluIFtJQ09OXShodHRwczovL2ljb24udWlvd2EuZWR1KS4KVGhlIGZvbGRlciBhbHNvIGluY2x1ZGVzIGFuIEVuZE5vdGUgZmlsZSB3aXRoIHRoZSBjb3Vyc2UgcmVhZGluZ3MuCkluIGFkZGl0aW9uLCBJIHByb3ZpZGUgYSBjb21wYW5pb24gYm9vayAoc2VlIFtiZWxvd10oI3RleHRib29rKSkuCgojIENvbXBhbmlvbiBCb29rIHsjdGV4dGJvb2t9CgpJIHdhbnQgdGhvc2Ugd2hvIGFyZSBpbnRlcmVzdGVkIHRvIGJlIGluIHRoZSBiZXN0IHBvc2l0aW9uIHRvIGFwcGx5IHRoZSBwcmluY2lwbGVzIHdlIGRpc2N1c3MuClRodXMsIEkgY3JlYXRlZCBhIGNvbXBhbmlvbiBib29rIGZvciB0aGUgY291cnNlIHRoYXQgaW5jbHVkZXMgcHJhY3RpY2FsIGRhdGEgYW5kIGFuYWx5c2lzIGV4YW1wbGVzIHRvIGhlbHAgeW91IGJldHRlciB1bmRlcnN0YW5kIHRoZSBwcmluY2lwbGVzIGFuZCBob3cgdG8gYXBwbHkgdGhlbSBpbiB5b3VyIG93biByZXNlYXJjaC4KVGhlIGNvbXBhbmlvbiBib29rIGluY2x1ZGVzIGV4ZXJjaXNlcyB0byBoZWxwIHlvdSB0ZXN0IHlvdXIgY29tcHJlaGVuc2lvbi4KPHU+VGhlIGNvbXBhbmlvbiBib29rIGlzIE5PVCBpbnRlbmRlZCB0byByZXBsYWNlIHRoZSBpbXBvcnRhbmNlIG9mIHJlYWRpbmcgdGhlIFtyZXF1aXJlZCBwcmltYXJ5IHNvdXJjZSBhcnRpY2xlc10oI3JlYWRpbmdzKTwvdT4gKHdoaWNoIGFyZSBjb3ZlcmVkIG9uIHRoZSBleGFtcykuCjx1PllvdSBhcmUgTk9UIHJlcXVpcmVkIG9yIGV4cGVjdGVkIHRvIHJlYWQgdGhlIGNvbXBhbmlvbiBib29rIGZvciB0aGlzIGNsYXNzLjwvdT4KVGhlIGNvbXBhbmlvbiBib29rIGlzIG1lcmVseSBtZWFudCB0byBiZSBhIGhlbHBmdWwgc3VwcGxlbWVudGFyeSByZXNvdXJjZSBmb3IgdGhvc2Ugd2hvIGFyZSBpbnRlcmVzdGVkLgpZb3UgY2FuIGFjY2VzcyB0aGUgY29tcGFuaW9uIGJvb2sgaGVyZTogaHR0cHM6Ly9pc2FhY3RwZXRlcnNlbi5naXRodWIuaW8vUHJpbmNpcGxlcy1Qc3ljaG9sb2dpY2FsLUFzc2Vzc21lbnQKCiMgQWNhZGVtaWMgSG9uZXN0eSBhbmQgTWlzY29uZHVjdCB7I2FjYWRlbWljSG9uZXN0eX0KCkFsbCBzdHVkZW50cyBpbiBDTEFTIGNvdXJzZXMgYXJlIGV4cGVjdGVkIHRvIGFiaWRlIGJ5IHRoZSBbQ0xBUyBDb2RlIG9mIEFjYWRlbWljIEhvbmVzdHldKGh0dHBzOi8vY2xhcy51aW93YS5lZHUvc3R1ZGVudHMvaGFuZGJvb2svYWNhZGVtaWMtZnJhdWQtaG9ub3ItY29kZSkuCkFjYWRlbWljIG1pc2NvbmR1Y3QgbXVzdCBiZSByZXBvcnRlZCB0byB0aGUgR3JhZHVhdGUgQ29sbGVnZSBhY2NvcmRpbmcgdG8gU2VjdGlvbiBGIG9mIHRoZSBbR3JhZHVhdGUgQ29sbGVnZSBNYW51YWxdKGh0dHBzOi8vZ3JhZC51aW93YS5lZHUvYWNhZGVtaWNzL21hbnVhbC9hY2FkZW1pYy1wcm9ncmFtL3NlY3Rpb24taXYtYWNhZGVtaWMtc3RhbmRpbmctcHJvYmF0aW9uLWFuZC1kaXNtaXNzYWwpLgpQbGVhc2Ugbm90ZSB0aGF0IGNvbGxhYm9yYXRpb24gd2l0aCBvdGhlciBjbGFzc21hdGVzIGR1cmluZyBleGFtcyBpcyBub3QgcGVybWl0dGVkLgpIb3dldmVyLCBJIGRvIGVuY291cmFnZSB5b3UgdG8gY29sbGFib3JhdGUgd2l0aCBjbGFzc21hdGVzIG9uIHJlYWRpbmdzIGFuZCB0byAqcHJlcGFyZSogZm9yIGV4YW1zIChlLmcuLCBpbmZvcm1hbCBzdHVkeSBncm91cHMpLgpCZWNhdXNlIHdyaXRpbmcsIGFuYWx5dGljYWwsIGFuZCBjcml0aWNhbCB0aGlua2luZyBza2lsbHMgYXJlIHBhcnQgb2YgdGhlIGxlYXJuaW5nIG91dGNvbWVzIG9mIHRoaXMgY291cnNlLCBhbGwgd29yayBzdWJtaXR0ZWQgYnkgc3R1ZGVudHMgc2hvdWxkIGJlIHByZXBhcmVkIGJ5IHRoZSBzdHVkZW50LgpEZXZlbG9waW5nIHN0cm9uZyBjb21wZXRlbmNpZXMgaW4gdGhlc2UgZG9tYWlucyB3aWxsIHByZXBhcmUgeW91IGZvciBhIGNvbXBldGl0aXZlIHdvcmtwbGFjZS4KVGhlcmVmb3JlLCBBSS1nZW5lcmF0ZWQgc3VibWlzc2lvbnMgYXJlIG5vdCBwZXJtaXR0ZWQgYW5kIHdpbGwgYmUgdHJlYXRlZCBhcyBwbGFnaWFyaXNtLgoKIyBDb3Vyc2UgUmVxdWlyZW1lbnRzIGFuZCBQb2xpY2llcyB7I3JlcXVpcmVtZW50c30KCi0gW0Fzc2lnbmVkIHJlYWRpbmdzXSgjcmVhZGluZ3MpCi0gW0NsYXNzIHBhcnRpY2lwYXRpb25dKCNhdHRlbmRhbmNlUGFydGljaXBhdGlvbikKLSBbTWlkdGVybSBFeGFtXSgjZXhhbXMpCi0gW0ZpbmFsIEV4YW1dKCNleGFtcykKLSBbUGFwZXJdKCNwYXBlcikKCiMjIExlY3R1cmUgeyNsZWN0dXJlfQoKVGhlIGNvdXJzZSBpcyBwcmltYXJpbHkgbGVjdHVyZS4KV2Ugd2lsbCBtZWV0IHR3aWNlIHdlZWtseSBmb3IgbGVjdHVyZXMsIGF0IHRoZSB0aW1lIGFuZCBsb2NhdGlvbiBkZXNjcmliZWQgW2Fib3ZlXSgjbGVjdHVyZVRpbWUpLgpUaGVyZSBpcyBjb25zaWRlcmFibGUgbWF0ZXJpYWwgdG8gY292ZXIsIGFuZCB3ZSB3aWxsIG1vdmUgcXVpY2tseS4KWW91IHNob3VsZCBmZWVsIGZyZWUgdG8gYXNrIHF1ZXN0aW9ucyBkdXJpbmcgbGVjdHVyZSwgYWx0aG91Z2ggc29tZSBxdWVzdGlvbnMgbWF5IG5lZWQgdG8gYmUgZGVmZXJyZWQgZ2l2ZW4gdGhlIG5lZWQgdG8gY29tcGxldGUgY292ZXJhZ2Ugb2Ygc3BlY2lmaWMgbWF0ZXJpYWwuCjx1PlF1ZXN0aW9ucyBhbmQgZnVydGhlciBkaXNjdXNzaW9uIG9mIGNsYXNzIG1hdGVyaWFsIGFyZSBhbHdheXMgd2VsY29tZTwvdT4gZHVyaW5nIG9mZmljZSBob3VycyBhbmQgdmlhIGUtbWFpbC4KUGxlYXNlIGJlYXIgaW4gbWluZCB0aGF0IGV4dGVuc2l2ZSBvciBjb21wbGV4IHF1ZXN0aW9ucyBtYXkgbm90IGJlIGFkZHJlc3NhYmxlIG92ZXIgZS1tYWlsLgoKIyMjIExlY3R1cmUgUmVjb3JkaW5ncyB7I3JlY29yZGluZ3N9CgpNeSBpbnRlbnRpb24gaXMgdG8gcmVjb3JkIGxlY3R1cmVzIHNvIHRoZSBsZWN0dXJlcyBhcmUgYXZhaWxhYmxlIHRvIHlvdSB2aXJ0dWFsbHkgYW5kIGluIHBlcnNvbiBzbyB5b3UgaGF2ZSB0aGUgY2hvaWNlIG9mIHZpZXdpbmcgdGhlbSBob3cgeW91IHNlZSBmaXQgYW5kIHNvIHlvdSBtYXkgcmV2aWV3IHRoZW0uClJlY29yZGVkIGxlY3R1cmVzIHdpbGwgYmUgcG9zdGVkIG9uIHRoZSAiVUlDYXB0dXJlIiB0YWIgaW4gW0lDT05dKGh0dHBzOi8vaWNvbi51aW93YS5lZHUpLgpVbmZvcnR1bmF0ZWx5LCB0aGUgcmVjb3JkaW5ncyBkbyBub3QgY2FwdHVyZSB3aGVuIEkgZHJhdyBvbiB0aGUgY2xhc3Nyb29tIHdoaXRlYm9hcmQuClJlY29yZGluZ3Mgd2lsbCBiZSBhdmFpbGFibGUgdXAgdG8gNDggaG91cnMgYWZ0ZXIgY2xhc3MgKGZvciBUaHVyc2RheSBsZWN0dXJlcykgb3IgdW50aWwgdGhlIFRodXJzZGF5IGNsYXNzIHBlcmlvZCAoZm9yIFR1ZXNkYXkgbGVjdHVyZXMpLgpIb3dldmVyLCA8dT5wbGVhc2UgZG8gbm90IGNvdW50IG9uIHJlY29yZGluZ3MgYmVpbmcgYXZhaWxhYmxlPC91PiwgaW4gY2FzZSBJIGFjY2lkZW50YWxseSBmb3JnZXQgdG8gaW5pdGlhdGUgdGhlIHJlY29yZGluZyBvciB0aGVyZSBpcyBhIHRlY2huaWNhbCBtYWxmdW5jdGlvbi4KVGhlIGF2YWlsYWJpbGl0eSBvZiBsZWN0dXJlIHJlY29yZGluZ3Mgd2lsbCBub3QgYmUgZXh0ZW5kZWQgYmV5b25kIDQ4IGhvdXJzIGFmdGVyIGxlY3R1cmXigJR0aGUgcmVjb3JkaW5ncyBhcmUgbWVhbnQgdG8gaGVscCBwZW9wbGUga2VlcCB1cCB3aXRoIGxlY3R1cmVzIGFuZCBmb3Igc3R1ZGVudHMgdG8gcmV0cmlldmUgdGhlIHJlbGV2YW50IGNvbnRlbnQgaWYgdGhleSBtaXNzZWQgYW55dGhpbmcgZHVyaW5nIHRoZSBsaXZlIGxlY3R1cmUgb3IgaWYgdGhleSBtaXNzIHRoZSBsZWN0dXJlOyB0aGV5IGFyZSBub3QgbWVhbnQgdG8gYmUgYSBzdHVkeSBtZXRob2QgdGhhdCBhbGxvd3MgcGVvcGxlIHRvIGZhbGwgYmVoaW5kIGluIGNsYXNzIGZyb20gd2VlayB0byB3ZWVrLgpJZiB5b3UgbWlzcyBzb21ldGhpbmcgYW5kIGFyZSB1bmFibGUgdG8gd2F0Y2ggdGhlIGxlY3R1cmUgcmVjb3JkaW5nLCB5b3UgY2FuIGdldC9yZXZpZXcgbm90ZXMgd2l0aCBhIHBlZXIsIGFuZCB0aGVuIGNvbWUgdG8gb2ZmaWNlIGhvdXJzIGlmIHlvdSBoYXZlIHNwZWNpZmljIHF1ZXN0aW9ucy4KCiMjIEF0dGVuZGFuY2UgYW5kIFBhcnRpY2lwYXRpb24geyNhdHRlbmRhbmNlUGFydGljaXBhdGlvbn0KCkF0dGVuZGFuY2UgYW5kIHBhcnRpY2lwYXRpb24gYXJlIHN0cm9uZ2x5IGVuY291cmFnZWQgdG8gbWF4aW1pemUgeW91ciBhbmQgb3RoZXJzJyBsZWFybmluZy4KCiMjIFJlYWRpbmdzIHsjcmVhZGluZ3N9CgpXZSBoYXZlIGxvdHMgb2YgY29udGVudCB0byBjb3ZlciwgYW5kIHRoZSBsZWN0dXJlcyB3aWxsIG1vdmUgcXVpY2tseS4KVGh1cywgZG9pbmcgdGhlIHJlbGV2YW50IHJlYWRpbmdzICpiZWZvcmUqIGVhY2ggY2xhc3Mgd2lsbCBoZWxwIHlvdSBiZXN0IGNvbWUgcHJlcGFyZWQgdG8gbGVhcm4gdGhlIG1hdGVyaWFsIHByZXNlbnRlZCBpbiBjbGFzcy4KUmVhZGluZ3MgYW5kIG90aGVyIG1hdGVyaWFscyB3aWxsIGJlIHBvc3RlZCBvbiBbSUNPTl0oaHR0cHM6Ly9pY29uLnVpb3dhLmVkdSkuClRoZSBhcnRpY2xlcyB0byByZWFkIGFyZSBzcGVjaWZpZWQgaW4gdGhlIFtBcnRpY2xlc10oI2FydGljbGVzKSBzZWN0aW9uIG9mIHRoZSBzeWxsYWJ1cy4KCiMjIEV4YW1pbmF0aW9ucyB7I2V4YW1zfQoKVGhlcmUgd2lsbCBiZSAyIGV4YW1zLgpUaGUgZXhhbXMgd2lsbCBiZSBzaG9ydCBhbnN3ZXIvZXNzYXkgcXVlc3Rpb25zLgpUaGUgZmluYWwgZXhhbSBpcyBub24tY3VtdWxhdGl2ZTsgZWFjaCBleGFtIHdpbGwgZW1waGFzaXplIGluZm9ybWF0aW9uIHByZXNlbnRlZCBmb3IgdGhlIGhhbGYgb2YgdGhlIGNsYXNzIHRoYXQgcHJlY2VkZXMgaXQuCkhvd2V2ZXIsIHNvbWUgaW50ZWdyYXRpb24gb2YgaW5mb3JtYXRpb24gd2lsbCBiZSByZXF1aXJlZCBmb3IgcXVlc3Rpb25zIG9uIHRoZSBzZWNvbmQgZXhhbS4KRXhhbSBxdWVzdGlvbnMgY2FuIGNvbWUgZnJvbSBsZWN0dXJlcyBvciByZXF1aXJlZCByZWFkaW5ncy4KCiMjIyBNaXNzaW5nIEV4YW1zIHsjbWlzc2luZ0V4YW1zfQoKU3R1ZGVudHMgYXJlIGFsbG93ZWQgdG8gbWFrZSB1cCBleGFtcyB0aGF0IGhhdmUgYmVlbiBtaXNzZWQgZHVlIHRvIGlsbG5lc3MsIG1hbmRhdG9yeSByZWxpZ2lvdXMgb2JzZXJ2YXRpb25zLCBvZmZpY2lhbCBVbml2ZXJzaXR5IGFjdGl2aXRpZXMsIG9yIG90aGVyIHVuYXZvaWRhYmxlIGNpcmN1bXN0YW5jZXMuCk5vdGU6IHRoZSBmb3JtYXQgb2YgdGhlIG1ha2UtdXAgZXhhbSBtYXkgZGlmZmVyIGZyb20gdGhlIG9yaWdpbmFsIGV4YW0uCklmIHlvdSBrbm93IHRoYXQgeW91IG11c3QgYmUgYXdheSBhdCB0aGUgdGltZSBvZiBhbiBleGFtIGZvciBvbmUgb2YgdGhlc2UgcmVhc29ucywgcGxlYXNlIGNvbnRhY3QgbWUgaW4gYWR2YW5jZSB3aGVuZXZlciBwb3NzaWJsZSB0byBzY2hlZHVsZSBhIG1ha2UtdXAgZXhhbS4KCiMjIFBhcGVyIHsjcGFwZXJ9CgpZb3Ugd2lsbCB3cml0ZSBhIGZpbmFsL3Rlcm0gcGFwZXIgb24gYSB0b3BpYyBwZXJ0YWluaW5nIHRvIGFzc2Vzc21lbnQuClRoZSBwYXBlciBjYW4gYmUgYSBsaXRlcmF0dXJlIHJldmlldyBwZXJ0YWluaW5nIHRvIGFzc2Vzc21lbnQgKHdpdGggcmVjb21tZW5kYXRpb25zKSwgb3IgaXQgY2FuIGJlIGEgcGFwZXIgb24gdGhlIGRldmVsb3BtZW50IG9mIGFuIGFzc2Vzc21lbnQgdGVjaG5pcXVlLgpUaGUgZ29hbCBpcyBmb3IgdGhlIHBhcGVyIHRvIGJlIGFzIHJlbGV2YW50IHRvIHlvdXIgcmVzZWFyY2ggaW50ZXJlc3RzIGFzIHBvc3NpYmxlLCBzbyBpdCBkaXJlY3RseSBhZHZhbmNlcyB5b3VyIHJlc2VhcmNoIHByb2dyYW0uClBsZWFzZSBkbyBub3Qgc3RyZXNzIGFib3V0IHRoZSBwYXBlci4KWW91ciBwYXBlciBzaG91bGQgYmUgbGVzcyB0aGFuIDIwIHBhZ2VzIChleGNsdWRpbmcgcmVmZXJlbmNlcykuCkl0IGlzIG9rYXkgKGFuZCBlbmNvdXJhZ2VkISkgZm9yIHlvdSB0byB1c2UsIGFzIHlvdXIgcGFwZXIsIHNvbWV0aGluZyB0aGF0IHlvdSBhcmUgYWxyZWFkeSB3b3JraW5nIG9uIG9yIHRvIHdyaXRlIGEgcGFwZXIgdGhhdCB5b3UgYXJlIHN1Ym1pdHRpbmcgZm9yIGFub3RoZXIgYXNzaWdubWVudOKAlGNvbnNpZGVyIHdyaXRpbmcgYSBwYXBlciB0aGF0IGNvdWxkIGJlIGEgcHVibGljYXRpb24uCkkgd2FudCB0byBrZWVwIHRoZSB0b3BpYyByZXF1aXJlbWVudHMgb2YgdGhlIHBhcGVyIGZsZXhpYmxlIGFuZCBvcGVuLWVuZGVkIHNvIHRoZSBwYXBlciBjYW4gYmUgYXMgcmVsZXZhbnQgZm9yIHlvdXIgcmVzZWFyY2ggcHJvZ3JhbSBhcyBwb3NzaWJsZeKAlHRoZSBvbmx5IHJlcXVpcmVtZW50IGlzIHRoYXQgdGhlIHBhcGVyIHRvcGljIGlzIHJlbGV2YW50IHRvIGFzc2Vzc21lbnQsIGFuZCB0aGF0IHlvdXIgcGFwZXIgaW5jb3Jwb3JhdGVzIGlkZWFzIHdlIGRpc2N1c3MgaW4gY2xhc3MuCgpZb3VyIGZpbmFsIHBhcGVyIGlzIGR1ZSBiZWZvcmUgdGhlIGxhc3QgY2xhc3MgKDx1PioqRGVhZGxpbmU6IDk6MzAgYW0gb24gVGh1cnNkYXksIE1heSAyKio8L3U+KS4KUGxlYXNlIHN1Ym1pdCB5b3VyIHBhcGVyIHZpYSBbSUNPTl0oaHR0cHM6Ly9pY29uLnVpb3dhLmVkdSkuCgojIEFydGljbGVzIHsjYXJ0aWNsZXN9CgpUaGUgc2VjdGlvbiBjb3ZlcmVkIGZvciBlYWNoIGNsYXNzIGlzIGRlc2NyaWJlZCBpbiB0aGUgW0NvdXJzZSBPdXRsaW5lXSgjb3V0bGluZSkuClRoZSBhcnRpY2xlcyB0byByZWFkIGZvciBlYWNoIHNlY3Rpb24gYXJlIHNwZWNpZmllZCBiZWxvdy4KQXJ0aWNsZXMgYXJlIHBvc3RlZCBpbiB0aGUgIkZpbGVzIiB0YWIgb24gW0lDT05dKGh0dHBzOi8vaWNvbi51aW93YS5lZHUpLgoKXCpEZXNpZ25hdGVzIGEgcGFwZXIgdGhhdCB5b3Ugc2hvdWxkIHJlYWQsIGdldCB0aGUgYmFzaWMgaWRlYSwgYW5kIHJlbWVtYmVyIHdoZXJlIHRvIGZpbmQgaXQgaWYgeW91IG5lZWQgZnVydGhlciBpbmZvcm1hdGlvbi4KVGhlc2UgYXJlIHR5cGljYWxseSBoaXN0b3JpY2FsIHBhcGVycywgaWxsdXN0cmF0aW9ucyBvZiBzcGVjaWZpYyB0ZWNobmlxdWVzLCBvciB1c2VmdWwgcmVmZXJlbmNlcy4KClJlZmVyZW5jZXMgaGlnaGxpZ2h0ZWQgaW4geWVsbG93IGFyZSB0aGUgcmVhZGluZ3MgdGhhdCB5b3Ugc2hvdWxkIHBheSBjbG9zZXN0IGF0dGVudGlvbiB0by4KQmx1ZSBoaWdobGlnaHRzIHByb3ZpZGUgYWRkaXRpb25hbCB1c2VmdWwgaW5mb3JtYXRpb24uCgojIyBQc3ljaG9tZXRyaWNzLCBQcmVkaWN0aW9uLCBhbmQgR2VuZXJhbCBJc3N1ZXMKCiMjIyBTY2llbmNlIGFuZCB0aGUgUmVwbGljYXRpb24gQ3Jpc2lzIHsjc2VjdGlvbjF9Cgo8ZGl2IHN0eWxlPSJ0ZXh0LWluZGVudDogLTQwcHg7IHBhZGRpbmctbGVmdDogNDBweDsiPgoKIyMjIyA8dT5TZWN0aW9uIDE8L3U+IHsudW5udW1iZXJlZH0KCkxva2VuLCBFLiwgJiBHZWxtYW4sIEEuICgyMDE3KS4gTWVhc3VyZW1lbnQgZXJyb3IgYW5kIHRoZSByZXBsaWNhdGlvbiBjcmlzaXMuICpTY2llbmNlLCAzNTUqKDYzMjUpLCA1ODTigJM1ODUuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTI2L3NjaWVuY2UuYWFsMzYxOAoKPG1hcms+TWNGYWxsLCBSLiBNLiAoMTk5MSkuIE1hbmlmZXN0byBmb3IgYSBzY2llbmNlIG9mIGNsaW5pY2FsIHBzeWNob2xvZ3kuICpUaGUgQ2xpbmljYWwgUHN5Y2hvbG9naXN0LCA0NCooNiksIDc14oCTOTEuPC9tYXJrPgoKPG1hcms+TWNGYWxsLCBSLiBNLiAoMjAwMCkuIEVsYWJvcmF0ZSByZWZsZWN0aW9ucyBvbiBhIHNpbXBsZSBtYW5pZmVzdG8uICpBcHBsaWVkICYgUHJldmVudGl2ZSBQc3ljaG9sb2d5LCA5KigxKSwgNeKAkzIxLiBodHRwczovL2RvaS5vcmcvMTAuMTAxNi9zMDk2Mi0xODQ5KDA1KTgwMDM1LTY8L21hcms+CgojIyMgUmVsaWFiaWxpdHkgeyNzZWN0aW9uMn0KCiMjIyMgPHU+U2VjdGlvbiAyPC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5NY05laXNoLCBELiAoMjAxOCkuIFRoYW5rcyBjb2VmZmljaWVudCBhbHBoYSwgd2UnbGwgdGFrZSBpdCBmcm9tIGhlcmUuICpQc3ljaG9sb2dpY2FsIE1ldGhvZHMsIDIzKigzKSwgNDEy4oCTNDMzLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9tZXQwMDAwMTQ0PC9tYXJrPgoKXCpHYWx0b24sIEYuICgxOTQ4KS4gQ2xhc3NpZmljYXRpb24gb2YgbWVuIGFjY29yZGluZyB0byB0aGVpciBuYXR1cmFsIGdpZnRzLCAxODY5LiBJbiBXLiBEZW5uaXMgKEVkLiksICpSZWFkaW5ncyBpbiB0aGUgaGlzdG9yeSBvZiBwc3ljaG9sb2d5KiAocHAuIDIzMeKAkzI0NykuIEFwcGxldG9uLUNlbnR1cnktQ3JvZnRzLiBodHRwczovL3BzeWNuZXQuYXBhLm9yZy9yZWNvcmQvMjAwNi0xMDIxMy0wMDAKClwqR2FybGFuZCwgTC4gSC4gKDE5NjApLiBUaGUgcHJvYmxlbSBvZiBvYnNlcnZlciBlcnJvci4gKkJ1bGxldGluIG9mIHRoZSBOZXcgWW9yayBBY2FkZW15IG9mIE1lZGljaW5lLCAzNiooOSksIDU3MOKAkzU4NC4KCiMjIyMgPHU+U2VjdGlvbiAzPC91PiB7LnVubnVtYmVyZWQgI3NlY3Rpb24zfQoKPG1hcms+U2NobWlkdCwgRi4gTC4sICYgSHVudGVyLCBKLiBFLiAoMTk5NikuIE1lYXN1cmVtZW50IGVycm9yIGluIHBzeWNob2xvZ2ljYWwgcmVzZWFyY2g6IExlc3NvbnMgZnJvbSAyNiByZXNlYXJjaCBzY2VuYXJpb3MuICpQc3ljaG9sb2dpY2FsIE1ldGhvZHMsIDEqKDIpLCAxOTnigJMyMjMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzEwODItOTg5WC4xLjIuMTk5PC9tYXJrPgoKV2lnZ2lucywgSi4gUy4gKDE5NzMpLiBPYnNlcnZhdGlvbmFsIHRlY2huaXF1ZXM6IEkuIEdlbmVyYWxpemFiaWxpdHkgYW5kIGZhY2V0cyBvZiBvYnNlcnZhdGlvbi4gSW4gSi4gUy4gV2lnZ2lucyAoRWQuKSwgKlBlcnNvbmFsaXR5IGFuZCBwcmVkaWN0aW9uOiBQcmluY2lwbGVzIG9mIHBlcnNvbmFsaXR5IGFzc2Vzc21lbnQqIChwcC4gMjc34oCTMjk1KS4gQWRkaXNvbi1XZXNsZXkuCgojIyMgVmFsaWRpdHkgeyNzZWN0aW9uNH0KCiMjIyMgPHU+U2VjdGlvbiA0PC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5DYW1wYmVsbCwgRC4gVC4sICYgRmlza2UsIEQuIFcuICgxOTU5KS4gQ29udmVyZ2VudCBhbmQgZGlzY3JpbWluYW50IHZhbGlkYXRpb24gYnkgdGhlIG11bHRpdHJhaXQtbXVsdGltZXRob2QgbWF0cml4LiAqUHN5Y2hvbG9naWNhbCBCdWxsZXRpbiwgNTYqKDIpLCA4MeKAkzEwNS4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvaDAwNDYwMTY8L21hcms+CgpIYXllcywgUy4gQy4sIE5lbHNvbiwgUi4gTy4sICYgSmFycmV0dCwgUi4gQi4gKDE5ODcpLiBUaGUgdHJlYXRtZW50IHV0aWxpdHkgb2YgYXNzZXNzbWVudDogQSBmdW5jdGlvbmFsIGFwcHJvYWNoIHRvIGV2YWx1YXRpbmcgYXNzZXNzbWVudCBxdWFsaXR5LiAqQW1lcmljYW4gUHN5Y2hvbG9naXN0LCA0MiosIDk2M+KAkzk3NC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDAwMy0wNjZYLjQyLjExLjk2MwoKPG1hcms+TWVlaGwsIFAuIEUuICgxOTczKS4gQ2hhcHRlciAxLiAqUHN5Y2hvZGlhZ25vc2lzOiBTZWxlY3RlZCBwYXBlcnMqLiBVbml2ZXJzaXR5IG9mIE1pbm5lc290YSBQcmVzcy48L21hcms+CjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPltUaGlzIGlzIENyb25iYWNoLCBMLiBKLiwgJiBNZWVobCwgUC4gRS4gKDE5NTUpLiBDb25zdHJ1Y3QgdmFsaWRpdHkgaW4gcHN5Y2hvbG9naWNhbCB0ZXN0cy4gKlBzeWNob2xvZ2ljYWwgQnVsbGV0aW4sIDUyKig0KSwgMjgx4oCTMzAyLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9oMDA0MDk1N108L21hcms+CgojIyMjIDx1PlNlY3Rpb24gNTwvdT4gey51bm51bWJlcmVkICNzZWN0aW9uNX0KCjxtYXJrPlNlY2hyZXN0LCBMLiAoMTk2MykuIEluY3JlbWVudGFsIHZhbGlkaXR5OiBBIHJlY29tbWVuZGF0aW9uLiAqRWR1Y2F0aW9uYWwgYW5kIFBzeWNob2xvZ2ljYWwgTWVhc3VyZW1lbnQsIDIzKiwgMTUz4oCTMTU4LiBodHRwczovL2RvaS5vcmcvMTAuMTE3Ny8wMDEzMTY0NDYzMDIzMDAxMTM8L21hcms+Cgo8bWFyaz5TaGF2ZWxzb24sIFIuIEouLCBXZWJiLCBOLiBNLiwgJiBSYXdsZXksIFIuIEwuICgxOTg5KS4gR2VuZXJhbGl6YWJpbGl0eSB0aGVvcnkuICpBbWVyaWNhbiBQc3ljaG9sb2dpc3QsIDQ0KiwgOTIy4oCTOTMyLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wMDAzLTA2NlguNDQuNi45MjI8L21hcms+CgpCb3Juc3RlaW4sIFIuIEYuICgyMDExKS4gVG93YXJkIGEgcHJvY2Vzcy1mb2N1c2VkIG1vZGVsIG9mIHRlc3Qgc2NvcmUgdmFsaWRpdHk6IEltcHJvdmluZyBwc3ljaG9sb2dpY2FsIGFzc2Vzc21lbnQgaW4gc2NpZW5jZSBhbmQgcHJhY3RpY2UuICpQc3ljaG9sb2dpY2FsIEFzc2Vzc21lbnQsIDIzKigyKSwgNTMy4oCTNTQ0LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9hMDAyMjQwMgoKXCpBbWVyaWNhbiBFZHVjYXRpb25hbCBSZXNlYXJjaCBBc3NvY2lhdGlvbiwgQW1lcmljYW4gUHN5Y2hvbG9naWNhbCBBc3NvY2lhdGlvbiwgJiBOYXRpb25hbCBDb3VuY2lsIG9uIE1lYXN1cmVtZW50IGluIEVkdWNhdGlvbi4gKDIwMTQpLiAqU3RhbmRhcmRzIGZvciBlZHVjYXRpb25hbCBhbmQgcHN5Y2hvbG9naWNhbCB0ZXN0aW5nKi4gQW1lcmljYW4gRWR1Y2F0aW9uYWwgUmVzZWFyY2ggQXNzb2NpYXRpb24uCjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPltUaGlzIGlzIGF2YWlsYWJsZSBpbiB0aGUgY2xpbmljIGxpYnJhcnkuCllvdSBkb24ndCBuZWVkIHRvIHJlYWQgdGhpcyBmb3Igb3VyIGNsYXNzLCBidXQgeW91IHNob3VsZCBrbm93IGl0IGV4aXN0cyBhcyBhIHJlZmVyZW5jZSwgYmVjYXVzZSBpdCBzZXRzIHRoZSBzdGFuZGFyZCBmb3IgQVBBIGpvdXJuYWxzLCBsaWNlbnN1cmUgZXhhbXMsIGFuZCBiZXlvbmQuXTwvbWFyaz4KCiMjIyBFbWVyZ2luZyBQZXJzcGVjdGl2ZXMgaW4gTWVhc3VyZW1lbnQKCiMjIyMgU3RydWN0dXJhbCBFcXVhdGlvbiBNb2RlbGluZyAoU0VNKSB7I3NlY3Rpb242fQoKIyMjIyA8dT5TZWN0aW9uIDY8L3U+IHsudW5udW1iZXJlZH0KCjxtYXJrPkJvbGxlbiwgSy4gQS4sICYgTGVubm94LCBSLiBELiAoMTk5MSkuIENvbnZlbnRpb25hbCB3aXNkb20gb24gbWVhc3VyZW1lbnQ6IEEgc3RydWN0dXJhbCBlcXVhdGlvbiBwZXJzcGVjdGl2ZS4gKlBzeWNob2xvZ2ljYWwgQnVsbGV0aW4sIDExMCooMiksIDMwNeKAkzMxNC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDAzMy0yOTA5LjExMC4yLjMwNTwvbWFyaz4KCjxtYXJrPlBvZHNha29mZiwgUC4gTS4sIE1hY0tlbnppZSwgUy4gQi4sICYgUG9kc2Frb2ZmLCBOLiBQLiAoMjAxMikuIFNvdXJjZXMgb2YgbWV0aG9kIGJpYXMgaW4gc29jaWFsIHNjaWVuY2UgcmVzZWFyY2ggYW5kIHJlY29tbWVuZGF0aW9ucyBvbiBob3cgdG8gY29udHJvbCBpdC4gKkFubnVhbCBSZXZpZXcgb2YgUHN5Y2hvbG9neSwgNjMqKDEpLCA1MznigJM1NjkuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ2L2FubnVyZXYtcHN5Y2gtMTIwNzEwLTEwMDQ1MjwvbWFyaz4KCkVkd2FyZHMsIEouIFIuLCAmIEJhZ296emksIFIuIFAuICgyMDAwKS4gT24gdGhlIG5hdHVyZSBhbmQgZGlyZWN0aW9uIG9mIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBjb25zdHJ1Y3RzIGFuZCBtZWFzdXJlcy4gKlBzeWNob2xvZ2ljYWwgTWV0aG9kcywgNSooMiksIDE1NeKAkzE3NC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA4Mi05ODlYLjUuMi4xNTUKPG1hcmsgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGxpZ2h0Ymx1ZSI+W3JlYWQgcHAuIDE1NeKAkzE2MiBjYXJlZnVsbHksIGJ1dCBkb24ndCB3b3JyeSBhYm91dCB0aGUgY29tcGxleCBwYXRoIG1vZGVscyB0aGF0IGZvbGxvdyB1bmxlc3MgdGhleSBhcmUgcmVsZXZhbnQgdG8geW91ciBvd24gcmVzZWFyY2guXTwvbWFyaz4KCiMjIyMgSXRlbSBSZXNwb25zZSBUaGVvcnkgKElSVCkgeyNzZWN0aW9uN30KCiMjIyMgPHU+U2VjdGlvbiA3PC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5FbWJyZXRzb24sIFMuIEUuICgxOTk2KS4gVGhlIG5ldyBydWxlcyBvZiBtZWFzdXJlbWVudC4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgOCosIDM0MeKAkzM0OS4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjguNC4zNDE8L21hcms+Cgo8bWFyaz5LcnVlZ2VyLCBSLiBGLiwgTmljaG9sLCBQLiBFLiwgSGlja3MsIEIuIE0uLCBNYXJrb24sIEsuIEUuLCBQYXRyaWNrLCBDLiBKLiwgbGFjb25vLCBXLiBHLiwgJiBNY0d1ZSwgTS4gKDIwMDQpLiBVc2luZyBsYXRlbnQgdHJhaXQgbW9kZWxpbmcgdG8gY29uY2VwdHVhbGl6ZSBhbiBhbGNvaG9sIHByb2JsZW1zIGNvbnRpbnV1bS4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgMTYqKDIpLCAxMDfigJMxMTkuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzEwNDAtMzU5MC4xNi4yLjEwNzwvbWFyaz4KCkNvb3BlciwgTC4gRC4sICYgQmFsc2lzLCBTLiAoMjAwOSkuIFdoZW4gbGVzcyBpcyBtb3JlOiBIb3cgZmV3ZXIgZGlhZ25vc3RpYyBjcml0ZXJpYSBjYW4gaW5kaWNhdGUgZ3JlYXRlciBzZXZlcml0eS4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgMjEqKDMpLCAyODXigJMyOTMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3L2EwMDE2Njk4CgpSZWlzZSwgUy4gUC4sICYgV2FsbGVyLCBOLiBHLiAoMjAwOSkuIEl0ZW0gcmVzcG9uc2UgdGhlb3J5IGFuZCBjbGluaWNhbCBtZWFzdXJlbWVudC4gKkFubnVhbCBSZXZpZXcgb2YgQ2xpbmljYWwgUHN5Y2hvbG9neSwgNSooMSksIDI34oCTNDguIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ2L2FubnVyZXYuY2xpbnBzeS4wMzI0MDguMTUzNTUzCgojIyBQcmVkaWN0aW9uIHsjc2VjdGlvbjh9CgojIyMgQmFzaWNzCgojIyMjIDx1PlNlY3Rpb24gODwvdT4gey51bm51bWJlcmVkfQoKPG1hcms+TWVlaGwsIFAuIEUuICgxOTczKS4gQ2hhcHRlciAyLiAqUHN5Y2hvZGlhZ25vc2lzOiBTZWxlY3RlZCBwYXBlcnMqLiBVbml2ZXJzaXR5IG9mIE1pbm5lc290YSBQcmVzcy48L21hcms+CjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPltUaGlzIGlzIE1lZWhsLCBQLiBFLiwgJiBSb3NlbiwgQS4gKDE5NTUpLiBBbnRlY2VkZW50IHByb2JhYmlsaXR5IGFuZCB0aGUgZWZmaWNpZW5jeSBvZiBwc3ljaG9tZXRyaWMgc2lnbnMsIHBhdHRlcm5zLCBvciBjdXR0aW5nIHNjb3Jlcy4gKlBzeWNob2xvZ2ljYWwgQnVsbGV0aW4sIDUyKigzKSwgMTk04oCTMjE2LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9oMDA0ODA3MF08L21hcms+CgojIyMgU2lnbmFsIERldGVjdGlvbiBUaGVvcnkgeyNzZWN0aW9uOX0KCiMjIyMgPHU+U2VjdGlvbiA5PC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5UcmVhdCwgVC4gQS4sICYgVmlrZW4sIFIuIEouICgyMDIzKS4gTWVhc3VyaW5nIHRlc3QgcGVyZm9ybWFuY2Ugd2l0aCBzaWduYWwgZGV0ZWN0aW9uIHRoZW9yeSB0ZWNobmlxdWVzLiBJbiBILiBDb29wZXIsIE0uIE4uIENvdXRhbmNoZSwgTC4gTS4gTWNNdWxsZW4sIEEuIFQuIFBhbnRlciwgRC4gUmluZHNrb3BmLCAmIEsuIEouIFNoZXIgKEVkcy4pLCAqQVBBIGhhbmRib29rIG9mIHJlc2VhcmNoIG1ldGhvZHMgaW4gcHN5Y2hvbG9neTogRm91bmRhdGlvbnMsIHBsYW5uaW5nLCBtZWFzdXJlcywgYW5kIHBzeWNob21ldHJpY3MqICgybmQgZWQuLCBWb2wuIDEsIHBwLiA4MzfigJM4NTgpLiBBbWVyaWNhbiBQc3ljaG9sb2dpY2FsIEFzc29jaWF0aW9uLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wMDAwMzE4LTAzODwvbWFyaz4KClN3ZXRzLCBKLiBBLiwgRGF3ZXMsIFIuIE0uLCAmIE1vbmFoYW4sIEouICgyMDAwKS4gUHN5Y2hvbG9naWNhbCBzY2llbmNlIGNhbiBpbXByb3ZlIGRpYWdub3N0aWMgZGVjaXNpb25zLiAqUHN5Y2hvbG9naWNhbCBTY2llbmNlIGluIHRoZSBQdWJsaWMgSW50ZXJlc3QsIDEqKDEpLCAx4oCTMjYuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTExLzE1MjktMTAwNi4wMDEKCkxpbmRoaWVtLCBPLiwgUGV0ZXJzZW4sIEkuIFQuLCBNZW50Y2gsIEwuIEsuLCAmIFlvdW5nc3Ryb20sIEUuIEEuICgyMDIwKS4gVGhlIGltcG9ydGFuY2Ugb2YgY2FsaWJyYXRpb24gaW4gY2xpbmljYWwgcHN5Y2hvbG9neS4gKkFzc2Vzc21lbnQsIDI3Kig0KSwgODQw4oCTODU0LiBodHRwczovL2RvaS5vcmcvMTAuMTE3Ny8xMDczMTkxMTE3NzUyMDU1IAoKIyMjIENsaW5pY2FsIEp1ZGdtZW50IHZzLiBBbGdvcml0aG1pYyBQcmVkaWN0aW9uIHsjc2VjdGlvbjEwfQoKIyMjIyA8dT5TZWN0aW9uIDEwPC91PiB7LnVubnVtYmVyZWR9CgpHYXJiLCBILiBOLiAoMjAwNSkuIENsaW5pY2FsIGp1ZGdtZW50IGFuZCBkZWNpc2lvbiBtYWtpbmcuICpBbm51YWwgUmV2aWV3IG9mIENsaW5pY2FsIFBzeWNob2xvZ3ksIDEqLCA2N+KAkzg5LiBodHRwczovL2RvaS5vcmcvMTAuMTE0Ni9hbm51cmV2LmNsaW5wc3kuMS4xMDI4MDMuMTQzODEwCgo8bWFyaz5EYXdlcywgUi4gTS4sIEZhdXN0LCBELiwgJiBNZWVobCwgUC4gRS4gKDE5ODkpLiBDbGluaWNhbCB2ZXJzdXMgYWN0dWFyaWFsIGp1ZGdtZW50LiAqU2NpZW5jZSwgMjQzKig0ODk5KSwgMTY2OOKAkzE2NzQuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTI2L3NjaWVuY2UuMjY0ODU3MzwvbWFyaz4KCjxtYXJrPkRhd2VzLCBSLiBNLiAoMTk4NikuIFJlcHJlc2VudGF0aXZlIHRoaW5raW5nIGluIGNsaW5pY2FsIGp1ZGdtZW50LiAqQ2xpbmljYWwgUHN5Y2hvbG9neSBSZXZpZXcsIDYqLCA0MjXigJM0NDEuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDE2LzAyNzItNzM1OCg4Nik5MDAzMC05PC9tYXJrPgoKWW91bmdzdHJvbSwgRS4gQS4sIEhhbHZlcnNvbiwgVC4gRi4sIFlvdW5nc3Ryb20sIEouIEsuLCBMaW5kaGllbSwgTy4sICYgRmluZGxpbmcsIFIuIEwuICgyMDE4KS4gRXZpZGVuY2UtYmFzZWQgYXNzZXNzbWVudCBmcm9tIHNpbXBsZSBjbGluaWNhbCBqdWRnbWVudHMgdG8gc3RhdGlzdGljYWwgbGVhcm5pbmc6IEV2YWx1YXRpbmcgYSByYW5nZSBvZiBvcHRpb25zIHVzaW5nIHBlZGlhdHJpYyBiaXBvbGFyIGRpc29yZGVyIGFzIGEgZGlhZ25vc3RpYyBjaGFsbGVuZ2UuICpDbGluaWNhbCBQc3ljaG9sb2dpY2FsIFNjaWVuY2UsIDYqKDIpLCAyNDPigJMyNjUuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTc3LzIxNjc3MDI2MTc3NDE4NDUKCiMjIEdlbmVyYWwgSXNzdWVzIGluIENsaW5pY2FsIEFzc2Vzc21lbnQgeyNzZWN0aW9uMTF9CgojIyMjIDx1PlNlY3Rpb24gMTE8L3U+IHsudW5udW1iZXJlZH0KClwqQmVuamFtaW4sIEwuIFQuICgyMDA1KS4gQSBoaXN0b3J5IG9mIGNsaW5pY2FsIHBzeWNob2xvZ3kgYXMgYSBwcm9mZXNzaW9uIGluIEFtZXJpY2EgKGFuZCBhIGdsaW1wc2Ugb2YgaXRzIGZ1dHVyZSkuICpBbm51YWwgUmV2aWV3IG9mIENsaW5pY2FsIFBzeWNob2xvZ3ksIDEqLCAx4oCTMzAuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ2L2FubnVyZXYuY2xpbnBzeS4xLjEwMjgwMy4xNDM3NTgKCjxtYXJrPkthemRpbiwgQS4gRS4gKDE5OTUpLiBQcmVwYXJpbmcgYW5kIGV2YWx1YXRpbmcgcmVzZWFyY2ggcmVwb3J0cy4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgNyooMyksIDIyOOKAkzIzNy4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjcuMy4yMjg8L21hcms+CgpTZWNocmVzdCwgTC4sIFN0aWNrbGUsIFQuIFIuLCAmIFN0ZXdhcnQsIE0uICgxOTk4KS4gVGhlIHJvbGUgb2YgYXNzZXNzbWVudCBpbiBjbGluaWNhbCBwc3ljaG9sb2d5LiBJbiBBLiBCZWxsYWNrLCBNLiBIZXJzZW4sICYgQy4gUi4gUmV5bm9sZHMgKEVkcy4pLCAqQ29tcHJlaGVuc2l2ZSBjbGluaWNhbCBwc3ljaG9sb2d5KiAoVm9sLiA0OiBBc3Nlc3NtZW50KS4gUGVyZ2Ftb24uCgojIyBFdmlkZW5jZS1CYXNlZCBBc3Nlc3NtZW50IHsjc2VjdGlvbjEyfQoKIyMjIyA8dT5TZWN0aW9uIDEyPC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5IdW5zbGV5LCBKLiwgJiBNYXNoLCBFLiBKLiAoMjAwNykuIEV2aWRlbmNlLWJhc2VkIGFzc2Vzc21lbnQuICpBbm51YWwgUmV2aWV3IG9mIENsaW5pY2FsIFBzeWNob2xvZ3ksIDMqLCAyOeKAkzUxLiBodHRwczovL2RvaS5vcmcvMTAuMTE0Ni9hbm51cmV2LmNsaW5wc3kuMy4wMjI4MDYuMDkxNDE5PC9tYXJrPgoKQW50b255LCBNLiBNLiwgJiBSb3dhLCBLLiAoMjAwNSkuIEV2aWRlbmNlLWJhc2VkIGFzc2Vzc21lbnQgb2YgYW54aWV0eSBkaXNvcmRlcnMgaW4gYWR1bHRzLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAxNyooMyksIDI1NuKAkzI2Ni4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjE3LjMuMjU2CjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPltUaGlzIGlzIGEgY2FzZSBzdHVkeSBpbiBldmlkZW5jZS1iYXNlZCBhc3Nlc3NtZW504oCUaXQncyB0aGUgZ2VuZXJhbCBhcHByb2FjaCB0aGF0IG1hdHRlcnMsIG5vdCB3aGF0IGlzIHNwZWNpZmljIGFib3V0IGFueGlldHkuXTwvbWFyaz4KCllvdW5nc3Ryb20sIEUuIEEuLCAmIFZhbiBNZXRlciwgQS4gKDIwMTYpLiBFbXBpcmljYWxseSBzdXBwb3J0ZWQgYXNzZXNzbWVudCBvZiBjaGlsZHJlbiBhbmQgYWRvbGVzY2VudHMuICpDbGluaWNhbCBQc3ljaG9sb2d5OiBTY2llbmNlIGFuZCBQcmFjdGljZSwgMjMqKDQpLCAzMjfigJMzNDcuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTExL2Nwc3AuMTIxNzIKCjxtYXJrPllvdW5nc3Ryb20sIEUuIEEuLCBWYW4gTWV0ZXIsIEEuLCBGcmF6aWVyLCBULiBXLiwgSHVuc2xleSwgSi4sIFByaW5zdGVpbiwgTS4gSi4sIE9uZywgTS4tTC4sICYgWW91bmdzdHJvbSwgSi4gSy4gKDIwMTcpLiBFdmlkZW5jZS1iYXNlZCBhc3Nlc3NtZW50IGFzIGFuIGludGVncmF0aXZlIG1vZGVsIGZvciBhcHBseWluZyBwc3ljaG9sb2dpY2FsIHNjaWVuY2UgdG8gZ3VpZGUgdGhlIHZveWFnZSBvZiB0cmVhdG1lbnQuICpDbGluaWNhbCBQc3ljaG9sb2d5OiBTY2llbmNlIGFuZCBQcmFjdGljZSwgMjQqKDQpLCAzMzHigJMzNjMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTExL2Nwc3AuMTIyMDc8L21hcms+CgojIyBFdGhpY2FsIElzc3VlcyBpbiBBc3Nlc3NtZW50IHsjc2VjdGlvbjEzfQoKIyMjIyA8dT5TZWN0aW9uIDEzPC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5BbWVyaWNhbiBQc3ljaG9sb2dpY2FsIEFzc29jaWF0aW9uLiAoMjAxNykuIEV0aGljYWwgcHJpbmNpcGxlcyBvZiBwc3ljaG9sb2dpc3RzIGFuZCBjb2RlIG9mIGNvbmR1Y3QuIGh0dHBzOi8vd3d3LmFwYS5vcmcvZXRoaWNzL2NvZGU8L21hcms+CjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPihTZWN0aW9ucyAxLCAyLCA5KS48L21hcms+CgpOYWd5LCBULiBGLiAoMjAxMSkuIEV0aGljcyBpbiBwc3ljaG9sb2dpY2FsIGFzc2Vzc21lbnQuIEluIFQuIEYuIE5hZ3kgKEVkLiksICpFc3NlbnRpYWwgZXRoaWNzIGZvciBwc3ljaG9sb2dpc3RzOiBhIHByaW1lciBmb3IgdW5kZXJzdGFuZGluZyBhbmQgbWFzdGVyaW5nIGNvcmUgaXNzdWVzKiAocHAuIDE3MeKAkzE4MykuIEFtZXJpY2FuIFBzeWNob2xvZ2ljYWwgQXNzb2NpYXRpb24uIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzEyMzQ1LTAwOQoKQ2FtcGJlbGwsIEwuLCBWYXNxdWV6LCBNLiwgQmVobmtlLCBTLiwgJiBLaW5zY2hlcmZmLCBSLiAoMjAxMCkuIEFzc2Vzc21lbnQuIEluIEwuIENhbXBiZWxsLCBNLiBWYXNxdWV6LCBTLiBCZWhua2UsICYgUi4gS2luc2NoZXJmZiAoRWRzLiksICpBUEEgRXRoaWNzIENvZGUgY29tbWVudGFyeSBhbmQgY2FzZSBpbGx1c3RyYXRpb25zKi4gQW1lcmljYW4gUHN5Y2hvbG9naWNhbCBBc3NvY2lhdGlvbi4KCjxtYXJrPkJlcnNvZmYsIEQuIE4uLCBEZU1hdHRlbywgRC4sICYgRm9zdGVyLCBFLiBFLiAoMjAxMikuIEFzc2Vzc21lbnQgYW5kIHRlc3RpbmcuIEluIFMuIEouIEtuYXBwIChFZC4pLCAqQVBBIGhhbmRib29rIG9mIGV0aGljcyBpbiBwc3ljaG9sb2d5KiAoVm9sLiAyOiBQcmFjdGljZSwgVGVhY2hpbmcsIGFuZCBSZXNlYXJjaCwgcHAuIDQ14oCTNzQpLiBBbWVyaWNhbiBQc3ljaG9sb2dpY2FsIEFzc29jaWF0aW9uLjwvbWFyaz4KClwqVGFja2V0dCwgSi4gTC4sIEJyYW5kZXMsIEMuIE0uLCAmIFJlYXJkb24sIEsuIFcuICgyMDE5KS4gTGV2ZXJhZ2luZyB0aGUgT3BlbiBTY2llbmNlIEZyYW1ld29yayBpbiBjbGluaWNhbCBwc3ljaG9sb2dpY2FsIGFzc2Vzc21lbnQgcmVzZWFyY2guICpQc3ljaG9sb2dpY2FsIEFzc2Vzc21lbnQsIDMxKigxMiksIDEzODbigJMxMzk0LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9wYXMwMDAwNTgzCgojIyBJbnRlbGxlY3R1YWwgQXNzZXNzbWVudCB7I3NlY3Rpb24xNX0KCiMjIyMgPHU+U2VjdGlvbiAxNTwvdT4gey51bm51bWJlcmVkfQoKPG1hcms+QWNrZXJtYW4sIFAuIEwuICgyMDEzKS4gQXNzZXNzbWVudCBvZiBpbnRlbGxlY3R1YWwgZnVuY3Rpb25pbmcgaW4gYWR1bHRzLiBJbiBLLiBGLiBHZWlzaW5nZXIsIEouIEYuIENhcmxzb24sIEouLUkuIEMuIEhhbnNlbiwgTi4gUi4gS3VuY2VsLCBTLiBQLiBSZWlzZSwgJiBNLiBDLiBSb2RyaWd1ZXogKEVkcy4pLCAqQVBBIGhhbmRib29rIG9mIHRlc3RpbmcgYW5kIGFzc2Vzc21lbnQgaW4gcHN5Y2hvbG9neSogKFZvbC4gMjogVGVzdGluZyBhbmQgQXNzZXNzbWVudCBpbiBDbGluaWNhbCBhbmQgQ291bnNlbGluZyBQc3ljaG9sb2d5LCBwcC4gMTE54oCTMTMyKS4gQW1lcmljYW4gUHN5Y2hvbG9naWNhbCBBc3NvY2lhdGlvbi4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTQwNDgtMDA4PC9tYXJrPgoKXCpCaW5ldCwgQS4sICYgU2ltb24sIFQuICgxOTQ4KS4gVXBvbiB0aGUgbmVjZXNzaXR5IG9mIGVzdGFibGlzaGluZyBhIHNjaWVudGlmaWMgZGlhZ25vc2lzIG9mIGluZmVyaW9yIHN0YXRlcyBvZiBpbnRlbGxpZ2VuY2UuIEluIFcuIERlbm5pcyAoRWQuKSwgKlJlYWRpbmdzIGluIHRoZSBoaXN0b3J5IG9mIHBzeWNob2xvZ3kqIChwcC4gNDA34oCTNDExKS4gQXBwbGV0b24tQ2VudHVyeS1Dcm9mdHMuCgpcKkJpbmV0LCBBLiwgJiBTaW1vbiwgVC4gKDE5NDgpLiBUaGUgZGV2ZWxvcG1lbnQgb2YgdGhlIEJpbmV0LVNpbW9uIFNjYWxlLCAxOTA14oCTMTkwOC4gSW4gVy4gRGVubmlzIChFZC4pLCAqUmVhZGluZ3MgaW4gdGhlIGhpc3Rvcnkgb2YgcHN5Y2hvbG9neSogKHBwLiA0MTLigJM0MjQpLiBBcHBsZXRvbi1DZW50dXJ5LUNyb2Z0cy4gCgpcKkNhdHRlbGwsIEouIE0uICgxOTQ4KS4gTWVudGFsIHRlc3RzIGFuZCBtZWFzdXJlbWVudHMsIDE4OTAuIEluIFcuIERlbm5pcyAoRWQuKSwgKlJlYWRpbmdzIGluIHRoZSBoaXN0b3J5IG9mIHBzeWNob2xvZ3kqIChwcC4gMzQ34oCTMzU0KS4gQXBwbGV0b24tQ2VudHVyeS1Dcm9mdHMuCgojIyMjIDx1PlNlY3Rpb24gMTY8L3U+IHsudW5udW1iZXJlZCAjc2VjdGlvbjE2fQoKPG1hcms+TWNDbGVsbGFuZCwgRC4gQy4gKDE5NzMpLiBUZXN0aW5nIGZvciBjb21wZXRlbmNlIHJhdGhlciB0aGFuIGZvciAiaW50ZWxsaWdlbmNlLiIuIEFtZXJpY2FuIFBzeWNob2xvZ2lzdCwgMjgsIDHigJMxNC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvaDAwMzQwOTI8L21hcms+CjxtYXJrIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGJsdWUiPltTZWUgYWxzbyBwYXBlciBieSBCYXJyZXR0IGFuZCBEZXBpbmV0ICgxOTkxKSwgQSByZWNvbnNpZGVyYXRpb24gb2YgVGVzdGluZyBmb3IgQ29tcGV0ZW5jZSByYXRoZXIgdGhhbiBmb3IgaW50ZWxsaWdlbmNlLCAqQW1lcmljYW4gUHN5Y2hvbG9naXN0LCA0NiosIDEwMTLigJMxMDI0OyBhbmQgTWNDbGVsbGFuZCBhbmQgdmFyaW91cyBvdGhlcnMgaW4gcmVwbHkgKDE5OTQpLCAqQW1lcmljYW4gUHN5Y2hvbG9naXN0LCA0OSosIDY04oCTNzEuXTwvbWFyaz4KCiMjIyBCaWFzIHsjc2VjdGlvbjE3fQoKIyMjIyA8dT5TZWN0aW9uIDE3PC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5Db2xlLCBOLiBTLiAoMTk4MSkuIEJpYXMgaW4gdGVzdGluZy4gKkFtZXJpY2FuIFBzeWNob2xvZ2lzdCwgMzYqKDEwKSwgMTA2N+KAkzEwNzcuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzAwMDMtMDY2WC4zNi4xMC4xMDY3PC9tYXJrPgoKPG1hcms+U2Fja2V0dCwgUC4gUi4sICYgV2lsaywgUy4gTC4gKDE5OTQpLiBXaXRoaW4tZ3JvdXAgbm9ybWluZyBhbmQgb3RoZXIgZm9ybXMgb2Ygc2NvcmUgYWRqdXN0bWVudCBpbiBwcmVlbXBsb3ltZW50IHRlc3RpbmcuICpBbWVyaWNhbiBQc3ljaG9sb2dpc3QsIDQ5KigxMSksIDkyOeKAkzk1NC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDAwMy0wNjZYLjQ5LjExLjkyOTwvbWFyaz4KCiMjIyMgPHU+U2VjdGlvbiAxODwvdT4gey51bm51bWJlcmVkICNzZWN0aW9uMTh9Cgo8bWFyaz5TYWNrZXR0LCBQLiBSLiwgU2NobWl0dCwgTi4sIEVsbGluZ3NvbiwgSi4gRS4sICYgS2FiaW4sIE0uIEIuICgyMDAxKS4gSGlnaC1zdGFrZXMgdGVzdGluZyBpbiBlbXBsb3ltZW50LCBjcmVkZW50aWFsaW5nLCBhbmQgaGlnaGVyIGVkdWNhdGlvbi4gKkFtZXJpY2FuIFBzeWNob2xvZ2lzdCwgNTYqLCAzMDHigJMzMTguIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzAwMDMtMDY2WC41Ni40LjMwMjwvbWFyaz4KCjxtYXJrPlNhY2tldHQsIFAuIFIuLCBCb3JuZW1hbiwgTS4gSi4sICYgQ29ubmVsbHksIEIuIFMuICgyMDA4KS4gSGlnaCBzdGFrZXMgdGVzdGluZyBpbiBoaWdoZXIgZWR1Y2F0aW9uIGFuZCBlbXBsb3ltZW50OiBBcHByYWlzaW5nIHRoZSBldmlkZW5jZSBmb3IgdmFsaWRpdHkgYW5kIGZhaXJuZXNzLiAqQW1lcmljYW4gUHN5Y2hvbG9naXN0LCA2MyosIDIxNeKAkzIyNy4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDAwMy0wNjZYLjYzLjQuMjE1PC9tYXJrPgoKIyMgVGhlIEludGVydmlldyBhbmQgdGhlIERTTSB7I3NlY3Rpb24xOX0KCiMjIyMgPHU+U2VjdGlvbiAxOTwvdT4gey51bm51bWJlcmVkfQoKPG1hcms+RmFyYW9uZSwgUy4gVi4sICYgVHN1YW5nLCBNLiBULiAoMTk5NCkuIE1lYXN1cmluZyBkaWFnbm9zdGljIGFjY3VyYWN5IGluIHRoZSBhYnNlbmNlIG9mIGEgImdvbGQgc3RhbmRhcmQiLiAqQW1lcmljYW4gSm91cm5hbCBvZiBQc3ljaGlhdHJ5LCAxNTEqLCA2NTDigJM2NTcuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTc2L2FqcC4xNTEuNS42NTA8L21hcms+CgpcKlN1bGxpdmFuLCBILiBTLiAoMTk3MCkuICpUaGUgcHN5Y2hpYXRyaWMgaW50ZXJ2aWV3Ki4gTm9ydG9uLiBDaGFwdGVycyAx4oCTNCwgNwo8bWFyayBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogbGlnaHRibHVlIj5bVGhpcyBpcyBhdmFpbGFibGUgaW4gdGhlIFVJIGxpYnJhcnkuCllvdSBkb24ndCBuZWVkIHRvIHJlYWQgaXQgZm9yIHRoaXMgY2xhc3MuCkJ1dCB5b3Ugc2hvdWxkIHJlYWQgaXQgYXQgc29tZSBwb2ludCwgYXMgYW4gZXhhbXBsZSBvZiBhIG1hc3RlciBjbGluaWNpYW4gYXNzZXNzaW5nIHBhdGllbnRzIGJ5IHdheSBvZiBpbnRlcnZpZXcuXTwvbWFyaz4KClN1bW1lcmZlbGR0LCBMLiBKLiwgS2xvb3N0ZXJtYW4sIFAuIEguLCAmIEFudG9ueSwgTS4gTS4gKDIwMTApLiBTdHJ1Y3R1cmVkIGFuZCBzZW1pc3RydWN0dXJlZCBkaWFnbm9zdGljIGludGVydmlld3MuIEluIE0uIE0uIEFudG9ueSAmIEQuIEguIEJhcmxvdyAoRWRzLiksICpIYW5kYm9vayBvZiBhc3Nlc3NtZW50IGFuZCB0cmVhdG1lbnQgcGxhbm5pbmcgZm9yIHBzeWNob2xvZ2ljYWwgZGlzb3JkZXJzKiAoMm5kIGVkLiwgcHAuIDk14oCTMTM3KS4gR3VpbGZvcmQgUHJlc3MuIAoKTXVsbGlucy1Td2VhdHQsIFMuIE4uLCAmIFdpZGlnZXIsIFQuIEEuICgyMDA5KS4gQ2xpbmljYWwgdXRpbGl0eSBhbmQgRFNNLVYuICpQc3ljaG9sb2dpY2FsIEFzc2Vzc21lbnQsIDIxKigzKSwgMzAy4oCTMzEyLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9hMDAxNjYwNwoKPG1hcms+U2hhcnAsIEsuIEwuLCBXaWxsaWFtcywgQS4gSi4sIFJoeW5lciwgSy4gVC4sICYgSWxhcmRpLCBTLiBTLiAoMjAxMykuIFRoZSBjbGluaWNhbCBpbnRlcnZpZXcuIEluIEsuIEYuIEdlaXNpbmdlciwgSi4gRi4gQ2FybHNvbiwgSi4tSS4gQy4gSGFuc2VuLCBOLiBSLiBLdW5jZWwsIFMuIFAuIFJlaXNlLCAmIE0uIEMuIFJvZHJpZ3VleiAoRWRzLiksICpBUEEgaGFuZGJvb2sgb2YgdGVzdGluZyBhbmQgYXNzZXNzbWVudCBpbiBwc3ljaG9sb2d5KiAoVm9sLiAyOiBUZXN0aW5nIGFuZCBhc3Nlc3NtZW50IGluIGNsaW5pY2FsIGFuZCBjb3Vuc2VsaW5nIHBzeWNob2xvZ3ksIHBwLiAxMDPigJMxMTcpLiBBbWVyaWNhbiBQc3ljaG9sb2dpY2FsIEFzc29jaWF0aW9uLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xNDA0OC0wMDc8L21hcms+CgojIyBBc3Nlc3NtZW50IG9mIHBlcnNvbmFsaXR5IGFuZCBvdGhlciBzeW1wdG9tYXRvbG9neSB7I3NlY3Rpb24yMH0KCiMjIyBPYmplY3RpdmUgdGVzdHMKCiMjIyMgPHU+U2VjdGlvbiAyMDwvdT4gey51bm51bWJlcmVkfQoKPG1hcms+QnVyaXNjaCwgTS4gKDE5ODQpLiBBcHByb2FjaGVzIHRvIHBlcnNvbmFsaXR5IGludmVudG9yeSBjb25zdHJ1Y3Rpb246IEEgY29tcGFyaXNvbiBvZiBtZXJpdHMuICpBbWVyaWNhbiBQc3ljaG9sb2dpc3QsIDM5KiwgMjE04oCTMjI3LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wMDAzLTA2NlguMzkuMy4yMTQ8L21hcms+CgpDbGFyaywgTC4gQS4sICYgV2F0c29uLCBELiAoMjAxOSkuIENvbnN0cnVjdGluZyB2YWxpZGl0eTogTmV3IGRldmVsb3BtZW50cyBpbiBjcmVhdGluZyBvYmplY3RpdmUgbWVhc3VyaW5nIGluc3RydW1lbnRzLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAzMSooMTIpLCAxNDEy4oCTMTQyNy4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvcGFzMDAwMDYyNgoKPG1hcms+RmxveWQsIEYuIEouLCAmIFdpZGFtYW4sIEsuIEYuICgxOTk1KS4gRmFjdG9yIGFuYWx5c2lzIGluIHRoZSBkZXZlbG9wbWVudCBhbmQgcmVmaW5lbWVudCBvZiBjbGluaWNhbCBhc3Nlc3NtZW50IGluc3RydW1lbnRzLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCA3KiwgMjg24oCTMjk5LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xMDQwLTM1OTAuNy4zLjI4NjwvbWFyaz4KCiMjIyMgPHU+U2VjdGlvbiAyMTwvdT4gey51bm51bWJlcmVkICNzZWN0aW9uMjF9CgpcKkdyYWhhbSwgSi4gUi4gKDIwMjIpLiAqTU1QSSBpbnN0cnVtZW50czogQXNzZXNzaW5nIHBlcnNvbmFsaXR5IGFuZCBwc3ljaG9wYXRob2xvZ3kqICg2dGggZWQuKS4gT3hmb3JkIFVuaXZlcnNpdHkgUHJlc3MuIChDaGFwdGVycyAx4oCTNSwgMTMpLgo8bWFyayBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogbGlnaHRibHVlIj5bVGhpcyBpcyBhdmFpbGFibGUgaW4gdGhlIGNsaW5pYyBsaWJyYXJ5LgpHZXQgYSBmZWVsIGZvciB0aGlzIG1lYXN1cmUgYW5kIHRoZSB3YXkgaXQgd2FzIGRldmVsb3BlZDsgeW91IGRvbid0IG5lZWQgdG8gcmVtZW1iZXIgZGV0YWlscyBhYm91dCB0aGUgc2NhbGVzLl08L21hcms+CgpTZWxsYm9tLCBNLiAoMjAxOSkuIFRoZSBNTVBJLTItUmVzdHJ1Y3R1cmVkIEZvcm0gKE1NUEktMi1SRik6IEFzc2Vzc21lbnQgb2YgcGVyc29uYWxpdHkgYW5kIHBzeWNob3BhdGhvbG9neSBpbiB0aGUgdHdlbnR5LWZpcnN0IGNlbnR1cnkuICpBbm51YWwgUmV2aWV3IG9mIENsaW5pY2FsIFBzeWNob2xvZ3ksIDE1KigxKSwgMTQ54oCTMTc3LiBodHRwczovL2RvaS5vcmcvMTAuMTE0Ni9hbm51cmV2LWNsaW5wc3ktMDUwNzE4LTA5NTcwMQoKPG1hcms+V2lnZ2lucywgSi4gUy4gKDE5NzMpLiBTdHJ1Y3R1cmVkIHRlY2huaXF1ZXMuIEluIEouIFMuIFdpZ2dpbnMgKEVkLiksICpQZXJzb25hbGl0eSBhbmQgcHJlZGljdGlvbjogUHJpbmNpcGxlcyBvZiBwZXJzb25hbGl0eSBhc3Nlc3NtZW50KiAocHAuIDM4MOKAkzQ0MCkuIEFkZGlzb24tV2VzbGV5LjwvbWFyaz4KCiMjIyMgPHU+U2VjdGlvbiAyMjwvdT4gey51bm51bWJlcmVkICNzZWN0aW9uMjJ9Cgo8bWFyaz5EdW5uaW5nLCBELiwgSGVhdGgsIEMuLCAmIFN1bHMsIEouIE0uICgyMDA0KS4gRmxhd2VkIHNlbGYtYXNzZXNzbWVudDogSW1wbGljYXRpb25zIGZvciBoZWFsdGgsIGVkdWNhdGlvbiwgYW5kIHRoZSB3b3JrcGxhY2UuICpQc3ljaG9sb2dpY2FsIFNjaWVuY2UgaW4gdGhlIFB1YmxpYyBJbnRlcmVzdCwgNSosIDY54oCTMTA2LiBodHRwczovL2RvaS5vcmcvMTAuMTExMS9qLjE1MjktMTAwNi4yMDA0LjAwMDE4Lng8L21hcms+Cgo8bWFyaz5Lcm9zbmljaywgSi4gQS4gKDE5OTkpLiBTdXJ2ZXkgcmVzZWFyY2guICpBbm51YWwgUmV2aWV3IG9mIFBzeWNob2xvZ3ksIDUwKiwgNTM34oCTNTY3LiBodHRwczovL2RvaS5vcmcvMTAuMTE0Ni9hbm51cmV2LnBzeWNoLjUwLjEuNTM3PC9tYXJrPgoKIyMjIFByb2plY3RpdmUgdGVzdHMgeyNzZWN0aW9uMjN9CgojIyMjIDx1PlNlY3Rpb24gMjM8L3U+IHsudW5udW1iZXJlZH0KClwqRnJhbmssIEwuIEsuICgxOTM5KS4gUHJvamVjdGl2ZSBtZXRob2RzIGZvciB0aGUgc3R1ZHkgb2YgcGVyc29uYWxpdHkuICpKb3VybmFsIG9mIFBzeWNob2xvZ3ksIDgqLCAzODnigJM0MTMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDgwLzAwMjIzOTgwLjE5MzkuOTkxNzY3MQoKXCpMaW5kemV5LCBHLiAoMTk1MikuIFRoZW1hdGljIEFwcGVyY2VwdGlvbiBUZXN0OiBJbnRlcnByZXRpdmUgYXNzdW1wdGlvbnMgYW5kIHJlbGF0ZWQgZW1waXJpY2FsIGV2aWRlbmNlLiAqUHN5Y2hvbG9naWNhbCBCdWxsZXRpbiwgNDkqLCAx4oCTMjUuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3L2gwMDYyMzYzCgo8bWFyaz5MaWxpZW5mZWxkLCBTLiBPLiwgV29vZCwgSi4gTS4sICYgR2FyYiwgSC4gTi4gKDIwMDApLiBUaGUgc2NpZW50aWZpYyBzdGF0dXMgb2YgcHJvamVjdGl2ZSB0ZWNobmlxdWVzLiAqUHN5Y2hvbG9naWNhbCBTY2llbmNlIGluIHRoZSBQdWJsaWMgSW50ZXJlc3QsIDEqLCAyN+KAkzY2LiBodHRwczovL2RvaS5vcmcvMTAuMTExMS8xNTI5LTEwMDYuMDAyPC9tYXJrPgoKXCpXb29kLCBKLiBNLiwgTmV6d29yc2tpLCBNLiBULiwgJiBTdGVqc2thbCwgVy4gSi4gKDE5OTYpLiBUaGUgY29tcHJlaGVuc2l2ZSBzeXN0ZW0gZm9yIHRoZSBSb3JzY2hhY2g6IEEgY3JpdGljYWwgZXhhbWluYXRpb24uICpQc3ljaG9sb2dpY2FsIFNjaWVuY2UsIDcqKDEpLCAz4oCTMTAuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTExL2ouMTQ2Ny05MjgwLjE5OTYudGIwMDY1OC54Lgo8bWFyayBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogbGlnaHRibHVlIj5bU2VlIGFsc28gdGhlIHJlc3BvbnNlIGZyb20gRXhuZXIgYW5kIHJlcGx5IGJ5IFdvb2QgZXQgYWwuIG9uIHBwLiAxMeKAkzE3Ll08L21hcms+CgojIyMgUHN5Y2hvcGh5c2lvbG9naWNhbCBNZWFzdXJlcyBhbmQgUkRvQyB7I3NlY3Rpb24yNH0KCiMjIyMgPHU+U2VjdGlvbiAyNDwvdT4gey51bm51bWJlcmVkfQoKRHVib2lzLCBKLiwgJiBBZG9scGhzLCBSLiAoMjAxNikuIEJ1aWxkaW5nIGEgc2NpZW5jZSBvZiBpbmRpdmlkdWFsIGRpZmZlcmVuY2VzIGZyb20gZk1SSS4gKlRyZW5kcyBpbiBDb2duaXRpdmUgU2NpZW5jZXMsIDIwKig2KSwgNDI14oCTNDQzLiBodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLnRpY3MuMjAxNi4wMy4wMTQKPG1hcmsgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGxpZ2h0Ymx1ZSI+W1N0dWRlbnRzIG5vdCB3b3JraW5nIGluIGltYWdpbmcgY2FuIHNraXAgb3ZlciBtb3N0IG9mIHRoZSB0ZWNobmljYWwgZGV0YWlscyBpbiB0aGlzIGFydGljbGUuClJlYWQgaXQgYXMgYSBtb2RlbCBmb3IgdGFraW5nIG1lYXN1cmVtZW50IHNlcmlvdXNseSBpbiBhbiBlbWVyZ2luZyBhcmVhIG9mIGNsaW5pY2FsIHJlc2VhcmNoLl08L21hcms+Cgo8bWFyaz5IYXluZXMsIFMuIE4uLCAmIFlvc2hpb2thLCBELiBULiAoMjAwNykuIENsaW5pY2FsIGFzc2Vzc21lbnQgYXBwbGljYXRpb25zIG9mIGFtYnVsYXRvcnkgYmlvc2Vuc29ycy4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgMTkqKDEpLCA0NOKAkzU3LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xMDQwLTM1OTAuMTkuMS40NDwvbWFyaz4KCjxtYXJrPktvemFrLCBNLiBKLiwgJiBDdXRoYmVydCwgQi4gTi4gKDIwMTYpLiBUaGUgTklNSCByZXNlYXJjaCBkb21haW4gY3JpdGVyaWEgaW5pdGlhdGl2ZTogQmFja2dyb3VuZCwgaXNzdWVzLCBhbmQgcHJhZ21hdGljcy4gKlBzeWNob3BoeXNpb2xvZ3ksIDUzKigzKSwgMjg24oCTMjk3LiBodHRwczovL2RvaS5vcmcvMTAuMTExMS9wc3lwLjEyNTE4PC9tYXJrPgo8bWFyayBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogbGlnaHRibHVlIj5bU3R1ZGVudHMgYWxyZWFkeSBmYW1pbGlhciB3aXRoIFJEb0MgY2FuIHNraW0gdGhpcyBpbnRyb2R1Y3Rpb24uCk91ciBpbnRlcmVzdCBpcyBpbiBleGFtaW5pbmcgUkRvQyBmcm9tIGEgbWVhc3VyZW1lbnQgcGVyc3BlY3RpdmUuXTwvbWFyaz4KCk1hY05hbWFyYSwgQS4sICYgUGhhbiwgSy4gTC4gKDIwMTYpLiBQc3ljaG9iaW9sb2dpY2FsIG9wZXJhdGlvbmFsaXphdGlvbiBvZiBSRG9DIGNvbnN0cnVjdHM6IE1ldGhvZG9sb2dpY2FsIGFuZCBjb25jZXB0dWFsIG9wcG9ydHVuaXRpZXMgYW5kIGNoYWxsZW5nZXMuICpQc3ljaG9waHlzaW9sb2d5LCA1MyooMyksIDQwNuKAkzQwOS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMTEvcHN5cC4xMjU4NwoKTWlsbGVyLCBHLiBBLiwgUm9ja3N0cm9oLCBCLiBTLiwgSGFtaWx0b24sIEguIEsuLCAmIFllZSwgQy4gTS4gKDIwMTYpLiBQc3ljaG9waHlzaW9sb2d5IGFzIGEgY29yZSBzdHJhdGVneSBpbiBSRG9DLiAqUHN5Y2hvcGh5c2lvbG9neSwgNTMqKDMpLCA0MTDigJM0MTQuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTExL3BzeXAuMTI1ODEKCjxtYXJrPk1pbGxlciwgRy4gQS4sIEVsYmVydCwgVC4sIFN1dHRvbiwgQi4gUC4sICYgSGVsbGVyLCBXLiAoMjAwNykuIElubm92YXRpdmUgY2xpbmljYWwgYXNzZXNzbWVudCB0ZWNobm9sb2dpZXM6IENoYWxsZW5nZXMgYW5kIG9wcG9ydHVuaXRpZXMgaW4gbmV1cm9pbWFnaW5nLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAxOSooMSksIDU44oCTNzMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3LzEwNDAtMzU5MC4xOS4xLjU4PC9tYXJrPgoKXCpTdG9uZSwgQS4gQS4sIFNjaG5laWRlciwgUy4sICYgU215dGgsIEouIE0uICgyMDIzKS4gRXZhbHVhdGlvbiBvZiBwcmVzc2luZyBpc3N1ZXMgaW4gZWNvbG9naWNhbCBtb21lbnRhcnkgYXNzZXNzbWVudC4gKkFubnVhbCBSZXZpZXcgb2YgQ2xpbmljYWwgUHN5Y2hvbG9neSwgMTkqKDEpLCAxMDfigJMxMzEuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ2L2FubnVyZXYtY2xpbnBzeS0wODA5MjEtMDgzMTI4CgojIyMgQ29tcHV0ZXJzIGFuZCBBZGFwdGl2ZSBUZXN0aW5nIHsjc2VjdGlvbjI1fQoKIyMjIyA8dT5TZWN0aW9uIDI1PC91PiB7LnVubnVtYmVyZWR9Cgo8bWFyaz5CdWNoYW5hbiwgVC4gKDIwMDIpLiBPbmxpbmUgYXNzZXNzbWVudDogRGVzaXJhYmxlIG9yIGRhbmdlcm91cz8gKlByb2Zlc3Npb25hbCBQc3ljaG9sb2d5OiBSZXNlYXJjaCBhbmQgUHJhY3RpY2UsIDMzKigyKSwgMTQ44oCTMTU0LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wNzM1LTcwMjguMzMuMi4xNDg8L21hcms+CgpcKkdhbGF0emVyLUxldnksIEkuIFIuLCAmIE9ubmVsYSwgSi4tUC4gKDIwMjMpLiBNYWNoaW5lIGxlYXJuaW5nIGFuZCB0aGUgZGlnaXRhbCBtZWFzdXJlbWVudCBvZiBwc3ljaG9sb2dpY2FsIGhlYWx0aC4gKkFubnVhbCBSZXZpZXcgb2YgQ2xpbmljYWwgUHN5Y2hvbG9neSwgMTkqLCAxMzPigJMxNTQuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ2L2FubnVyZXYtY2xpbnBzeS0wODA5MjEtMDczMjEyCgpHYXJiLCBILiBOLiAoMjAwNykuIENvbXB1dGVyLWFkbWluaXN0ZXJlZCBpbnRlcnZpZXdzIGFuZCByYXRpbmcgc2NhbGVzLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAxOSooMSksIDTigJMxMy4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjE5LjEuNAoKUnVpeiwgTS4gQS4sIERyYWtlLCBFLiBCLiwgR2xhc3MsIEEuLCBNYXJjb3R0ZSwgRC4sICYgdmFuIEdvcnAsIFcuIEcuICgyMDAyKS4gVHJ5aW5nIHRvIGJlYXQgdGhlIHN5c3RlbTogTWlzdXNlIG9mIHRoZSBpbnRlcm5ldCB0byBhc3Npc3QgaW4gYXZvaWRpbmcgdGhlIGRldGVjdGlvbiBvZiBwc3ljaG9sb2dpY2FsIHN5bXB0b20gZGlzc2ltdWxhdGlvbi4gKlByb2Zlc3Npb25hbCBQc3ljaG9sb2d5OiBSZXNlYXJjaCBhbmQgUHJhY3RpY2UsIDMzKigzKSwgMjk04oCTMjk5LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wNzM1LTcwMjguMzMuMy4yOTQKCkZvcmJleSwgSi4gRC4sICYgQmVuLVBvcmF0aCwgWS4gUy4gKDIwMDcpLiBDb21wdXRlcml6ZWQgYWRhcHRpdmUgcGVyc29uYWxpdHkgdGVzdGluZzogQSByZXZpZXcgYW5kIGlsbHVzdHJhdGlvbiB3aXRoIHRoZSBNTVBJLTIgY29tcHV0ZXJpemVkIGFkYXB0aXZlIHZlcnNpb24uICpQc3ljaG9sb2dpY2FsIEFzc2Vzc21lbnQsIDE5KigxKSwgMTTigJMyNC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjE5LjEuMTQKCjxtYXJrPkdpYmJvbnMsIFIuIEQuLCBXZWlzcywgRC4gSi4sIEZyYW5rLCBFLiwgJiBLdXBmZXIsIEQuICgyMDE2KS4gQ29tcHV0ZXJpemVkIGFkYXB0aXZlIGRpYWdub3NpcyBhbmQgdGVzdGluZyBvZiBtZW50YWwgaGVhbHRoIGRpc29yZGVycy4gKkFubnVhbCBSZXZpZXcgb2YgQ2xpbmljYWwgUHN5Y2hvbG9neSwgMTIqKDEpLCA4M+KAkzEwNC4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDYvYW5udXJldi1jbGlucHN5LTAyMTgxNS0wOTM2MzQ8L21hcms+CgojIyBCZWhhdmlvcmFsIEFzc2Vzc21lbnQgeyNzZWN0aW9uMjZ9CgojIyMjIDx1PlNlY3Rpb24gMjY8L3U+IHsudW5udW1iZXJlZH0KCjxtYXJrPkdpcmFyZCwgSi4gTS4sICYgQ29obiwgSi4gRi4gKDIwMTYpLiBBIHByaW1lciBvbiBvYnNlcnZhdGlvbmFsIG1lYXN1cmVtZW50LiAqQXNzZXNzbWVudCwgMjMqKDQpLCA0MDTigJM0MTMuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTc3LzEwNzMxOTExMTY2MzU4MDc8L21hcms+Cgo8bWFyaz5IYXluZXMsIFMuIE4uICgyMDAxKS4gQ2xpbmljYWwgYXBwbGljYXRpb25zIG9mIGFuYWxvZ3VlIGJlaGF2aW9yYWwgb2JzZXJ2YXRpb246IERpbWVuc2lvbnMgb2YgcHN5Y2hvbWV0cmljIGV2YWx1YXRpb24uICpQc3ljaG9sb2dpY2FsIEFzc2Vzc21lbnQsIDEzKigxKSwgNzPigJM4NS4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjEzLjEuNzM8L21hcms+CgpLb3JvdGl0c2NoLCBXLiBKLiwgJiBOZWxzb24tR3JheSwgUi4gTy4gKDE5OTkpLiBBbiBvdmVydmlldyBvZiBzZWxmLW1vbml0b3JpbmcgcmVzZWFyY2ggaW4gYXNzZXNzbWVudCBhbmQgdHJlYXRtZW50LiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAxMSooNCksIDQxNeKAkzQyNS4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjExLjQuNDE1IAoKUGlhc2Vja2ksIFQuIE0uLCBIdWZmb3JkLCBNLiBSLiwgU29saGFuLCBNLiwgJiBUcnVsbCwgVC4gSi4gKDIwMDcpLiBBc3Nlc3NpbmcgY2xpZW50cyBpbiB0aGVpciBuYXR1cmFsIGVudmlyb25tZW50cyB3aXRoIGVsZWN0cm9uaWMgZGlhcmllczogUmF0aW9uYWxlLCBiZW5lZml0cywgbGltaXRhdGlvbnMsIGFuZCBiYXJyaWVycy4gKlBzeWNob2xvZ2ljYWwgQXNzZXNzbWVudCwgMTkqKDEpLCAyNeKAkzQzLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xMDQwLTM1OTAuMTkuMS4yNQoKIyMgUmVwZWF0ZWQgQXNzZXNzbWVudHMgYWNyb3NzIFRpbWUgeyNzZWN0aW9uMjd9CgojIyMjIDx1PlNlY3Rpb24gMjc8L3U+IHsudW5udW1iZXJlZH0KClNvYmVsbCwgTC4gQy4sICYgU29iZWxsLCBNLiBCLiAoMjAwOCkuIFRpbWVsaW5lIGZvbGxvd2JhY2sgKFRMRkIpLiBJbiBBLiBKLiBSdXNoIEpyLiwgTS4gQi4gRmlyc3QsICYgRC4gQmxhY2tlciAoRWRzLiksICpIYW5kYm9vayBvZiBwc3ljaGlhdHJpYyBtZWFzdXJlcyogKDJuZCBlZC4sIHBwLiA0NjbigJM0NjgpLiBBbWVyaWNhbiBQc3ljaGlhdHJpYyBQdWJsaXNoaW5nLiAKCjxtYXJrPkNhcnBlbnRlciwgUi4gVy4sIFd5Y29mZiwgQS4gTS4sICYgVHJ1bGwsIFQuIEouICgyMDE2KS4gQW1idWxhdG9yeSBhc3Nlc3NtZW50OiBOZXcgYWR2ZW50dXJlcyBpbiBjaGFyYWN0ZXJpemluZyBkeW5hbWljIHByb2Nlc3Nlcy4gKkFzc2Vzc21lbnQsIDIzKig0KSwgNDE04oCTNDI0LiBodHRwczovL2RvaS5vcmcvMTAuMTE3Ny8xMDczMTkxMTE2NjMyMzQxPC9tYXJrPgoKPG1hcms+TWF0dGhld3MsIE0uLCBBYmR1bGxhaCwgUy4sIE11cm5hbmUsIEUuLCBWb2lkYSwgUy4sIENob3VkaHVyeSwgVC4sIEdheSwgRy4sICYgRnJhbmssIEUuICgyMDE2KS4gRGV2ZWxvcG1lbnQgYW5kIGV2YWx1YXRpb24gb2YgYSBzbWFydHBob25lLWJhc2VkIG1lYXN1cmUgb2Ygc29jaWFsIHJoeXRobXMgZm9yIGJpcG9sYXIgZGlzb3JkZXIuICpBc3Nlc3NtZW50LCAyMyooNCksIDQ3MuKAkzQ4My4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNzcvMTA3MzE5MTExNjY1Njc5NDwvbWFyaz4KPG1hcmsgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGxpZ2h0Ymx1ZSI+W2EgY2FzZSBzdHVkeSBpbiBzZWxmLXJlcG9ydCBhY3Jvc3MgdGltZS4KU3BlY2lmaWNzIG9mIHRoZWlyIHN0dWR5IGFyZSBsZXNzIGltcG9ydGFudC5dPC9tYXJrPgoKIyMjIyA8dT5TZWN0aW9uIDI4PC91PiB7LnVubnVtYmVyZWQgI3NlY3Rpb24yOH0KCjxtYXJrPkhlcnR6b2csIEMuLCAmIE5lc3NlbHJvYWRlLCBKLiBSLiAoMjAwMykuIEFzc2Vzc2luZyBwc3ljaG9sb2dpY2FsIGNoYW5nZSBpbiBhZHVsdGhvb2Q6IEFuIG92ZXJ2aWV3IG9mIG1ldGhvZG9sb2dpY2FsIGlzc3Vlcy4gKlBzeWNob2xvZ3kgYW5kIEFnaW5nLCAxOCooNCksIDYzOeKAkzY1Ny4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDg4Mi03OTc0LjE4LjQuNjM5PC9tYXJrPgoKUGV0ZXJzZW4sIEkuIFQuLCBDaG9lLCBELiBFLiwgJiBMZUJlYXUsIEIuICgyMDIwKS4gU3R1ZHlpbmcgYSBtb3ZpbmcgdGFyZ2V0IGluIGRldmVsb3BtZW50OiBUaGUgY2hhbGxlbmdlIGFuZCBvcHBvcnR1bml0eSBvZiBoZXRlcm90eXBpYyBjb250aW51aXR5LiAqRGV2ZWxvcG1lbnRhbCBSZXZpZXcsIDU4KiwgMTAwOTM1LiBodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmRyLjIwMjAuMTAwOTM1CgpCZWx0eiwgQS4gTS4sIFdyaWdodCwgQS4gRy4gQy4sIFNwcmFndWUsIEIuIE4uLCAmIE1vbGVuYWFyLCBQLiBDLiBNLiAoMjAxNikuIEJyaWRnaW5nIHRoZSBub21vdGhldGljIGFuZCBpZGlvZ3JhcGhpYyBhcHByb2FjaGVzIHRvIHRoZSBhbmFseXNpcyBvZiBjbGluaWNhbCBkYXRhLiAqQXNzZXNzbWVudCwgMjMqKDQpLCA0NDfigJM0NTguIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTc3LzEwNzMxOTExMTY2NDgyMDkKPG1hcmsgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGxpZ2h0Ymx1ZSI+W2ZvY3VzIG9uIHRoZSBnZW5lcmFsIGlzc3VlcyBvZiBjb21iaW5pbmcgaWRpb2dyYXBoaWMgYW5kIG5vbW90aGV0aWMgZGF0YS4KWW91IGRvbid0IG5lZWQgdG8ga25vdyB0aGUgdGVjaG5pY2FsIGRldGFpbHMgb2YgdGhlaXIgR0lNTUUgbW9kZWwuXTwvbWFyaz4KCiMjIEFzc2Vzc21lbnQgb2YgQ29nbml0aW9uIHsjc2VjdGlvbjI5fQoKIyMjIyA8dT5TZWN0aW9uIDI5PC91PiB7LnVubnVtYmVyZWR9CgpcKkJ1c2VtZXllciwgSi4gUi4sICYgU3RvdXQsIEouIEMuICgyMDAyKS4gQSBjb250cmlidXRpb24gb2YgY29nbml0aXZlIGRlY2lzaW9uIG1vZGVscyB0byBjbGluaWNhbCBhc3Nlc3NtZW50OiBEZWNvbXBvc2luZyBwZXJmb3JtYW5jZSBvbiB0aGUgQmVjaGFyYSBnYW1ibGluZyB0YXNrLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAxNCooMyksIDI1M+KAkzI2Mi4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTA0MC0zNTkwLjE0LjMuMjUzCgo8bWFyaz5EdW5rbGV5LCBELiBNLiwgU2VnYWwsIFouIFYuLCAmIEJsYW5rc3RlaW4sIEsuIFIuICgyMDE5KS4gQ29nbml0aXZlIGFzc2Vzc21lbnQ6IElzc3VlcyBhbmQgbWV0aG9kcy4gSW4gSy4gUy4gRG9ic29uICYgRC4gSi4gQS4gRG96b2lzIChFZHMuKSwgKkhhbmRib29rIG9mIGNvZ25pdGl2ZS1iZWhhdmlvcmFsIHRoZXJhcGllcyogKDR0aCBlZC4sIHBwLiA4NeKAkzExOSkuIEd1aWxmb3JkIFByZXNzLjwvbWFyaz4KCkRhdmlzb24sIEcuIEMuLCBWb2dlbCwgUi4gUy4sICYgQ29mZm1hbiwgUy4gRy4gKDE5OTcpLiBUaGluay1hbG91ZCBhcHByb2FjaGVzIHRvIGNvZ25pdGl2ZSBhc3Nlc3NtZW50IGFuZCB0aGUgYXJ0aWN1bGF0ZWQgdGhvdWdodHMgaW4gc2ltdWxhdGVkIHNpdHVhdGlvbnMgcGFyYWRpZ20uICpKb3VybmFsIG9mIENvbnN1bHRpbmcgYW5kIENsaW5pY2FsIFBzeWNob2xvZ3ksIDY1Kig2KSwgOTUw4oCTOTU4LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8wMDIyLTAwNlguNjUuNi45NTAKCkh1cmxidXJ0LCBSLiBULiAoMTk5NykuIFJhbmRvbWx5IHNhbXBsaW5nIHRoaW5raW5nIGluIHRoZSBuYXR1cmFsIGVudmlyb25tZW50LiAqSm91cm5hbCBvZiBDb25zdWx0aW5nIGFuZCBDbGluaWNhbCBQc3ljaG9sb2d5LCA2NSooNiksIDk0MeKAkzk0OS4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMDAyMi0wMDZYLjY1LjYuOTQxIAoKPG1hcms+Um9kZWJhdWdoLCBULiBMLiwgU2N1bGxpbiwgUi4gQi4sIExhbmdlciwgSi4gSy4sIERpeG9uLCBELiBKLiwgSHVwcGVydCwgSi4gRC4sIEJlcm5zdGVpbiwgQS4sIFp2aWVsbGksIEEuLCAmIExlbnplLCBFLiBKLiAoMjAxNikuIFVucmVsaWFiaWxpdHkgYXMgYSB0aHJlYXQgdG8gdW5kZXJzdGFuZGluZyBwc3ljaG9wYXRob2xvZ3k6IFRoZSBjYXV0aW9uYXJ5IHRhbGUgb2YgYXR0ZW50aW9uYWwgYmlhcy4gKkpvdXJuYWwgb2YgQWJub3JtYWwgUHN5Y2hvbG9neSwgMTI1Kig2KSwgODQw4oCTODUxLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy9hYm4wMDAwMTg0PC9tYXJrPgoKVHJlYXQsIFQuIEEuLCBNY0ZhbGwsIFIuIE0uLCBWaWtlbiwgUi4gSi4sIEtydXNjaGtlLCBKLiBLLiwgTm9zb2Zza3ksIFIuIE0uLCAmIFdhbmcsIFMuIFMuICgyMDA3KS4gQ2xpbmljYWwgY29nbml0aXZlIHNjaWVuY2U6IEFwcGx5aW5nIHF1YW50aXRhdGl2ZSBtb2RlbHMgb2YgY29nbml0aXZlIHByb2Nlc3NpbmcgdG8gZXhhbWluZSBjb2duaXRpdmUgYXNwZWN0cyBvZiBwc3ljaG9wYXRob2xvZ3kuIEluIFIuIFcuIEouIE5ldWZlbGQgKEVkLiksICpBZHZhbmNlcyBpbiBjbGluaWNhbCBjb2duaXRpdmUgc2NpZW5jZTogRm9ybWFsIG1vZGVsaW5nIG9mIHByb2Nlc3NlcyBhbmQgc3ltcHRvbXMqIChwcC4gMTc54oCTMjA1KS4gQW1lcmljYW4gUHN5Y2hvbG9naWNhbCBBc3NvY2lhdGlvbi4gaHR0cHM6Ly9kb2kub3JnLzEwLjEwMzcvMTE1NTYtMDA2Cgo8L2Rpdj4KCiMjIEN1bHR1cmFsIGFuZCBJbmRpdmlkdWFsIERpdmVyc2l0eSB7I3NlY3Rpb24zMH0KCiMjIyMgPHU+U2VjdGlvbiAzMDwvdT4gey51bm51bWJlcmVkfQoKPG1hcmsgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGxpZ2h0Ymx1ZSI+SXQgbWF5IGJlIGhlbHBmdWwgdG8gcmV2aWV3IHRoZSB0aHJlZSBTYWNrZXR0IHBhcGVycyBhbmQgdGhlIENvbGUgcGFwZXIgZnJvbSB0aGUgSW50ZWxsZWN0dWFsIEFzc2Vzc21lbnQgc2VjdGlvbi4KQWxzbyByZXZpZXcgcmVsZXZhbnQgc2VjdGlvbnMgb2YgdGhlIEFQQSBTdGFuZGFyZHMgZm9yIEVkdWNhdGlvbmFsIGFuZCBQc3ljaG9sb2dpY2FsIFRlc3RpbmcgZnJvbSB0aGUgVmFsaWRpdHkgc2VjdGlvbi48L21hcms+Cgo8ZGl2IHN0eWxlPSJ0ZXh0LWluZGVudDogLTQwcHg7IHBhZGRpbmctbGVmdDogNDBweDsiPgoKQnlyZCwgRC4gQS4sIFJpdmVyYSBNaW5kdCwgTS4gTS4sIENsYXJrLCBVLiBTLiwgQ2xhcmtlLCBZLiwgVGhhbWVzLCBBLiBELiwgR2FtbWFkYSwgRS4gWi4sICYgTWFubHksIEouIEouICgyMDIxKS4gQ3JlYXRpbmcgYW4gYW50aXJhY2lzdCBwc3ljaG9sb2d5IGJ5IGFkZHJlc3NpbmcgcHJvZmVzc2lvbmFsIGNvbXBsaWNpdHkgaW4gcHN5Y2hvbG9naWNhbCBhc3Nlc3NtZW50LiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCAzMyooMyksIDI3OS0yODUuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDM3L3BhczAwMDA5OTMKCjxtYXJrPk9rYXpha2ksIFMuLCAmIFN1ZSwgUy4gKDE5OTUpLiBNZXRob2RvbG9naWNhbCBpc3N1ZXMgaW4gYXNzZXNzbWVudCByZXNlYXJjaCB3aXRoIGV0aG5pYyBtaW5vcml0aWVzLiAqUHN5Y2hvbG9naWNhbCBBc3Nlc3NtZW50LCA3KigzKSwgMzY34oCTMzc1LiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xMDQwLTM1OTAuNy4zLjM2NzwvbWFyaz4KCkdhcmIsIEguIE4uICgxOTk3KS4gUmFjZSBiaWFzLCBzb2NpYWwgY2xhc3MgYmlhcywgYW5kIGdlbmRlciBiaWFzIGluIGNsaW5pY2FsIGp1ZGdtZW50LiAqQ2xpbmljYWwgUHN5Y2hvbG9neTogU2NpZW5jZSBhbmQgUHJhY3RpY2UsIDQqKDIpLCA5OeKAkzEyMC4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMTEvai4xNDY4LTI4NTAuMTk5Ny50YjAwMTA0LngKCkxlb25nLCBGLiBULiBMLiwgJiBLYWxpYmF0c2V2YSwgWi4gKDIwMTYpLiBUaHJlYXRzIHRvIGN1bHR1cmFsIHZhbGlkaXR5IGluIGNsaW5pY2FsIGRpYWdub3NpcyBhbmQgYXNzZXNzbWVudDogSWxsdXN0cmF0ZWQgd2l0aCB0aGUgY2FzZSBvZiBBc2lhbiBBbWVyaWNhbnMuIEluIE4uIFphbmUsIEcuIEJlcm5hbCwgJiBGLiBULiBMLiBMZW9uZyAoRWRzLiksICpFdmlkZW5jZS1iYXNlZCBwc3ljaG9sb2dpY2FsIHByYWN0aWNlIHdpdGggZXRobmljIG1pbm9yaXRpZXM6IEN1bHR1cmFsbHkgaW5mb3JtZWQgcmVzZWFyY2ggYW5kIGNsaW5pY2FsIHN0cmF0ZWdpZXMqIChwcC4gNTfigJM3NCkuIEFtZXJpY2FuIFBzeWNob2xvZ2ljYWwgQXNzb2NpYXRpb24uCgo8bWFyaz5TdXp1a2ksIEwuIEEuLCBPbm91ZSwgTS4gQS4sICYgSGlsbCwgSi4gUy4gKDIwMTMpLiBDbGluaWNhbCBhc3Nlc3NtZW50OiBBIG11bHRpY3VsdHVyYWwgcGVyc3BlY3RpdmUuIEluIEsuIEYuIEdlaXNpbmdlciwgSi4gRi4gQ2FybHNvbiwgSi4tSS4gQy4gSGFuc2VuLCBOLiBSLiBLdW5jZWwsIFMuIFAuIFJlaXNlLCAmIE0uIEMuIFJvZHJpZ3VleiAoRWRzLiksICpBUEEgaGFuZGJvb2sgb2YgdGVzdGluZyBhbmQgYXNzZXNzbWVudCBpbiBwc3ljaG9sb2d5KiAoVm9sLiAyOiBUZXN0aW5nIGFuZCBhc3Nlc3NtZW50IGluIGNsaW5pY2FsIGFuZCBjb3Vuc2VsaW5nIHBzeWNob2xvZ3ksIHBwLiAxOTPigJMyMTIpLiBBbWVyaWNhbiBQc3ljaG9sb2dpY2FsIEFzc29jaWF0aW9uLiBodHRwczovL2RvaS5vcmcvMTAuMTAzNy8xNDA0OC0wMTI8L21hcms+Cgo8L2Rpdj4KCiMgR3JhZGluZyB7I2dyYWRpbmd9CgpGaW5hbCBncmFkZXMgd2lsbCBiZSBhc3NpZ25lZCBhdCB0aGUgZW5kIG9mIHRoZSBzZW1lc3RlciBvbiB0aGUgYmFzaXMgb2YgeW91ciB0b3RhbCBwZXJjZW50YWdlIG9mIHBvaW50cyBlYXJuZWQgb24gZXhhbWluYXRpb25zIGFuZCB5b3VyIGZpbmFsIHBhcGVyLgpHcmFkZXMgd2lsbCBiZSBhc3NpZ25lZCBvbiBhbiBhYnNvbHV0ZSBzY2FsZSAoY3JpdGVyaW9uLXJlZmVyZW5jZWQgZ3JhZGluZzsgc2VlIGJlbG93KTsgY291cnNlIGdyYWRlcyB3aWxsIG5vdCBiZSBjdXJ2ZWQuCk5vIGV4dHJhLWNyZWRpdCBvcHBvcnR1bml0aWVzIGFyZSBhdmFpbGFibGUgZm9yIHRoaXMgY291cnNlLgpQbGVhc2Ugbm90ZTogQXMgYSBtYXR0ZXIgb2YgZmFpcm5lc3MgdG8gYWxsIHN0dWRlbnRzLCBJIGFzc2lnbiBncmFkZXMgYmFzZWQgb24gcGVyZm9ybWFuY2UgYW5kIGRvIG5vdCBuZWdvdGlhdGUgZ3JhZGVzLgpBZGRpdGlvbmFsbHksIGEgcGVuYWx0eSBvZiAyMCUgcGVyIGRheSB3aWxsIGJlIGFwcGxpZWQgdG8gYWxsIGFzc2lnbm1lbnRzIHR1cm5lZCBpbiBsYXRlLgpGaW5hbCBncmFkZXMgd2lsbCBiZSBhc3NpZ25lZCBiYXNlZCBvbiB0aGUgZm9sbG93aW5nIHJhbmdlczoKCnwgR3JhZGUgfCBQZXJjZW50IHwKfDotLS0tLS18Oi0tLS0tLS0tfAp8IEErICAgIHwgOTfigJMxMDAlIHwKfCBBICAgICB8IDkz4oCTOTYgICB8CnwgQS0gICAgfCA5MOKAkzkyICAgfAp8IEIrICAgIHwgODfigJM4OSAgIHwKfCBCICAgICB8IDgz4oCTODYgICB8CnwgQi0gICAgfCA4MOKAkzgyICAgfAp8IEMrICAgIHwgNzfigJM3OSAgIHwKfCBDICAgICB8IDcz4oCTNzYgICB8CnwgQy0gICAgfCA3MOKAkzcyICAgfAp8IEQrICAgIHwgNjfigJM2OSAgIHwKfCBEICAgICB8IDYz4oCTNjYgICB8CnwgRC0gICAgfCA2MOKAkzYyICAgfAp8IEYgICAgIHwgMOKAkzU5ICAgIHwKClRoZSByZWxhdGl2ZSBjb250cmlidXRpb24gb2YgZWFjaCBjb21wb25lbnQgdG8geW91ciBmaW5hbCBncmFkZSBpcyBhcyBmb2xsb3dzOgoKLSAzMCUgICBFeGFtIDEgKE1pZC1UZXJtKQotIDQwJSAgIEV4YW0gMiAoRmluYWwpCi0gMzAlICAgRmluYWwgUGFwZXIKCiMgVGVudGF0aXZlIENvdXJzZSBPdXRsaW5lIChleGFtIGRhdGVzIGZpeGVkKSB7I291dGxpbmV9CgpUaGlzIGlzIGEgKnRlbnRhdGl2ZSogY291cnNlIG91dGxpbmUuCkNoYW5nZXMgd2lsbCBiZSBkaXNjdXNzZWQgaW4gY2xhc3MuClRoZXJlIGFyZSAxNSB3ZWVrcyBpbiB0aGUgc2VtZXN0ZXIsIGFuZCBjbGFzcyBtZWV0cyB0d2ljZSBwZXIgd2VlayAoMzAgc2VjdGlvbnMpLgpXZSB3aWxsIGhhdmUgb25lIGV4YW0gZHVyaW5nIHRoZSBzZW1lc3RlciBhbmQgb25lIGZpbmFsIGV4YW0gZHVyaW5nIGZpbmFscyB3ZWVrLgoKfCAqKlNlY3Rpb24qKiAgICAgIHwgKipEYXkqKiB8ICoqRGF0ZSoqIHwgKipDb250ZW50KiogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8Oi0tLS0tLS0tLS0tLS0tLS0tfDotLS0tLS0tLXw6LS0tLS0tLS0tfDotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18CnwgWzFdKCNzZWN0aW9uMSkgICB8IFQgICAgICAgfCAwMS8xNiAgICB8IE92ZXJ2aWV3IG9mIENsYXNzOyBDbGluaWNhbCBTY2llbmNlIGFuZCB0aGUgUmVwbGljYXRpb24gQ3Jpc2lzIHwKfCBbMl0oI3NlY3Rpb24yKSAgIHwgVGggICAgICB8IDAxLzE4ICAgIHwgUmVsaWFiaWxpdHkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFszXSgjc2VjdGlvbjMpICAgfCBUICAgICAgIHwgMDEvMjMgICAgfCBSZWxpYWJpbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzRdKCNzZWN0aW9uNCkgICB8IFRoICAgICAgfCAwMS8yNSAgICB8IFZhbGlkaXR5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbNV0oI3NlY3Rpb241KSAgIHwgVCAgICAgICB8IDAxLzMwICAgIHwgVmFsaWRpdHkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFs2XSgjc2VjdGlvbjYpICAgfCBUaCAgICAgIHwgMDIvMDEgICAgfCBTdHJ1Y3R1cmFsIEVxdWF0aW9uIE1vZGVsaW5nIChTRU0pICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzddKCNzZWN0aW9uNykgICB8IFQgICAgICAgfCAwMi8wNiAgICB8IEl0ZW0gUmVzcG9uc2UgVGhlb3J5IChJUlQpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbOF0oI3NlY3Rpb244KSAgIHwgVGggICAgICB8IDAyLzA4ICAgIHwgUHJlZGljdGlvbiBCYXNpY3MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFs5XSgjc2VjdGlvbjkpICAgfCBUICAgICAgIHwgMDIvMTMgICAgfCBTaWduYWwgRGV0ZWN0aW9uIFRoZW9yeSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzEwXSgjc2VjdGlvbjEwKSB8IFRoICAgICAgfCAwMi8xNSAgICB8IENsaW5pY2FsIEp1ZGdtZW50IHZzLiBBbGdvcml0aG1pYyBQcmVkaWN0aW9uICAgICAgICAgICAgICAgICAgIHwKfCBbMTFdKCNzZWN0aW9uMTEpIHwgVCAgICAgICB8IDAyLzIwICAgIHwgR2VuZXJhbCBJc3N1ZXMgaW4gQ2xpbmljYWwgQXNzZXNzbWVudCAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsxMl0oI3NlY3Rpb24xMikgfCBUaCAgICAgIHwgMDIvMjIgICAgfCBFdmlkZW5jZS1CYXNlZCBBc3Nlc3NtZW50ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzEzXSgjc2VjdGlvbjEzKSB8IFQgICAgICAgfCAwMi8yNyAgICB8IEV0aGljYWwgSXNzdWVzIGluIEFzc2Vzc21lbnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMTRdKCNzZWN0aW9uMTQpIHwgVGggICAgICB8IDAyLzI5ICAgIHwgKipNaWR0ZXJtIEV4YW0qKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsxNV0oI3NlY3Rpb24xNSkgfCBUICAgICAgIHwgMDMvMDUgICAgfCBJbnRlbGxlY3R1YWwgQXNzZXNzbWVudCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzE2XSgjc2VjdGlvbjE2KSB8IFRoICAgICAgfCAwMy8wNyAgICB8IEludGVsbGVjdHVhbCBBc3Nlc3NtZW50ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAgICAgICAgICAgICAgICAgIHwgVCAgICAgICB8IDAzLzEyICAgIHwgU3ByaW5nIEJyZWFrISAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8ICAgICAgICAgICAgICAgICAgfCBUaCAgICAgIHwgMDMvMTQgICAgfCBTcHJpbmcgQnJlYWshICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzE3XSgjc2VjdGlvbjE3KSB8IFQgICAgICAgfCAwMy8xOSAgICB8IEJpYXMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMThdKCNzZWN0aW9uMTgpIHwgVGggICAgICB8IDAzLzIxICAgIHwgQmlhcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsxOV0oI3NlY3Rpb24xOSkgfCBUICAgICAgIHwgMDMvMjYgICAgfCBUaGUgSW50ZXJ2aWV3IGFuZCB0aGUgRFNNICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzIwXSgjc2VjdGlvbjIwKSB8IFRoICAgICAgfCAwMy8yOCAgICB8IE9iamVjdGl2ZSBQZXJzb25hbGl0eSBUZXN0aW5nICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMjFdKCNzZWN0aW9uMjEpIHwgVCAgICAgICB8IDA0LzAyICAgIHwgT2JqZWN0aXZlIFBlcnNvbmFsaXR5IFRlc3RpbmcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsyMl0oI3NlY3Rpb24yMikgfCBUaCAgICAgIHwgMDQvMDQgICAgfCBPYmplY3RpdmUgUGVyc29uYWxpdHkgVGVzdGluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzIzXSgjc2VjdGlvbjIzKSB8IFQgICAgICAgfCAwNC8wOSAgICB8IFByb2plY3RpdmUgUGVyc29uYWxpdHkgVGVzdGluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMjRdKCNzZWN0aW9uMjQpIHwgVGggICAgICB8IDA0LzExICAgIHwgUHN5Y2hvcGh5c2lvbG9naWNhbCBNZWFzdXJlcyBhbmQgUkRvQyAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsyNV0oI3NlY3Rpb24yNSkgfCBUICAgICAgIHwgMDQvMTYgICAgfCBDb21wdXRlcnMgYW5kIEFkYXB0aXZlIFRlc3RpbmcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzI2XSgjc2VjdGlvbjI2KSB8IFRoICAgICAgfCAwNC8xOCAgICB8IEJlaGF2aW9yYWwgQXNzZXNzbWVudCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMjddKCNzZWN0aW9uMjcpIHwgVCAgICAgICB8IDA0LzIzICAgIHwgUmVwZWF0ZWQgQXNzZXNzbWVudHMgYWNyb3NzIFRpbWUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFsyOF0oI3NlY3Rpb24yOCkgfCBUaCAgICAgIHwgMDQvMjUgICAgfCBSZXBlYXRlZCBBc3Nlc3NtZW50cyBhY3Jvc3MgVGltZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgWzI5XSgjc2VjdGlvbjI5KSB8IFQgICAgICAgfCAwNC8zMCAgICB8IEFzc2Vzc21lbnQgb2YgQ29nbml0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBbMzBdKCNzZWN0aW9uMzApIHwgVGggICAgICB8IDA1LzAyICAgIHwgQ3VsdHVyYWwgYW5kIEluZGl2aWR1YWwgRGl2ZXJzaXR5OyAqKkZpbmFsIHBhcGVyIGR1ZSEqKiAgICAgICAgfAp8IEZpbmFscyBXZWVrICAgICAgfCAgICAgICAgIHwgVEJEICh3ZWVrIG9mIDUvNikgfCAqKkZpbmFsIEV4YW0qKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CiAgICAKIyBEYXRlIGFuZCBUaW1lIG9mIHRoZSBGaW5hbCBFeGFtIHsjZmluYWxFeGFtfQoKVGhlIGZpbmFsIGV4YW1pbmF0aW9uIGRhdGUgYW5kIHRpbWUgd2lsbCBiZSBhbm5vdW5jZWQgYnkgdGhlIFJlZ2lzdHJhciBnZW5lcmFsbHkgYnkgdGhlIGZpZnRoIHdlZWsgb2YgY2xhc3NlcyBhbmQgaXQgd2lsbCBiZSBhbm5vdW5jZWQgb24gdGhlIGNvdXJzZSBJQ09OIHNpdGUgb25jZSBpdCBpcyBrbm93bi4KPHU+RG8gbm90IHBsYW4geW91ciBlbmQgb2YgdGhlIHNlbWVzdGVyIHRyYXZlbCBwbGFucyB1bnRpbCB0aGUgZmluYWwgZXhhbSBzY2hlZHVsZSBpcyBtYWRlIHB1YmxpYy4KSXQgaXMgeW91ciByZXNwb25zaWJpbGl0eSB0byBrbm93IHRoZSBkYXRlLCB0aW1lLCBhbmQgcGxhY2Ugb2YgdGhlIGZpbmFsIGV4YW0uPC91PgpBY2NvcmRpbmcgdG8gUmVnaXN0cmFyJ3MgZmluYWwgZXhhbSBwb2xpY3ksIHN0dWRlbnRzIDx1PmhhdmUgYSBtYXhpbXVtIG9mIHR3byB3ZWVrcyBhZnRlciB0aGUgYW5ub3VuY2VkIGZpbmFsIGV4YW0gc2NoZWR1bGU8L3U+IHRvIHJlcXVlc3QgYSBjaGFuZ2UgaWYgYW4gZXhhbSBjb25mbGljdCBleGlzdHMgb3IgaWYgYSBzdHVkZW50IGhhcyBtb3JlIHRoYW4gdHdvIGV4YW1zIGluIG9uZSBkYXkgKHNlZSB0aGUgW3BvbGljeV0oaHR0cHM6Ly9yZWdpc3RyYXIudWlvd2EuZWR1L21ha2V1cC1maW5hbC1leGFtaW5hdGlvbi1wb2xpY2llcykgaGVyZSkuCgojIENvdXJzZSBSZXNvdXJjZXMgeyNjb3Vyc2VSZXNvdXJjZXN9CgpUaGVyZSBhcmUgbWFueSBjb3Vyc2UgcmVzb3VyY2VzIGF2YWlsYWJsZSB0byBoZWxwIHlvdSBzdWNjZWVkIGluIHRoZSBjbGFzcywgaW5jbHVkaW5nOgoKLSBMZWN0dXJlcwotIExlY3R1cmUgc2xpZGVzCi0gW0xlY3R1cmUgcmVjb3JkaW5nc10oI3JlY29yZGluZ3MpCi0gW1JlYWRpbmdzXSgjYXJ0aWNsZXMpCi0gW0NvbXBhbmlvbiBib29rXSgjdGV4dGJvb2spCi0gW1N1cHBsZW1lbnRhbCByZXNvdXJjZXNdKCNzdXBwbGVtZW50YWwpCi0gRGlzY3Vzc2lvbnMgb24gW0lDT05dKGh0dHBzOi8vaWNvbi51aW93YS5lZHUpCi0gT2ZmaWNlIGhvdXJzCi0gUGVlciBzdHVkeSBncm91cHMKLSB0aGUgVUkgW1dyaXRpbmcgQ2VudGVyXShodHRwczovL3dyaXRpbmdjZW50ZXIudWlvd2EuZWR1KQotIFR1dG9yIElvd2E6IGh0dHBzOi8vdHV0b3IudWlvd2EuZWR1CgojIEhvdyB0byBTdHVkeSBmb3IgdGhpcyBDbGFzcyB7I2hvd1RvU3R1ZHl9CgpUbyBzdHVkeSBmb3IgdGhpcyBjbGFzcywgbXkgc3VnZ2VzdGlvbnMgYXJlOgoKMS4gUmVhZCB0aGUgW2Fzc2lnbmVkIHJlYWRpbmdzXSgjYXJ0aWNsZXMpICpiZWZvcmUqIGVhY2ggY2xhc3MuCldlIGhhdmUgbG90cyBvZiBjb250ZW50IHRvIGNvdmVyLCBhbmQgdGhlIGxlY3R1cmVzIHdpbGwgbW92ZSBxdWlja2x5LgpUaHVzLCBkb2luZyB0aGUgcmVsZXZhbnQgcmVhZGluZ3MgKmJlZm9yZSogZWFjaCBjbGFzcyB3aWxsIGhlbHAgeW91IGJlc3QgY29tZSBwcmVwYXJlZCB0byBsZWFybiB0aGUgbWF0ZXJpYWwgcHJlc2VudGVkIGluIGNsYXNzLgoyLiBUYWtlIGdvb2Qgbm90ZXMgd2hpbGUgZG9pbmcgdGhlIFthc3NpZ25lZCByZWFkaW5nc10oI2FydGljbGVzKS4KQWZ0ZXIgcmVhZGluZyBlYWNoIGFydGljbGUsIGxlYXZlIGEgZmV3IGJ1bGxldCBwb2ludHMgYXQgdGhlIHRvcCBvZiB0aGUgYXJ0aWNsZSByZWdhcmRpbmcgdGhlIGtleSBwb2ludHMgYW5kIHRha2UtYXdheSBtZXNzYWdlcyBmcm9tIHRoZSBhcnRpY2xlLgpUaGF0IHdheSwgd2hlbiB5b3UgZ28gYmFjayBhbmQgcmV2aWV3IGl0LCB0aGUga2V5IGlkZWFzIHdpbGwgcmVmcmVzaCB5b3VyIG1lbW9yeSBhbmQgd2lsbCBoZWxwIHlvdSBtYWtlIHRoZSByZWxldmFudCBjb25uZWN0aW9ucyB0byB0aGUgcmVzdCBvZiB5b3VyIG5vdGVzIG9uIHRoZSBhcnRpY2xlIGFuZCB0byB0aGUgcG9pbnRzIGRpc2N1c3NlZCBpbiBsZWN0dXJlLgoxLiBBZnRlciBkb2luZyB0aGUgW2Fzc2lnbmVkIHJlYWRpbmdzXSgjYXJ0aWNsZXMpIGFuZCBiZWZvcmUgY2xhc3MgcGVyaW9kLCByZXZpZXcgeW91ciBub3RlcyBhbmQgdHJ5IHRvIGRldGVybWluZSB3aGF0IGFyZSB0aGUga2V5IG1lc3NhZ2VzIGludGVuZGVkIHRvIGNvbnZleWVkIGJ5IHRoZSBjb2xsZWN0aW9uIG9mIHJlYWRpbmdzLgpUaGUgd2lsbCBzZXQgeW91IHVwIHRvIGJlIGluIHRoZSBiZXN0IHBvc2l0aW9uIHRvIGFjcXVpcmUgdGhlIG1hdGVyaWFsIGNvdmVyZWQgaW4gbGVjdHVyZS4KMS4gVGFrZSBnb29kIG5vdGVzIGluIGNsYXNzLgoxLiBJZiBzb21ldGhpbmcgaXMgdW5jbGVhciBhYm91dCB0aGUgcmVhZGluZyBvciBhYm91dCBhIHBvaW50IGRpc2N1c3NlZCBpbiBsZWN0dXJlLCBmZWVsIGZyZWUgdG8gY29uc3VsdCB0aGUgW2NvbXBhbmlvbiBib29rXSgjdGV4dGJvb2spLCB0byByZXZpZXcgdGhlIFtsZWN0dXJlIHJlY29yZGluZ10oI3JlY29yZGluZ3MpLCBvciB0byBhc2sgcXVlc3Rpb25zIGR1cmluZyBvciBhZnRlciBjbGFzcywgb3IgaW4gb2ZmaWNlIGhvdXJzLgpEb24ndCBzdHJ1Z2dsZSBpbiBzaWxlbmNlIQoxLiBBcyB5b3UgcHJlcGFyZSBmb3IgdGhlIGV4YW0sIHJldmlldyB0aGUgbWF0ZXJpYWwgY292ZXJlZCBieSBlYWNoIGFydGljbGUgYW5kIGxlY3R1cmUuCklmIHRoZXJlIGlzIGFuIGV4YW0gcmV2aWV3IG9yIGV4YW1wbGUgc3R1ZHkgcXVlc3Rpb25zLCBtYWtlIHN1cmUgdG8gcmV2aWV3IHRob3NlIGNsb3NlbHkuClRoZSBleGFtIHJldmlldyBwcmVzZW50cyBzb21lIG9mIHRoZSBrZXkgdGFrZS1hd2F5IG1lc3NhZ2VzIGZyb20gZWFjaCBsZWN0dXJlIGFuZCB0aHVzIHJlcHJlc2VudHMgcHJpbWUgbWF0ZXJpYWwgZm9yIGV4YW0gcXVlc3Rpb25zLgpUaGUgZXhhbXBsZSBzdHVkeSBxdWVzdGlvbnMgYXJlIE5PVCBjb21wcmVoZW5zaXZlIGFuZCBhcmUgTk9UIG5lY2Vzc2FyaWx5IHRoZSBzYW1lIHF1ZXN0aW9ucyB0aGF0IHdpbGwgYmUgYXNrZWQgb24gdGhlIGV4YW0sIGJ1dCB0aGV5IHNob3VsZCBnaXZlIHlvdSBhIHNlbnNlIG9mIHRoZSBzdHlsZSBpbiB3aGljaCBxdWVzdGlvbnMgbWF5IGJlIGFza2VkLgpJZiB0aGVyZSBpcyBhIHF1ZXN0aW9uIHlvdSBkbyBub3Qga25vdyB0aGUgZnVsbCBhbnN3ZXIgdG8sIHRoYXQgaXMgYSBjbHVlIHRoYXQgeW91IG5lZWQgdG8gc3R1ZHkgdGhhdCB0b3BpYyBtb3JlIGNsb3NlbHkuCjEuIEkgc3Ryb25nbHkgZW5jb3VyYWdlIHlvdSB0byBzdHVkeSB3aXRoIHlvdXIgcGVlcnMuClN0dWR5aW5nIHdpdGggeW91ciBwZWVycyBoZWxwcyBnaXZlIHlvdSBhIHNlbnNlIGFib3V0IHRoZSB0b3BpY3Mgd2hlcmUgeW91IGZlZWwgc3Ryb25nZXIgYW5kIHRoZSB0b3BpY3Mgd2hlcmUgeW91IGZlZWwgd2Vha2VyIChhbmQgbmVlZCB0byBzdHVkeSBtb3JlKS4KSXQgaGVscHMgYm90aCBwZWVycyBpbiB0aGUgZXhjaGFuZ2Ugd2hlbiBvbmUgcGVlciBleHBsYWlucyBhIHRvcGljIHRvIGFub3RoZXIuCkluIGFkZGl0aW9uIHRvIGhlbHBpbmcgdGhlIGxpc3RlbmluZyBzdHVkZW50IGxlYXJuLCBwZWVyIGluc3RydWN0aW9uIGFsc28gaGVscHMgdGhlIGV4cGxhaW5pbmcgc3R1ZGVudCB2aWEgY29uc29saWRhdGlvbiBvZiB0aGUgc3R1ZGVudCdzIGtub3dsZWRnZS4KVGhlcmUgaXMgYSBkaWZmZXJlbmNlIGJldHdlZW4gImtub3dpbmcgc29tZXRoaW5nIiBhbmQgImtub3dpbmcgaXQgKndlbGwqLiIKRXhwbGFpbmluZyBhIHRvcGljIHRvIHNvbWVvbmUgZWxzZSBoZWxwcyB5b3UgZmlndXJlIG91dCB3aGVyZSB5b3VyIGtub3dsZWRnZSBnYXBzIGFyZSBhbmQgY2FuIGhlbHAgeW91IG1ha2Ugc3VyZSB5b3UgdW5kZXJzdGFuZCB0aGUgdG9waWMgKndlbGwqLgpBZGRpdGlvbmFsbHksIHN0dWR5aW5nIGJ5IGV4cGxhaW5pbmcgdG9waWNzIHRvIG90aGVycyBhbGlnbnMgbW9yZSBjbG9zZWx5IHdpdGggdGhlIGV4YW0gZm9ybWF0IChzaG9ydCBhbnN3ZXIvZXNzYXkpLCB3aGljaCBkZW1hbmRzIHJlY2FsbCByYXRoZXIgdGhhbiBtZXJlIHJlY29nbml0aW9u4oCUcmVjb2duaXRpb24gYWxvbmUgYmVpbmcgdHlwaWNhbGx5IGFkZXF1YXRlIGZvciBtdWx0aXBsZS1jaG9pY2UgZXhhbXMuCjEuIENvbWUgdG8gb2ZmaWNlIGhvdXJzIGlmIHlvdSBzdGlsbCBoYXZlIHF1ZXN0aW9ucyEKCiMgRHJvcCBEZWFkbGluZSBmb3IgdGhpcyBDb3Vyc2UgeyNkcm9wRGVhZGxpbmV9CgpZb3UgbWF5IGRyb3AgYW4gaW5kaXZpZHVhbCBjb3Vyc2UgYmVmb3JlIHRoZSBkZWFkbGluZTsgYWZ0ZXIgdGhpcyBkZWFkbGluZSB5b3Ugd2lsbCBuZWVkIGNvbGxlZ2lhdGUgYXBwcm92YWwuCllvdSBjYW4gbG9vayB1cCB0aGUgW2Ryb3AgZGVhZGxpbmUgZm9yIHRoaXMgY291cnNlXShodHRwczovL3JlZ2lzdHJhci51aW93YS5lZHUvY291cnNlLWRlYWRsaW5lcykgaGVyZS4KV2hlbiB5b3UgZHJvcCBhIGNvdXJzZSwgYSAiVyIgd2lsbCBhcHBlYXIgb24geW91ciB0cmFuc2NyaXB0LgpUaGUgbWFyayBvZiAiVyIgaXMgYSBuZXV0cmFsIG1hcmsgdGhhdCBkb2VzIG5vdCBhZmZlY3QgeW91ciBHUEEuCkRpcmVjdGlvbnMgZm9yIGFkZGluZyBvciBkcm9wcGluZyBhIGNvdXJzZSBhbmQgb3RoZXIgcmVnaXN0cmF0aW9uIGNoYW5nZXMgY2FuIGJlIGZvdW5kIG9uIHRoZSBbUmVnaXN0cmFyJ3Mgd2Vic2l0ZV0oaHR0cHM6Ly9yZWdpc3RyYXIudWlvd2EuZWR1L2NoYW5nZS1yZWdpc3RyYXRpb24tbXl1aSkuClN0dWRlbnRzIHNob3VsZCBhZGhlcmUgdG8gdGhlIFthY2FkZW1pYyBkZWFkbGluZXNdKGh0dHBzOi8vZ3JhZC51aW93YS5lZHUvYWNhZGVtaWNzL2RlYWRsaW5lcykgYW5kIHBvbGljaWVzIHNldCBieSB0aGUgR3JhZHVhdGUgQ29sbGVnZS4KCiMgRmVlZGJhY2sgYWJvdXQgdGhlIENvdXJzZSB7I2ZlZWRiYWNrfQoKSSB3ZWxjb21lIGZlZWRiYWNrIGF0IGFueSBwb2ludCBkdXJpbmcgdGhlIGNsYXNzLgpJZiB5b3UgaGF2ZSBjb21tZW50cyBvbiB0aGUgY2xhc3Mgb3IgbXkgdGVhY2hpbmcsIHBsZWFzZSBmZWVsIGZyZWUgdG8gbWVldCB3aXRoIG1lIGR1cmluZyBvZmZpY2UgaG91cnMuCgojIyBTdHVkZW50IENvbXBsYWludHMgeyNjb21wbGFpbnRzfQoKU3R1ZGVudHMgd2l0aCBhIGNvbXBsYWludCBhYm91dCBhIGdyYWRlIG9yIGEgcmVsYXRlZCBtYXR0ZXIgc2hvdWxkIGZpcnN0IGRpc2N1c3MgdGhlIHNpdHVhdGlvbiB3aXRoIHRoZSBpbnN0cnVjdG9yLCBhbmQgZmluYWxseSB3aXRoIHRoZSBEaXJlY3RvciBvciBDaGFpciBvZiB0aGUgc2Nob29sLCBkZXBhcnRtZW50LCBvciBwcm9ncmFtIG9mZmVyaW5nIHRoZSBjb3Vyc2UuClN0dWRlbnRzIHNob3VsZCBjb250YWN0IHRoZSBDTEFTIFtBc3NvY2lhdGUgRGVhbiBmb3IgR3JhZHVhdGUgRWR1Y2F0aW9uIGFuZCBPdXRyZWFjaCBhbmQgRW5nYWdlbWVudF0oaHR0cHM6Ly9jbGFzLnVpb3dhLmVkdS9kZWFucy1vZmZpY2UvY2hyaXN0aW5lLWdldHopIHdoZW4gYWRkaXRpb25hbCBzdXBwb3J0IGlzIG5lZWRlZC4KCiMgQ29tbXVuaWNhdGlvbjogVUkgRW1haWwgeyNlbWFpbH0KClN0dWRlbnRzIGFyZSByZXNwb25zaWJsZSBmb3IgYWxsIG9mZmljaWFsIGNvcnJlc3BvbmRlbmNlcyBzZW50IHRvIHRoZWlyIFVJIGVtYWlsIGFkZHJlc3MgKHVpb3dhLmVkdSkgYW5kIG11c3QgdXNlIHRoaXMgYWRkcmVzcyBmb3IgYW55IGNvbW11bmljYXRpb24gd2l0aCBpbnN0cnVjdG9ycyBvciBzdGFmZiBpbiB0aGUgVUkgY29tbXVuaXR5LgpGb3IgdGhlIHByaXZhY3kgYW5kIHRoZSBwcm90ZWN0aW9uIG9mIHN0dWRlbnQgcmVjb3JkcywgVUkgZmFjdWx0eSBhbmQgc3RhZmYgY2FuIG9ubHkgY29ycmVzcG9uZCB3aXRoIFVJIGVtYWlsIGFkZHJlc3Nlcy4KCiMgSGVhbHRoIGFuZCBTYWZldHkgeyNoZWFsdGh9CgpUaGUgVW5pdmVyc2l0eSBvZiBJb3dhIHN0cm9uZ2x5IGVuY291cmFnZXMgc3R1ZGVudHMsIGZhY3VsdHksIGFuZCBzdGFmZiB0byBiZSB2YWNjaW5hdGVkIGFnYWluc3QgQ09WSUQtMTkuCkZvciBpbmZvcm1hdGlvbiBhYm91dCBDT1ZJRC0xOSB2YWNjaW5lcyBvbiBjYW1wdXMsIHBsZWFzZSBzZWUgaHR0cHM6Ly9jb3JvbmF2aXJ1cy51aW93YS5lZHUuCklmIHlvdSBhcmUgZmVlbGluZyBzaWNrLCB0ZXN0IHBvc2l0aXZlIGZvciBDT1ZJRC0xOSwgb3IgbWF5IGhhdmUgYmVlbiBleHBvc2VkIHRvIENPVklELTE5LCBwbGVhc2UgcmVmZXIgdG8gdGhlIGNhbXB1cyBndWlkYW5jZSBmb3IgdGhlIGFwcHJvcHJpYXRlIGFjdGlvbiAoaHR0cHM6Ly9jb3JvbmF2aXJ1cy51aW93YS5lZHUvcmV0dXJuaW5nLWNhbXB1cy9zaG93aW5nLXN5bXB0b21zKS4KUmVnYXJkbGVzcyBvZiB5b3VyIHZhY2NpbmF0aW9uIHN0YXR1cywgaWYgeW91IGhhdmUgc3ltcHRvbXMgY29uc2lzdGVudCB3aXRoIENPVklELTE5LCBwbGVhc2Ugc3RheSBob21lIGFuZCBmb2xsb3cgdGhlIGFwcHJvcHJpYXRlIGlzb2xhdGlvbi9xdWFyYW50aW5lIGd1aWRhbmNlLgpGb3IgdXAtdG8tZGF0ZSBpbmZvcm1hdGlvbiB0aHJvdWdob3V0IHRoZSBzZW1lc3RlciwgcGxlYXNlIHJlZmVyIHRvIGh0dHBzOi8vY29yb25hdmlydXMudWlvd2EuZWR1LgoKIyBDb2xsZWdlIG9mIExpYmVyYWwgQXJ0cyBhbmQgU2NpZW5jZXMgKENMQVMpIENvdXJzZSBQb2xpY2llcyB7I2NsYXNQb2xpY2llc30KCi0gW0F0dGVuZGFuY2UgYW5kIEFic2VuY2VzXShodHRwczovL2NsYXMudWlvd2EuZWR1L2ZhY3VsdHkvc3R1ZGVudC1hdHRlbmRhbmNlLWFuZC1hYnNlbmNlcylcCltVbml2ZXJzaXR5IHJlZ3VsYXRpb25zIHJlcXVpcmUgdGhhdCBzdHVkZW50cyBiZSBhbGxvd2VkIHRvIG1ha2UgdXAgZXhhbWluYXRpb25zXShodHRwczovL29wc21hbnVhbC51aW93YS5lZHUvc3R1ZGVudHMvYWJzZW5jZXMtY2xhc3MpIHRoYXQgaGF2ZSBiZWVuIG1pc3NlZCBkdWUgdG8gaWxsbmVzcywgcmVsaWdpb3VzIGhvbHkgZGF5cywgbWlsaXRhcnkgc2VydmljZSBvYmxpZ2F0aW9ucyAoaW5jbHVkaW5nIHNlcnZpY2UtcmVsYXRlZCBtZWRpY2FsIGFwcG9pbnRtZW50cyksIG9yIG90aGVyIHVuYXZvaWRhYmxlIGNpcmN1bXN0YW5jZXMgb3IgVW5pdmVyc2l0eS1zcG9uc29yZWQgYWN0aXZpdGllcy4KU2VlIHRoZSBzZWN0aW9uIGFib3ZlIG9uICJbTWlzc2luZyBFeGFtc10oI21pc3NpbmdFeGFtcykiIGZvciB0aGUgZG9jdW1lbnRhdGlvbiBuZWNlc3NhcnkgZm9yIGFuIGFic2VuY2UgdG8gYmUgZXhjdXNlZCBhbmQgdG8gYmUgZWxpZ2libGUgdG8gdGFrZSBhIG1ha2UtdXAgZXhhbS4KU3R1ZGVudHMgd2l0aCBVSS1hdXRob3JpemVkIGFjdGl2aXRpZXMgbXVzdCBkaXNjdXNzIHRoZWlyIGFic2VuY2VzIHdpdGggdGhlIGluc3RydWN0b3Igb3IgVEEgYXMgc29vbiBhcyBwb3NzaWJsZS4KUmVsaWdpb3VzIG9ibGlnYXRpb25zIG11c3QgYmUgY29tbXVuaWNhdGVkIHdpdGhpbiB0aGUgZmlyc3QgdGhyZWUgd2Vla3Mgb2YgY2xhc3Nlcy4KCiMjIE90aGVyIEV4cGVjdGF0aW9ucyBvZiBTdHVkZW50IFBlcmZvcm1hbmNlIHsjb3RoZXJFeHBlY3RhdGlvbnN9CgpTdHVkZW50cyBoYXZlIHRoZSByaWdodCB0byBhIGRpc3RyYWN0aW9uLWZyZWUgbGVhcm5pbmcgZW52aXJvbm1lbnQuCllvdSBoYXZlIHRoZSByZXNwb25zaWJpbGl0eSB0byBoZWxwIGNyZWF0ZSBzdWNoIGEgY2xhc3Nyb29tIGVudmlyb25tZW50LgpQbGVhc2UgdHJlYXQgb3RoZXIgc3R1ZGVudHMgaW4gdGhlIGNsYXNzIGFuZCB0aGUgaW5zdHJ1Y3RvciB3aXRoIHJlc3BlY3QuClN0dWRlbnRzIGFyZSBleHBlY3RlZCB0byBoZWxwIGVhY2ggb3RoZXIgbGVhcm4gYW5kIHRvIGNvbnRyaWJ1dGUgb3ZlcmFsbCB0byB0aGUgbGVhcm5pbmcgZW52aXJvbm1lbnQgb2YgdGhlIGNvdXJzZS4KQXJyaXZpbmcgcHJlcGFyZWQgZm9yIGNsYXNzIGlzIHBhcnQgb2YgdGhpcyBleHBlY3RhdGlvbi4KCiMgVW5pdmVyc2l0eSBQb2xpY2llcyB7I1VJb3dhUG9saWNpZXN9CgpbQWNjb21tb2RhdGlvbnMgZm9yIFN0dWRlbnRzIHdpdGggRGlzYWJpbGl0aWVzXShodHRwczovL3Byb3Zvc3QudWlvd2EuZWR1L3RlYWNoaW5nLXJlc291cmNlcy9jb3Vyc2Utc3lsbGFiaS1pbmZvcm1hdGlvbiNhY2NvbW1vZGF0aW9ucy1mb3Itc3R1ZGVudHMtd2l0aC1kaXNhYmlsaXRpZXMpXApUaGUgVW5pdmVyc2l0eSBpcyBjb21taXR0ZWQgdG8gcHJvdmlkaW5nIGFuIGVkdWNhdGlvbmFsIGV4cGVyaWVuY2UgdGhhdCBpcyBhY2Nlc3NpYmxlIHRvIGFsbC4KSWYgYSBzdHVkZW50IGhhcyBhIGRpYWdub3NlZCBkaXNhYmlsaXR5IG9yIG90aGVyIGRpc2FibGluZyBjb25kaXRpb24gdGhhdCBtYXkgaW1wYWN0IHRoZSBzdHVkZW50J3MgYWJpbGl0eSB0byBjb21wbGV0ZSB0aGUgY291cnNlIHJlcXVpcmVtZW50cyBhcyBzdGF0ZWQgaW4gdGhlIHN5bGxhYnVzLCB0aGUgc3R1ZGVudCBtYXkgc2VlayBhY2NvbW1vZGF0aW9ucyB0aHJvdWdoIFtTdHVkZW50IERpc2FiaWxpdHkgU2VydmljZXNdKGh0dHBzOi8vc2RzLnN0dWRlbnRsaWZlLnVpb3dhLmVkdS9zdHVkZW50cykgKFNEUykuClNEUyBpcyByZXNwb25zaWJsZSBmb3IgbWFraW5nIExldHRlcnMgb2YgQWNjb21tb2RhdGlvbiAoTE9BKSBhdmFpbGFibGUuCjx1PlRoZSBzdHVkZW50IG11c3QgcHJvdmlkZSBhbiBMT0EgdG8gdGhlIGluc3RydWN0b3IgYXMgZWFybHkgaW4gdGhlIHNlbWVzdGVyIGFzIHBvc3NpYmxlLCBidXQgcmVxdWVzdHMgbm90IG1hZGUgYXQgbGVhc3QgdHdvIHdlZWtzIHByaW9yIHRvIHRoZSBzY2hlZHVsZWQgYWN0aXZpdHkgZm9yIHdoaWNoIGFuIGFjY29tbW9kYXRpb24gaXMgc291Z2h0IG1heSBub3QgYmUgYWNjb21tb2RhdGVkLjwvdT4KVGhlIExPQSB3aWxsIHNwZWNpZnkgd2hhdCByZWFzb25hYmxlIGNvdXJzZSBhY2NvbW1vZGF0aW9ucyB0aGUgc3R1ZGVudCBpcyBlbGlnaWJsZSBmb3IgYW5kIHRob3NlIHRoZSBpbnN0cnVjdG9yIHNob3VsZCBwcm92aWRlLiBBZGRpdGlvbmFsIGluZm9ybWF0aW9uIGNhbiBiZSBmb3VuZCBvbiB0aGUgW1NEUyB3ZWJzaXRlXShodHRwczovL3Nkcy5zdHVkZW50bGlmZS51aW93YS5lZHUvc3R1ZGVudHMvYXBwbHkpLgoKLSBbRnJlZSBTcGVlY2ggYW5kIEV4cHJlc3Npb25dKGh0dHBzOi8vcHJvdm9zdC51aW93YS5lZHUvdGVhY2hpbmctcmVzb3VyY2VzL2NvdXJzZS1zeWxsYWJpLWluZm9ybWF0aW9uI2ZyZWUtc3BlZWNoLWFuZC1leHByZXNzaW9uKQotIFtBYnNlbmNlcyBmb3IgUmVsaWdpb3VzIEhvbHkgRGF5c10oaHR0cHM6Ly9wcm92b3N0LnVpb3dhLmVkdS90ZWFjaGluZy1yZXNvdXJjZXMvY291cnNlLXN5bGxhYmktaW5mb3JtYXRpb24jYWJzZW5jZXMtZm9yLXJlbGlnaW91cy1ob2x5LWRheXMpCi0gW05vbi1kaXNjcmltaW5hdGlvbl0oaHR0cHM6Ly9wcm92b3N0LnVpb3dhLmVkdS90ZWFjaGluZy1yZXNvdXJjZXMvY291cnNlLXN5bGxhYmktaW5mb3JtYXRpb24jbm9uLWRpc2NyaW1pbmF0aW9uLXN0YXRlbWVudCkKLSBbQ2xhc3Nyb29tIEV4cGVjdGF0aW9uc10oaHR0cHM6Ly9wcm92b3N0LnVpb3dhLmVkdS90ZWFjaGluZy1yZXNvdXJjZXMvY291cnNlLXN5bGxhYmktaW5mb3JtYXRpb24jY2xhc3Nyb29tLWV4cGVjdGF0aW9ucykKLSBbU2V4dWFsIEhhcmFzc21lbnQvTWlzY29uZHVjdCBhbmQgU3VwcG9ydGl2ZSBNZWFzdXJlc10oaHR0cHM6Ly9wcm92b3N0LnVpb3dhLmVkdS90ZWFjaGluZy1yZXNvdXJjZXMvY291cnNlLXN5bGxhYmktaW5mb3JtYXRpb24jc2V4dWFsLWhhcmFzc21lbnQtLXNleHVhbC1taXNjb25kdWN0LWFuZC1zdXBwb3J0aXZlLW1lYXN1cmVzKQotIFtDb25mbGljdCBSZXNvbHV0aW9uXShodHRwczovL3Byb3Zvc3QudWlvd2EuZWR1L3RlYWNoaW5nLXJlc291cmNlcy9jb3Vyc2Utc3lsbGFiaS1pbmZvcm1hdGlvbiNjb25mbGljdC1yZXNvbHV0aW9uKQotIFtNZW50YWwgSGVhbHRoXShodHRwczovL3Byb3Zvc3QudWlvd2EuZWR1L3RlYWNoaW5nLXJlc291cmNlcy9jb3Vyc2Utc3lsbGFiaS1pbmZvcm1hdGlvbiNtZW50YWwtaGVhbHRoKQotIFtCYXNpYyBOZWVkcyBhbmQgU3R1ZGVudCBTdXBwb3J0XShodHRwczovL3Byb3Zvc3QudWlvd2EuZWR1L3RlYWNoaW5nLXJlc291cmNlcy9jb3Vyc2Utc3lsbGFiaS1pbmZvcm1hdGlvbiNiYXNpYy1uZWVkcy1hbmQtc3R1ZGVudC1zdXBwb3J0KQotIFtTaGFyaW5nIG9mIENsYXNzIFJlY29yZGluZ3NdKGh0dHBzOi8vcHJvdm9zdC51aW93YS5lZHUvdGVhY2hpbmctcmVzb3VyY2VzL2NvdXJzZS1zeWxsYWJpLWluZm9ybWF0aW9uI3NoYXJpbmctb2YtY2xhc3MtcmVjb3JkaW5ncy1pZi1hcHByb3ByaWF0ZSkKLSBbQWJzZW5jZXMgZnJvbSBDbGFzc10oaHR0cHM6Ly9wcm92b3N0LnVpb3dhLmVkdS90ZWFjaGluZy1yZXNvdXJjZXMvY291cnNlLXN5bGxhYmktaW5mb3JtYXRpb24jYWJzZW5jZXMtZnJvbS1jbGFzcykKLSBbQWJzZW5jZXMgZm9yIE1pbGl0YXJ5IFNlcnZpY2UgT2JsaWdhdGlvbnNdKGh0dHBzOi8vcHJvdm9zdC51aW93YS5lZHUvdGVhY2hpbmctcmVzb3VyY2VzL2NvdXJzZS1zeWxsYWJpLWluZm9ybWF0aW9uI2Fic2VuY2VzLWZvci1taWxpdGFyeS1zZXJ2aWNlLW9ibGlnYXRpb25zKQoKIyBXaGVyZSB0byBHZXQgQWNhZGVtaWMgU3VwcG9ydCBmb3IgVGhpcyBDb3Vyc2UgeyNhY2FkZW1pYy1zdXBwb3J0fQoKLSBEcm9wLWluIHN0dWR5IGdyb3VwcyBhbmQgb25lLW9uLW9uZSB0dXRvcmluZzogb2ZmaWNlIGhvdXJzIG9mIHRoZSBpbnN0cnVjdG9yCi0gRm9ybWFsIHR1dG9yaW5nOiBUdXRvciBJb3dhOiBodHRwczovL3R1dG9yLnVpb3dhLmVkdQotIEFjYWRlbWljIGFjY29tbW9kYXRpb25zOiBodHRwczovL3Nkcy5zdHVkZW50bGlmZS51aW93YS5lZHUKCiMgTWVudGFsIEhlYWx0aCBSZXNvdXJjZXMgYW5kIFN0dWRlbnQgU3VwcG9ydCB7I21lbnRhbC1oZWFsdGh9CgpTdHVkZW50cyBhcmUgZW5jb3VyYWdlZCB0byBiZSBtaW5kZnVsIG9mIHRoZWlyIG1lbnRhbCBoZWFsdGggYW5kIHNlZWsgaGVscCBhcyBhIHByZXZlbnRpdmUgbWVhc3VyZSBvciBpZiBmZWVsaW5nIG92ZXJ3aGVsbWVkIGFuZC9vciBzdHJ1Z2dsaW5nIHRvIG1lZXQgY291cnNlIGV4cGVjdGF0aW9ucy4KU3R1ZGVudHMgYXJlIGVuY291cmFnZWQgdG8gdGFsayB0byB0aGVpciBpbnN0cnVjdG9yIGZvciBhc3Npc3RhbmNlIHdpdGggc3BlY2lmaWMgY2xhc3MtcmVsYXRlZCBjb25jZXJucy4KRm9yIGFkZGl0aW9uYWwgc3VwcG9ydCBhbmQgY291bnNlbGluZywgc3R1ZGVudHMgYXJlIGVuY291cmFnZWQgdG8gY29udGFjdCBVbml2ZXJzaXR5IENvdW5zZWxpbmcgU2VydmljZSAoVUNTKS4KSW5mb3JtYXRpb24gYWJvdXQgVUNTLCBpbmNsdWRpbmcgcmVzb3VyY2VzIGFuZCBob3cgdG8gc2NoZWR1bGUgYW4gYXBwb2ludG1lbnQsIGNhbiBiZSBmb3VuZCBhdCBbY291bnNlbGluZy51aW93YS5lZHVdKGh0dHBzOi8vY291bnNlbGluZy51aW93YS5lZHUpLgpGaW5kIG91dCBtb3JlIGFib3V0IFVJIG1lbnRhbCBoZWFsdGggc2VydmljZXMgYXQgW21lbnRhbGhlYWx0aC51aW93YS5lZHVdKGh0dHBzOi8vbWVudGFsaGVhbHRoLnVpb3dhLmVkdSkuCgpbU3R1ZGVudCBDYXJlIGFuZCBBc3Npc3RhbmNlXShodHRwczovL2Rvcy51aW93YS5lZHUvYXNzaXN0YW5jZSkgcHJvdmlkZXMgYXNzaXN0YW5jZSB0byBVbml2ZXJzaXR5IG9mIElvd2Egc3R1ZGVudHMgd2hvIGFyZSBleHBlcmllbmNpbmcgYSB2YXJpZXR5IG9mIGNyaXNpcyBhbmQgZW1lcmdlbmN5IHNpdHVhdGlvbnMsIGluY2x1ZGluZyBidXQgbm90IGxpbWl0ZWQgdG8gbWVkaWNhbCBpc3N1ZXMsIGZhbWlseSBlbWVyZ2VuY2llcywgdW5leHBlY3RlZCBjaGFsbGVuZ2VzLCBhbmQgc291cmNpbmcgYmFzaWMgbmVlZHMgc3VjaCBhcyBmb29kIGFuZCBzaGVsdGVyLgpNb3JlIGluZm9ybWF0aW9uIG9uIHRoZSByZXNvdXJjZXMgcmVsYXRlZCB0byBiYXNpYyBuZWVkcyBjYW4gYmUgZm91bmQgYXQgW2Jhc2ljbmVlZHMudWlvd2EuZWR1L3Jlc291cmNlc10oaHR0cHM6Ly9iYXNpY25lZWRzLnVpb3dhLmVkdS9yZXNvdXJjZXMpLgpTdHVkZW50cyBhcmUgZW5jb3VyYWdlZCB0byBjb250YWN0IFN0dWRlbnQgQ2FyZSAmIEFzc2lzdGFuY2UgaW4gdGhlIE9mZmljZSBvZiB0aGUgRGVhbiBvZiBTdHVkZW50cyAoUm9vbSAxMzUgSU1VLCBbZG9zLWFzc2lzdGFuY2VAdWlvd2EuZWR1XShkb3MtYXNzaXN0YW5jZUB1aW93YS5lZHUpLCBvciAzMTktMzM1LTExNjIpIGZvciBzdXBwb3J0IGFuZCBhc3Npc3RhbmNlIHdpdGggcmVzb3VyY2VzLgoKSWYgeW91IGZlZWwgdGhhdCB5b3Ugb3Igc29tZW9uZSB5b3Uga25vdyBtYXkgYmUgc3RydWdnbGluZyB3aXRoIGFuIGFjYWRlbWljLCBlbW90aW9uYWwsIG9yIHBzeWNob2xvZ2ljYWwgcHJvYmxlbSwgdGhlIGZvbGxvd2luZyBvcmdhbml6YXRpb25zIGFyZSBhdmFpbGFibGUgZm9yIGFzc2lzdGFuY2U6Cgp8IFNlcnZpY2UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgQ29udGFjdCBJbmZvICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8Cnw6LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfDotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLXwKfCBVbml2ZXJzaXR5IG9mIElvd2EgQWNhZGVtaWMgQWR2aXNpbmcgQ2VudGVyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IDM1My01NzAwLCBodHRwczovL2FkdmlzaW5nY2VudGVyLnVpb3dhLmVkdSAgICAgICAgICAgICAgICAgICAgICAgfAp8IFVuaXZlcnNpdHkgQ291bnNlbGluZyBTZXJ2aWNlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgMzM1LTcyOTQsIGh0dHBzOi8vd3d3LnVpb3dhLmVkdS91Y3MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgU3R1ZGVudCBIZWFsdGggU2VydmljZSAtIE1lbnRhbCBIZWFsdGggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAzMzUtODM5NCwgaHR0cHM6Ly9zdHVkZW50aGVhbHRoLnVpb3dhLmVkdS9zZXJ2aWNlcy9wc3ljaGlhdHJ5ICAgIHwKfCBVbml2ZXJzaXR5IG9mIElvd2EgSG9zcGl0YWxzIGFuZCBDbGluaWNzIEFkdWx0IFBzeWNoaWF0cnkgU2VydmljZXMgQ2xpbmljICB8IDM1My02MzE0LCBodHRwczovL3d3dy51aWhlYWx0aGNhcmUub3JnL1BzeWNoaWF0cnkgICAgICAgICAgICAgICAgfAp8IFNlYXNob3JlIENsaW5pYyAoaW4gdGhlIFVJIERlcGFydG1lbnQgb2YgUHN5Y2hvbG9naWNhbCBhbmQgQnJhaW4gU2NpZW5jZXMpIHwgMzM1LTI0NjcsIGh0dHBzOi8vcHN5Y2hvbG9neS51aW93YS5lZHUvcmVzb3VyY2VzL3NlYXNob3JlLWNsaW5pYyB8CnwgV29tZW4ncyBSZXNvdXJjZSBhbmQgQWN0aW9uIENlbnRlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAzMzUtMTQ4NiwgaHR0cHM6Ly93cmFjLnVpb3dhLmVkdSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBSYXBlIFZpY3RpbSBBZHZvY2FjeSBQcm9ncmFtICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IDMxOS0zMzUtNjAwMCBvciA4MDAtMjI4LTE2MjUsIGh0dHBzOi8vd3d3LnVpb3dhLmVkdS9+cnZhcCAgICAgICAgfAp8IE9mZmljZSBvZiBTZXh1YWwgTWlzY29uZHVjdCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgMzE5LTMzNS02MjAwLCBodHRwczovL29zbXJjLnVpb3dhLmVkdSAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgQ29tbVVuaXR5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCA4NTUtMzI1LTQyOTYsIGh0dHBzOi8vYnVpbHRieWNvbW11bml0eS5vcmcvY3Jpc2lzICAgICAgICAgICAgICAgIHwKfCBDb21tdW5pdHkgJiBGYW1pbHkgUmVzb3VyY2VzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IDM1MS00MzU3LCBodHRwczovL3d3dy5jZnJoZWxwcy5vcmcvICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAoKPHU+SWYgeW91IG9yIHNvbWVvbmUgeW91IGtub3cgaXMgY29udGVtcGxhdGluZyBzdWljaWRlPC91PiwgZWl0aGVyIGNhbGwgb3IgdGV4dCB0aGUgU3VpY2lkZSBhbmQgQ3Jpc2lzIExpZmVsaW5lIGF0IDk4OCwgb3IgY2FsbCA5MTEuCgojIERpc2NsYWltZXIgeyNkaXNjbGFpbWVyfQoKVGhpcyBzeWxsYWJ1cyBpcyBzdWJqZWN0IHRvIGNoYW5nZS4KQW55IGNoYW5nZXMgd2lsbCBiZSBkaXNjdXNzZWQgaW4gY2xhc3MsIHZpYSBlbWFpbCwgYW5kL29yIG9uIElDT04uCg==</div>
+<script type="text/javascript" src="includes/external-links.js"></script>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeSourceEmbed("syllabus.Rmd");
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
