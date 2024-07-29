@@ -87,7 +87,7 @@ You can access the companion book here: https://isaactpetersen.github.io/Princip
 
 # Academic Honesty and Misconduct {#academicHonesty}
 
-All students in CLAS courses are expected to abide by the [CLAS Code of Academic Honesty](https://clas.uiowa.edu/students/handbook/academic-fraud-honor-code).
+All students in CLAS courses are expected to abide by the [college's standards of academic honesty](https://clas.uiowa.edu/students/handbook/academic-fraud-honor-code).
 Academic misconduct must be reported to the Graduate College according to Section F of the [Graduate College Manual](https://grad.uiowa.edu/academics/manual/academic-program/section-iv-academic-standing-probation-and-dismissal).
 Please note that collaboration with other classmates during exams is not permitted.
 However, I do encourage you to collaborate with classmates on readings and to *prepare* for exams (e.g., informal study groups).
@@ -143,7 +143,7 @@ Exam questions can come from lectures or required readings.
 
 ### Missing Exams {#missingExams}
 
-Students are allowed to make up exams that have been missed due to illness, mandatory religious observations, official University activities, or other unavoidable circumstances.
+[University regulations require that students be allowed to make up examinations](https://opsmanual.uiowa.edu/students/absences-class) that have been missed due to illness, religious holy days, military service obligations (including service-related medical appointments), or other unavoidable circumstances or University-sponsored activities.
 Note: the format of the make-up exam may differ from the original exam.
 If you know that you must be away at the time of an exam for one of these reasons, please contact me in advance whenever possible to schedule a make-up exam.
 
@@ -519,7 +519,7 @@ Leong, F. T. L., & Kalibatseva, Z. (2016). Threats to cultural validity in clini
 
 </div>
 
-# Grading {#grading}
+# Grading System and the Use of +/- {#gradingSystem}
 
 Final grades will be assigned at the end of the semester on the basis of your total percentage of points earned on examinations and your final paper.
 Grades will be assigned on an absolute scale (criterion-referenced grading; see below); course grades will not be curved.
@@ -544,6 +544,9 @@ Final grades will be assigned based on the following ranges:
 | D-    | 60–62   |
 | F     | 0–59    |
 
+# Course Grades {#courseGrades}
+
+Final course grades will be assessed based on your performance in the activities below.
 The relative contribution of each component to your final grade is as follows:
 
 - 30%   Exam 1 (Mid-Term)
@@ -595,7 +598,7 @@ We will have one exam during the semester and one final exam during finals week.
     
 # Date and Time of the Final Exam {#finalExam}
 
-The final examination date and time will be announced by the Registrar generally by the fifth week of classes and it will be announced on the course ICON site once it is known.
+The [final examination date and time](https://registrar.uiowa.edu/final-exam-schedules) will be announced by the Registrar generally by the fifth week of classes, and it will be announced on the course ICON site once it is known.
 <u>Do not plan your end of the semester travel plans until the final exam schedule is made public.
 It is your responsibility to know the date, time, and place of the final exam.</u>
 According to Registrar's final exam policy, students <u>have a maximum of two weeks after the announced final exam schedule</u> to request a change if an exam conflict exists or if a student has more than two exams in one day (see the [policy](https://registrar.uiowa.edu/makeup-final-examination-policies) here).
@@ -647,10 +650,11 @@ Additionally, studying by explaining topics to others aligns more closely with t
 
 # Drop Deadline for this Course {#dropDeadline}
 
-You may drop an individual course before the deadline; after this deadline you will need collegiate approval.
-You can look up the [drop deadline for this course](https://registrar.uiowa.edu/course-deadlines) here.
+You may drop an individual course before the drop deadline; after this deadline you will need collegiate approval.
+You can look up the drop deadline for this course [here](https://registrar.uiowa.edu/course-deadlines).
 When you drop a course, a "W" will appear on your transcript.
 The mark of "W" is a neutral mark that does not affect your GPA.
+To discuss how dropping (or staying in) a course might affect your academic goals, please contact your Academic Advisor.
 Directions for adding or dropping a course and other registration changes can be found on the [Registrar's website](https://registrar.uiowa.edu/change-registration-myui).
 Students should adhere to the [academic deadlines](https://grad.uiowa.edu/academics/deadlines) and policies set by the Graduate College.
 
@@ -661,29 +665,14 @@ If you have comments on the class or my teaching, please feel free to meet with 
 
 ## Student Complaints {#complaints}
 
-Students with a complaint about a grade or a related matter should first discuss the situation with the instructor, and finally with the Director or Chair of the school, department, or program offering the course.
-Students should contact the CLAS [Associate Dean for Graduate Education and Outreach and Engagement](https://clas.uiowa.edu/deans-office/christine-getz) when additional support is needed.
+Students with a complaint about a grade or a related matter should first discuss the situation with the instructor, finally with the DEO (Chair) of the department, school or program offering the course.
+Sometimes students will be referred to the department or program's Director of Undergraduate Studies (DUS) or Director of Graduate Studies (DGS).
+Students should contact the [CLAS Dean's Office](https://resource.clas.uiowa.edu/clas-leadership) when additional support is needed.
 
 # Communication: UI Email {#email}
 
 Students are responsible for all official correspondences sent to their UI email address (uiowa.edu) and must use this address for any communication with instructors or staff in the UI community.
 For the privacy and the protection of student records, UI faculty and staff can only correspond with UI email addresses.
-
-# Health and Safety {#health}
-
-The University of Iowa strongly encourages students, faculty, and staff to be vaccinated against COVID-19.
-For information about COVID-19 vaccines on campus, please see https://coronavirus.uiowa.edu.
-If you are feeling sick, test positive for COVID-19, or may have been exposed to COVID-19, please refer to the campus guidance for the appropriate action (https://coronavirus.uiowa.edu/returning-campus/showing-symptoms).
-Regardless of your vaccination status, if you have symptoms consistent with COVID-19, please stay home and follow the appropriate isolation/quarantine guidance.
-For up-to-date information throughout the semester, please refer to https://coronavirus.uiowa.edu.
-
-# College of Liberal Arts and Sciences (CLAS) Course Policies {#clasPolicies}
-
-- [Attendance and Absences](https://clas.uiowa.edu/faculty/student-attendance-and-absences)\
-[University regulations require that students be allowed to make up examinations](https://opsmanual.uiowa.edu/students/absences-class) that have been missed due to illness, religious holy days, military service obligations (including service-related medical appointments), or other unavoidable circumstances or University-sponsored activities.
-See the section above on "[Missing Exams](#missingExams)" for the documentation necessary for an absence to be excused and to be eligible to take a make-up exam.
-Students with UI-authorized activities must discuss their absences with the instructor or TA as soon as possible.
-Religious obligations must be communicated within the first three weeks of classes.
 
 ## Other Expectations of Student Performance {#otherExpectations}
 
@@ -695,24 +684,27 @@ Arriving prepared for class is part of this expectation.
 
 # University Policies {#UIowaPolicies}
 
+[University Policies](https://provost.uiowa.edu/student-course-policies)
+
 [Accommodations for Students with Disabilities](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#accommodations-for-students-with-disabilities)\
-The University is committed to providing an educational experience that is accessible to all.
+The University is committed to providing an educational experience that is accessible to all students.
 If a student has a diagnosed disability or other disabling condition that may impact the student's ability to complete the course requirements as stated in the syllabus, the student may seek accommodations through [Student Disability Services](https://sds.studentlife.uiowa.edu/students) (SDS).
-SDS is responsible for making Letters of Accommodation (LOA) available.
+SDS is responsible for making Letters of Accommodation (LOA) available to the student.
 <u>The student must provide an LOA to the instructor as early in the semester as possible, but requests not made at least two weeks prior to the scheduled activity for which an accommodation is sought may not be accommodated.</u>
-The LOA will specify what reasonable course accommodations the student is eligible for and those the instructor should provide. Additional information can be found on the [SDS website](https://sds.studentlife.uiowa.edu/students/apply).
+The LOA will specify what reasonable course accommodations the student is eligible for and those the instructor should provide.
 
 - [Free Speech and Expression](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#free-speech-and-expression)
+- [Non-Discrimination](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#non-discrimination-statement)
+- [Accommodations for Students with Disabilities](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#accommodations-for-students-with-disabilities)
+- [Absences from Class](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-from-class)
 - [Absences for Religious Holy Days](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-for-religious-holy-days)
-- [Non-discrimination](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#non-discrimination-statement)
+- [Absences for Military Service Obligations](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-for-military-service-obligations)
 - [Classroom Expectations](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#classroom-expectations)
 - [Sexual Harassment/Misconduct and Supportive Measures](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#sexual-harassment--sexual-misconduct-and-supportive-measures)
 - [Conflict Resolution](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#conflict-resolution)
 - [Mental Health](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#mental-health)
 - [Basic Needs and Student Support](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#basic-needs-and-student-support)
 - [Sharing of Class Recordings](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#sharing-of-class-recordings-if-appropriate)
-- [Absences from Class](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-from-class)
-- [Absences for Military Service Obligations](https://provost.uiowa.edu/teaching-resources/course-syllabi-information#absences-for-military-service-obligations)
 
 # Where to Get Academic Support for This Course {#academic-support}
 
@@ -723,14 +715,12 @@ The LOA will specify what reasonable course accommodations the student is eligib
 # Mental Health Resources and Student Support {#mental-health}
 
 Students are encouraged to be mindful of their mental health and seek help as a preventive measure or if feeling overwhelmed and/or struggling to meet course expectations.
-Students are encouraged to talk to their instructor for assistance with specific class-related concerns.
-For additional support and counseling, students are encouraged to contact University Counseling Service (UCS).
-Information about UCS, including resources and how to schedule an appointment, can be found at [counseling.uiowa.edu](https://counseling.uiowa.edu).
-Find out more about UI mental health services at [mentalhealth.uiowa.edu](https://mentalhealth.uiowa.edu).
+Students are encouraged to talk to their instructor for assistance with course-related concerns.
+For additional mental health support, please see the guidance and resources at [mentalhealth.uiowa.edu](http://mentalhealth.uiowa.edu), including the 24-7 [UI Support and Crisis Line](https://mentalhealth.uiowa.edu/ui-support-and-crisis-line).  
 
-[Student Care and Assistance](https://dos.uiowa.edu/assistance) provides assistance to University of Iowa students who are experiencing a variety of crisis and emergency situations, including but not limited to medical issues, family emergencies, unexpected challenges, and sourcing basic needs such as food and shelter.
-More information on the resources related to basic needs can be found at [basicneeds.uiowa.edu/resources](https://basicneeds.uiowa.edu/resources).
-Students are encouraged to contact Student Care & Assistance in the Office of the Dean of Students (Room 135 IMU, [dos-assistance@uiowa.edu](dos-assistance@uiowa.edu), or 319-335-1162) for support and assistance with resources.
+Additionally, the Office of the Dean of Students can help students navigate personal crisis situations.
+They can provide one-on-one support, help with identifying options, and access to [basic needs resources (such as food, rent, childcare, etc.)](http://basicneeds.uiowa.edu).
+Student Care and Assistance: 132 IMU, [dos-assistance@uiowa.edu](mailto:dos-assistance@uiowa.edu), or 319-335-1162 and more info: [dos.uiowa.edu/assistance](https://dos.uiowa.edu/assistance)
 
 If you feel that you or someone you know may be struggling with an academic, emotional, or psychological problem, the following organizations are available for assistance:
 
