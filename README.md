@@ -6,7 +6,9 @@ The Class Wiki is located here: **https://isaactpetersen.github.io/psy-5330-2026
 To render the syllabus as PDF:
 
 ```r
-rmarkdown::render("syllabus.Rmd", output_format = "pdf_document")
+rmarkdown::render(
+  "syllabus.Rmd",
+  output_format = rmarkdown::pdf_document(latex_engine = "xelatex"))
 ```
 
 # License

@@ -1,9 +1,5 @@
 ---
 title: "Course Syllabus"
-output:
-  html_document: default
-  pdf_document:
-    latex_engine: xelatex
 ---
 
 ```{r setup, include = FALSE}
