@@ -91,9 +91,15 @@ All students in CLAS courses are expected to abide by the [college's standards o
 Academic misconduct must be reported to the Graduate College according to Section F of the [Graduate College Manual](https://grad.uiowa.edu/academics/manual/academic-program/section-iv-academic-standing-probation-and-dismissal).
 Please note that collaboration with other classmates during exams is not permitted.
 However, I do encourage you to collaborate with classmates on readings and to *prepare* for exams (e.g., informal study groups).
+
+## On the Use of Artificial Intelligence {#ai}
+
 Because writing, analytical, and critical thinking skills are part of the learning outcomes of this course, all work submitted by students should be prepared by the student.
-Developing strong competencies in these domains will prepare you for a competitive workplace.
-Therefore, AI-generated submissions are not permitted and will be treated as plagiarism.
+You are training these cognitive muscles; if you go to the gym, you would not have AI lift the weights for you.
+For these reasons, AI-generated submissions are not permitted and will be treated as plagiarism.
+Learning these core foundational skills will make you a better user of AI in the future, because you will be better-positioned in the future to critically evaluate AI responses and to identify when (and the ways in which) its responses are inaccurate.
+Moreover, in many industries, use of AI is not permitted because you cannot share the company's proprietary information.
+Thus, developing strong competencies in these domains (without the use of AI) will prepare you for a competitive workplace.
 
 # Course Requirements and Policies {#requirements}
 
