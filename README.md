@@ -8,7 +8,7 @@ To render the syllabus as PDF:
 ```r
 rmarkdown::render(
   "syllabus.Rmd",
-  output_format = rmarkdown::pdf_document(latex_engine = "xelatex"))
+  output_format = rmarkdown::pdf_document(latex_engine = "lualatex"))
 ```
 
 # License
