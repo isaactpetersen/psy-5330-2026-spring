@@ -588,7 +588,7 @@ We will have one exam during the semester and one final exam during finals week.
 | [11](#section11) | T       | 02/20    | General Issues in Clinical Assessment                          |
 | [12](#section12) | Th      | 02/22    | Evidence-Based Assessment                                      |
 | [13](#section13) | T       | 02/27    | Ethical Issues in Assessment                                   |
-| [14](#section14) | Th      | 02/29    | **Midterm Exam**                                               |
+| 14               | Th      | 02/29    | **Midterm Exam**                                               |
 | [15](#section15) | T       | 03/05    | Intellectual Assessment                                        |
 | [16](#section16) | Th      | 03/07    | Intellectual Assessment                                        |
 |                  | T       | 03/12    | Spring Break!                                                  |
