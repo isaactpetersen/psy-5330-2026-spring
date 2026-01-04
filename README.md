@@ -3,6 +3,12 @@
 This is the code that creates the Wiki for PSY:5330 - Principles of Psychological Assessment (Spring 2026).
 The Class Wiki is located here: **https://isaactpetersen.github.io/psy-5330-2026-spring**
 
+To render the syllabus as PDF, run the following command in your terminal (may have to make sure you have updated your TinyTex installation first: i.e., run `tinytex::install_tinytex()` in `R`):
+
+```bash
+quarto render syllabus.qmd --to pdf
+```
+
 # License
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
