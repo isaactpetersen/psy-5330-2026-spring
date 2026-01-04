@@ -203,7 +203,7 @@ gtag('config', 'G-CD13WE2PJ3', { 'anonymize_ip': true});
   <li><a href="#i-need-help-with-a-crisis-or-emergency-situation" id="toc-i-need-help-with-a-crisis-or-emergency-situation" class="nav-link" data-scroll-target="#i-need-help-with-a-crisis-or-emergency-situation"><span class="header-section-number">5</span> I need help with a crisis or emergency situation…</a></li>
   <li><a href="#i-need-help-with-this-class" id="toc-i-need-help-with-this-class" class="nav-link" data-scroll-target="#i-need-help-with-this-class"><span class="header-section-number">6</span> I need help with this class…</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/edit/main/help.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/blob/main/help.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/edit/main/help.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/blob/main/help.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/isaactpetersen/psy-5330-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="help.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -394,7 +394,7 @@ gtag('config', 'G-CD13WE2PJ3', { 'anonymize_ip': true});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/isaactpetersen\.github\.io\/psy-5330-2026-spring\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
