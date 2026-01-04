@@ -502,7 +502,7 @@ Treat, T. A., McFall, R. M., Viken, R. J., Kruschke, J. K., Nosofsky, R. M., & W
 
 </div>
 
-## Cultural and Individual Diversity {unnumbered .unlisted #sec-section30}
+## Cultural and Individual Diversity {.unnumbered .unlisted #sec-section30}
 
 #### <u>Section 30</u> {.unnumbered .unlisted}
 
