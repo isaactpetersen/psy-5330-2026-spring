@@ -161,7 +161,7 @@ Your paper should be less than 20 pages (excluding references).
 It is okay (and encouraged!) for you to use, as your paper, something that you are already working on or to write a paper that you are submitting for another assignment—consider writing a paper that could be a publication.
 I want to keep the topic requirements of the paper flexible and open-ended so the paper can be as relevant for your research program as possible—the only requirement is that the paper topic is relevant to assessment, and that your paper incorporates ideas we discuss in class.
 
-Your final paper is due before the last class (<u>**Deadline: 9:30 am on Thursday, May 2**</u>).
+Your final paper is due before the last class (<u>**Deadline: 9:30 am on Thursday, May 7**</u>).
 Please submit your paper via [ICON](https://icon.uiowa.edu).
 
 # Articles {#sec-articles}
