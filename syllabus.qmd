@@ -176,7 +176,7 @@ These are typically historical papers, illustrations of specific techniques, or 
 References highlighted in yellow are the readings that you should pay closest attention to.
 Blue highlights provide additional useful information.
 
-## Psychometrics, Prediction, and General Issues {.unlisted}
+## Psychometrics, Prediction, and General Issues {.unnumbered .unlisted}
 
 ### Science and the Replication Crisis {#sec-section1 .unlisted}
 
@@ -502,7 +502,7 @@ Treat, T. A., McFall, R. M., Viken, R. J., Kruschke, J. K., Nosofsky, R. M., & W
 
 </div>
 
-## Cultural and Individual Diversity {#sec-section30 .unlisted}
+## Cultural and Individual Diversity {unnumbered .unlisted #sec-section30}
 
 #### <u>Section 30</u> {.unnumbered .unlisted}
 
