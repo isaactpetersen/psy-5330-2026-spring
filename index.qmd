@@ -1,0 +1,5 @@
+---
+title: "Wiki for PSY:5330 – Principles of Psychological Assessment (Spring 2026)"
+---
+
+The Class Wiki includes the [course syllabus](syllabus.html) and miscellaneous resources.

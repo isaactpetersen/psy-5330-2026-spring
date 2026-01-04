@@ -2,13 +2,6 @@
 title: "I Think I Might Need Some Help..."
 ---
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE,
-  error = TRUE,
-  comment = "")
-```
-
 # Asking for Help
 
 Everyone needs help sometimes, including your classmates and your professor.

@@ -1,5 +1,6 @@
 ---
 title: "Course Syllabus"
+engine: knitr
 ---
 
 ```{r setup, include = FALSE}
