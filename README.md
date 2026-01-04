@@ -3,14 +3,6 @@
 This is the code that creates the Wiki for PSY:5330 - Principles of Psychological Assessment (Spring 2026).
 The Class Wiki is located here: **https://isaactpetersen.github.io/psy-5330-2026-spring**
 
-To render the syllabus as PDF:
-
-```r
-rmarkdown::render(
-  "syllabus.Rmd",
-  output_format = rmarkdown::pdf_document(latex_engine = "lualatex"))
-```
-
 # License
 
 [![CC BY 4.0][cc-by-shield]][cc-by]

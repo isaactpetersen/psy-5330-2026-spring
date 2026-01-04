@@ -21,6 +21,8 @@ website:
         text: Home
       - text: "Course Syllabus"
         href: syllabus.qmd
+      - text: "Textbook"
+        href: https://isaactpetersen.github.io/Principles-Psychological-Assessment
       - text: "Miscellaneous"
         menu:
         - text: I Think I Might Need Some Help...
