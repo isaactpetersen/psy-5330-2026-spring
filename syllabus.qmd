@@ -176,9 +176,9 @@ These are typically historical papers, illustrations of specific techniques, or 
 References highlighted in yellow are the readings that you should pay closest attention to.
 Blue highlights provide additional useful information.
 
-## Psychometrics, Prediction, and General Issues {.unnumbered}
+## Psychometrics, Prediction, and General Issues {.unnumbered .unlisted}
 
-### Science and the Replication Crisis {#sec-section1}
+### Science and the Replication Crisis {#sec-section1 .unlisted}
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
@@ -502,9 +502,9 @@ Treat, T. A., McFall, R. M., Viken, R. J., Kruschke, J. K., Nosofsky, R. M., & W
 
 </div>
 
-## Cultural and Individual Diversity {#sec-section30}
+## Cultural and Individual Diversity {#sec-section30 .unlisted}
 
-#### <u>Section 30</u> {.unnumbered}
+#### <u>Section 30</u> {.unnumbered .unlisted}
 
 <mark style="background-color: lightblue">It may be helpful to review the three Sackett papers and the Cole paper from the Intellectual Assessment section.
 Also review relevant sections of the APA Standards for Educational and Psychological Testing from the Validity section.</mark>
