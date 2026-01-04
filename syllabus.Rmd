@@ -575,39 +575,39 @@ We will have one exam during the semester and one final exam during finals week.
 
 | **Section**      | **Day** | **Date** | **Content**                                                    |
 |:-----------------|:--------|:---------|:---------------------------------------------------------------|
-| [1](#section1)   | T       | 01/16    | Overview of Class; Clinical Science and the Replication Crisis |
-| [2](#section2)   | Th      | 01/18    | Reliability                                                    |
-| [3](#section3)   | T       | 01/23    | Reliability                                                    |
-| [4](#section4)   | Th      | 01/25    | Validity                                                       |
-| [5](#section5)   | T       | 01/30    | Validity                                                       |
-| [6](#section6)   | Th      | 02/01    | Structural Equation Modeling (SEM)                             |
-| [7](#section7)   | T       | 02/06    | Item Response Theory (IRT)                                     |
-| [8](#section8)   | Th      | 02/08    | Prediction Basics                                              |
-| [9](#section9)   | T       | 02/13    | Signal Detection Theory                                        |
-| [10](#section10) | Th      | 02/15    | Clinical Judgment vs. Algorithmic Prediction                   |
-| [11](#section11) | T       | 02/20    | General Issues in Clinical Assessment                          |
-| [12](#section12) | Th      | 02/22    | Evidence-Based Assessment                                      |
-| [13](#section13) | T       | 02/27    | Ethical Issues in Assessment                                   |
-| 14               | Th      | 02/29    | **Midterm Exam**                                               |
-| [15](#section15) | T       | 03/05    | Intellectual Assessment                                        |
-| [16](#section16) | Th      | 03/07    | Intellectual Assessment                                        |
-|                  | T       | 03/12    | Spring Break!                                                  |
-|                  | Th      | 03/14    | Spring Break!                                                  |
-| [17](#section17) | T       | 03/19    | Bias                                                           |
-| [18](#section18) | Th      | 03/21    | Bias                                                           |
-| [19](#section19) | T       | 03/26    | The Interview and the DSM                                      |
-| [20](#section20) | Th      | 03/28    | Objective Personality Testing                                  |
-| [21](#section21) | T       | 04/02    | Objective Personality Testing                                  |
-| [22](#section22) | Th      | 04/04    | Objective Personality Testing                                  |
-| [23](#section23) | T       | 04/09    | Projective Personality Testing                                 |
-| [24](#section24) | Th      | 04/11    | Psychophysiological Measures and RDoC                          |
-| [25](#section25) | T       | 04/16    | Computers and Adaptive Testing                                 |
-| [26](#section26) | Th      | 04/18    | Behavioral Assessment                                          |
-| [27](#section27) | T       | 04/23    | Repeated Assessments across Time                               |
-| [28](#section28) | Th      | 04/25    | Repeated Assessments across Time                               |
-| [29](#section29) | T       | 04/30    | Assessment of Cognition                                        |
-| [30](#section30) | Th      | 05/02    | Cultural and Individual Diversity; **Final paper due!**        |
-| Finals Week      |         | TBD (week of 5/6) | **Final Exam**                                        |
+| [1](#section1)   | T       | 01/20    | Overview of Class; Clinical Science and the Replication Crisis |
+| [2](#section2)   | Th      | 01/22    | Reliability                                                    |
+| [3](#section3)   | T       | 01/27    | Reliability                                                    |
+| [4](#section4)   | Th      | 01/29    | Validity                                                       |
+| [5](#section5)   | T       | 02/03    | Validity                                                       |
+| [6](#section6)   | Th      | 02/05    | Structural Equation Modeling (SEM)                             |
+| [7](#section7)   | T       | 02/10    | Item Response Theory (IRT)                                     |
+| [8](#section8)   | Th      | 02/12    | Prediction Basics                                              |
+| [9](#section9)   | T       | 02/17    | Signal Detection Theory                                        |
+| [10](#section10) | Th      | 02/19    | Clinical Judgment vs. Algorithmic Prediction                   |
+| [11](#section11) | T       | 02/24    | General Issues in Clinical Assessment                          |
+| [12](#section12) | Th      | 02/26    | Evidence-Based Assessment                                      |
+| [13](#section13) | T       | 03/03    | Ethical Issues in Assessment                                   |
+| 14               | Th      | 03/05    | **Midterm Exam**                                               |
+| [15](#section15) | T       | 03/10    | Intellectual Assessment                                        |
+| [16](#section16) | Th      | 03/12    | Intellectual Assessment                                        |
+|                  | T       | 03/17    | Spring Break!                                                  |
+|                  | Th      | 03/19    | Spring Break!                                                  |
+| [17](#section17) | T       | 03/24    | Bias                                                           |
+| [18](#section18) | Th      | 03/26    | Bias                                                           |
+| [19](#section19) | T       | 03/31    | The Interview and the DSM                                      |
+| [20](#section20) | Th      | 04/02    | Objective Personality Testing                                  |
+| [21](#section21) | T       | 04/07    | Objective Personality Testing                                  |
+| [22](#section22) | Th      | 04/09    | Objective Personality Testing                                  |
+| [23](#section23) | T       | 04/14    | Projective Personality Testing                                 |
+| [24](#section24) | Th      | 04/16    | Psychophysiological Measures and RDoC                          |
+| [25](#section25) | T       | 04/21    | Computers and Adaptive Testing                                 |
+| [26](#section26) | Th      | 04/23    | Behavioral Assessment                                          |
+| [27](#section27) | T       | 04/28    | Repeated Assessments across Time                               |
+| [28](#section28) | Th      | 04/30    | Repeated Assessments across Time                               |
+| [29](#section29) | T       | 05/05    | Assessment of Cognition                                        |
+| [30](#section30) | Th      | 05/07    | Cultural and Individual Diversity; **Final paper due!**        |
+| Finals Week      |         | TBD (week of 5/11) | **Final Exam**                                        |
     
 # Date and Time of the Final Exam {#finalExam}
 
