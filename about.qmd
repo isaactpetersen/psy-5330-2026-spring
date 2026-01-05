@@ -1,5 +1,6 @@
 ---
 title: "About This Website"
+format-links: false
 ---
 
 This website was generated with [Quarto](https://quarto.org).
