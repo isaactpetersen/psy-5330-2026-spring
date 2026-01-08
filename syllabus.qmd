@@ -275,7 +275,7 @@ Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurem
 
 Swets, J. A., Dawes, R. M., & Monahan, J. (2000). Psychological science can improve diagnostic decisions. *Psychological Science in the Public Interest, 1*(1), 1–26. <https://doi.org/10.1111/1529-1006.001>
 
-Lindhiem, O., Petersen, I. T., Mentch, L. K., & Youngstrom, E. A. (2020). The importance of calibration in clinical psychology. *Assessment, 27*(4), 840–854. <https://doi.org/10.1177/1073191117752055 >
+Lindhiem, O., Petersen, I. T., Mentch, L. K., & Youngstrom, E. A. (2020). The importance of calibration in clinical psychology. *Assessment, 27*(4), 840–854. <https://doi.org/10.1177/1073191117752055>
 
 ### Clinical Judgment vs. Algorithmic Prediction {#sec-section10}
 
@@ -460,7 +460,7 @@ Forbey, J. D., & Ben-Porath, Y. S. (2007). Computerized adaptive personality tes
 
 <mark>Girard, J. M., & Cohn, J. F. (2016). A primer on observational measurement. *Assessment, 23*(4), 404–413. <https://doi.org/10.1177/1073191116635807></mark>
 
-<mark>Haynes, S. N. (2001). Clinical applications of analogue behavioral observation: Dimensions of psychometric evaluation. *Psychological Assessment, 13*(1), 73–85.< https://doi.org/10.1037/1040-3590.13.1.73></mark>
+<mark>Haynes, S. N. (2001). Clinical applications of analogue behavioral observation: Dimensions of psychometric evaluation. *Psychological Assessment, 13*(1), 73–85.<https://doi.org/10.1037/1040-3590.13.1.73></mark>
 
 Korotitsch, W. J., & Nelson-Gray, R. O. (1999). An overview of self-monitoring research in assessment and treatment. *Psychological Assessment, 11*(4), 415–425. <https://doi.org/10.1037/1040-3590.11.4.415>
 
