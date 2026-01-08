@@ -344,7 +344,7 @@ Campbell, L., Vasquez, M., Behnke, S., & Kinscherff, R. (2010). Assessment. In L
 <mark>McClelland, D. C. (1973). Testing for competence rather than for "intelligence.". American Psychologist, 28, 1–14. <https://doi.org/10.1037/h0034092></mark> 
 <mark style="background-color: lightblue">[See also paper by Barrett and Depinet (1991), A reconsideration of Testing for Competence rather than for intelligence, *American Psychologist, 46*, 1012–1024; and McClelland and various others in reply (1994), *American Psychologist, 49*, 64–71.]</mark>
 
-### Bias {#section17}
+### Bias {#sec-section17}
 
 #### <u>Section 17</u> {.unnumbered}
 
