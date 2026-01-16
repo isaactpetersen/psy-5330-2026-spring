@@ -218,7 +218,7 @@ Wiggins, J. S. (1973). Observational techniques: I. Generalizability and facets 
 
 Hayes, S. C., Nelson, R. O., & Jarrett, R. B. (1987). The treatment utility of assessment: A functional approach to evaluating assessment quality. *American Psychologist, 42*, 963–974. <https://doi.org/10.1037/0003-066X.42.11.963>
 
-<mark>Meehl, P. E. (1973). Chapter 1. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark> 
+<mark>Meehl, P. E. (1973). Chapter 1. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark>&nbsp;
 <mark style="background-color: lightblue">[This is Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. *Psychological Bulletin, 52*(4), 281–302. <https://doi.org/10.1037/h0040957>]</mark>
 
 #### <u>Section 5</u> {.unnumbered #sec-section5}
@@ -264,7 +264,7 @@ Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurem
 
 #### <u>Section 8</u> {.unnumbered}
 
-<mark>Meehl, P. E. (1973). Chapter 2. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark> 
+<mark>Meehl, P. E. (1973). Chapter 2. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark>&nbsp;
 <mark style="background-color: lightblue">[This is Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin, 52*(3), 194–216. <https://doi.org/10.1037/h0048070>]</mark>
 
 ### Signal Detection Theory {#sec-section9}
@@ -316,7 +316,7 @@ Youngstrom, E. A., & Van Meter, A. (2016). Empirically supported assessment of c
 
 #### <u>Section 13</u> {.unnumbered}
 
-<mark>American Psychological Association. (2017). Ethical principles of psychologists and code of conduct. <https://www.apa.org/ethics/code></mark> 
+<mark>American Psychological Association. (2017). Ethical principles of psychologists and code of conduct. <https://www.apa.org/ethics/code></mark>&nbsp;
 <mark style="background-color: lightblue">(Sections 1, 2, 9).</mark>
 
 Nagy, T. F. (2011). Ethics in psychological assessment. In T. F. Nagy (Ed.), *Essential ethics for psychologists: a primer for understanding and mastering core issues* (pp. 171–183). American Psychological Association. <https://doi.org/10.1037/12345-009>
@@ -341,7 +341,7 @@ Campbell, L., Vasquez, M., Behnke, S., & Kinscherff, R. (2010). Assessment. In L
 
 #### <u>Section 16</u> {.unnumbered #sec-section16}
 
-<mark>McClelland, D. C. (1973). Testing for competence rather than for "intelligence.". American Psychologist, 28, 1–14. <https://doi.org/10.1037/h0034092></mark> 
+<mark>McClelland, D. C. (1973). Testing for competence rather than for "intelligence.". American Psychologist, 28, 1–14. <https://doi.org/10.1037/h0034092></mark>&nbsp;
 <mark style="background-color: lightblue">[See also paper by Barrett and Depinet (1991), A reconsideration of Testing for Competence rather than for intelligence, *American Psychologist, 46*, 1012–1024; and McClelland and various others in reply (1994), *American Psychologist, 49*, 64–71.]</mark>
 
 ### Bias {#sec-section17}
@@ -426,7 +426,7 @@ Read it as a model for taking measurement seriously in an emerging area of clini
 
 <mark>Haynes, S. N., & Yoshioka, D. T. (2007). Clinical assessment applications of ambulatory biosensors. *Psychological Assessment, 19*(1), 44–57. <https://doi.org/10.1037/1040-3590.19.1.44></mark>
 
-<mark>Kozak, M. J., & Cuthbert, B. N. (2016). The NIMH research domain criteria initiative: Background, issues, and pragmatics. *Psychophysiology, 53*(3), 286–297. <https://doi.org/10.1111/psyp.12518></mark> 
+<mark>Kozak, M. J., & Cuthbert, B. N. (2016). The NIMH research domain criteria initiative: Background, issues, and pragmatics. *Psychophysiology, 53*(3), 286–297. <https://doi.org/10.1111/psyp.12518></mark>&nbsp;
 <mark style="background-color: lightblue">[Students already familiar with RDoC can skim this introduction.
 Our interest is in examining RDoC from a measurement perspective.]</mark>
 
@@ -474,7 +474,7 @@ Sobell, L. C., & Sobell, M. B. (2008). Timeline followback (TLFB). In A. J. Rush
 
 <mark>Carpenter, R. W., Wycoff, A. M., & Trull, T. J. (2016). Ambulatory assessment: New adventures in characterizing dynamic processes. *Assessment, 23*(4), 414–424. <https://doi.org/10.1177/1073191116632341></mark>
 
-<mark>Matthews, M., Abdullah, S., Murnane, E., Voida, S., Choudhury, T., Gay, G., & Frank, E. (2016). Development and evaluation of a smartphone-based measure of social rhythms for bipolar disorder. *Assessment, 23*(4), 472–483. <https://doi.org/10.1177/1073191116656794></mark> 
+<mark>Matthews, M., Abdullah, S., Murnane, E., Voida, S., Choudhury, T., Gay, G., & Frank, E. (2016). Development and evaluation of a smartphone-based measure of social rhythms for bipolar disorder. *Assessment, 23*(4), 472–483. <https://doi.org/10.1177/1073191116656794></mark>&nbsp;
 <mark style="background-color: lightblue">[a case study in self-report across time.
 Specifics of their study are less important.]</mark>
 
