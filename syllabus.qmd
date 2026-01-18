@@ -188,25 +188,25 @@ Blue highlights provide additional useful information.
 
 #### <u>Section 1</u> {.unnumbered}
 
-Loken, E., & Gelman, A. (2017). Measurement error and the replication crisis. *Science, 355*(6325), 584–585. <https://doi.org/10.1126/science.aal3618>
+Loken, E., & Gelman, A. (2017). Measurement error and the replication crisis. *Science*, *355*(6325), 584–585. <https://doi.org/10.1126/science.aal3618>
 
-<mark>McFall, R. M. (1991). Manifesto for a science of clinical psychology. *The Clinical Psychologist, 44*(6), 75–91.</mark>
+<mark>McFall, R. M. (1991). Manifesto for a science of clinical psychology. *The Clinical Psychologist*, *44*(6), 75–91.</mark>
 
-<mark>McFall, R. M. (2000). Elaborate reflections on a simple manifesto. *Applied & Preventive Psychology, 9*(1), 5–21. <https://doi.org/10.1016/s0962-1849(05)80035-6></mark>
+<mark>McFall, R. M. (2000). Elaborate reflections on a simple manifesto. *Applied & Preventive Psychology*, *9*(1), 5–21. <https://doi.org/10.1016/s0962-1849(05)80035-6></mark>
 
 ### Reliability {#sec-section2}
 
 #### <u>Section 2</u> {.unnumbered}
 
-<mark>McNeish, D. (2018). Thanks coefficient alpha, we'll take it from here. *Psychological Methods, 23*(3), 412–433. <https://doi.org/10.1037/met0000144></mark>
+<mark>McNeish, D. (2018). Thanks coefficient alpha, we'll take it from here. *Psychological Methods*, *23*(3), 412–433. <https://doi.org/10.1037/met0000144></mark>
 
 \*Galton, F. (1948). Classification of men according to their natural gifts, 1869. In W. Dennis (Ed.), *Readings in the history of psychology* (pp. 231–247). Appleton-Century-Crofts. https://psycnet.apa.org/record/2006-10213-000
 
-\*Garland, L. H. (1960). The problem of observer error. *Bulletin of the New York Academy of Medicine, 36*(9), 570–584.
+\*Garland, L. H. (1960). The problem of observer error. *Bulletin of the New York Academy of Medicine*, *36*(9), 570–584.
 
 #### <u>Section 3</u> {.unnumbered #sec-section3}
 
-<mark>Schmidt, F. L., & Hunter, J. E. (1996). Measurement error in psychological research: Lessons from 26 research scenarios. *Psychological Methods, 1*(2), 199–223. <https://doi.org/10.1037/1082-989X.1.2.199></mark>
+<mark>Schmidt, F. L., & Hunter, J. E. (1996). Measurement error in psychological research: Lessons from 26 research scenarios. *Psychological Methods*, *1*(2), 199–223. <https://doi.org/10.1037/1082-989X.1.2.199></mark>
 
 Wiggins, J. S. (1973). Observational techniques: I. Generalizability and facets of observation. In J. S. Wiggins (Ed.), *Personality and prediction: Principles of personality assessment* (pp. 277–295). Addison-Wesley.
 
@@ -214,20 +214,20 @@ Wiggins, J. S. (1973). Observational techniques: I. Generalizability and facets 
 
 #### <u>Section 4</u> {.unnumbered}
 
-<mark>Campbell, D. T., & Fiske, D. W. (1959). Convergent and discriminant validation by the multitrait-multimethod matrix. *Psychological Bulletin, 56*(2), 81–105. <https://doi.org/10.1037/h0046016></mark>
+<mark>Campbell, D. T., & Fiske, D. W. (1959). Convergent and discriminant validation by the multitrait-multimethod matrix. *Psychological Bulletin*, *56*(2), 81–105. <https://doi.org/10.1037/h0046016></mark>
 
-Hayes, S. C., Nelson, R. O., & Jarrett, R. B. (1987). The treatment utility of assessment: A functional approach to evaluating assessment quality. *American Psychologist, 42*, 963–974. <https://doi.org/10.1037/0003-066X.42.11.963>
+Hayes, S. C., Nelson, R. O., & Jarrett, R. B. (1987). The treatment utility of assessment: A functional approach to evaluating assessment quality. *American Psychologist*, *42*, 963–974. <https://doi.org/10.1037/0003-066X.42.11.963>
 
 <mark>Meehl, P. E. (1973). Chapter 1. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark>&nbsp;
 <mark style="background-color: lightblue">[This is Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. *Psychological Bulletin, 52*(4), 281–302. <https://doi.org/10.1037/h0040957>]</mark>
 
 #### <u>Section 5</u> {.unnumbered #sec-section5}
 
-<mark>Sechrest, L. (1963). Incremental validity: A recommendation. *Educational and Psychological Measurement, 23*, 153–158. <https://doi.org/10.1177/001316446302300113></mark>
+<mark>Sechrest, L. (1963). Incremental validity: A recommendation. *Educational and Psychological Measurement*, *23*, 153–158. <https://doi.org/10.1177/001316446302300113></mark>
 
-<mark>Shavelson, R. J., Webb, N. M., & Rawley, R. L. (1989). Generalizability theory. *American Psychologist, 44*, 922–932. <https://doi.org/10.1037/0003-066X.44.6.922></mark>
+<mark>Shavelson, R. J., Webb, N. M., & Rawley, R. L. (1989). Generalizability theory. *American Psychologist*, *44*, 922–932. <https://doi.org/10.1037/0003-066X.44.6.922></mark>
 
-Bornstein, R. F. (2011). Toward a process-focused model of test score validity: Improving psychological assessment in science and practice. *Psychological Assessment, 23*(2), 532–544. <https://doi.org/10.1037/a0022402>
+Bornstein, R. F. (2011). Toward a process-focused model of test score validity: Improving psychological assessment in science and practice. *Psychological Assessment*, *23*(2), 532–544. <https://doi.org/10.1037/a0022402>
 
 \*American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). *Standards for educational and psychological testing*. American Educational Research Association.
 <mark style="background-color: lightblue">[This is available in the clinic library.
@@ -239,24 +239,24 @@ You don't need to read this for our class, but you should know it exists as a re
 
 #### <u>Section 6</u> {.unnumbered}
 
-<mark>Bollen, K. A., & Lennox, R. D. (1991). Conventional wisdom on measurement: A structural equation perspective. *Psychological Bulletin, 110*(2), 305–314. <https://doi.org/10.1037/0033-2909.110.2.305></mark>
+<mark>Bollen, K. A., & Lennox, R. D. (1991). Conventional wisdom on measurement: A structural equation perspective. *Psychological Bulletin*, *110*(2), 305–314. <https://doi.org/10.1037/0033-2909.110.2.305></mark>
 
 <mark>Podsakoff, P. M., MacKenzie, S. B., & Podsakoff, N. P. (2012). Sources of method bias in social science research and recommendations on how to control it. *Annual Review of Psychology, 63*(1), 539–569. <https://doi.org/10.1146/annurev-psych-120710-100452></mark>
 
-Edwards, J. R., & Bagozzi, R. P. (2000). On the nature and direction of relationships between constructs and measures. *Psychological Methods, 5*(2), 155–174. <https://doi.org/10.1037/1082-989X.5.2.155>
+Edwards, J. R., & Bagozzi, R. P. (2000). On the nature and direction of relationships between constructs and measures. *Psychological Methods*, *5*(2), 155–174. <https://doi.org/10.1037/1082-989X.5.2.155>
 <mark style="background-color: lightblue">[read pp. 155–162 carefully, but don't worry about the complex path models that follow unless they are relevant to your own research.]</mark>
 
 #### Item Response Theory (IRT) {#sec-section7}
 
 #### <u>Section 7</u> {.unnumbered}
 
-<mark>Embretson, S. E. (1996). The new rules of measurement. *Psychological Assessment, 8*, 341–349. <https://doi.org/10.1037/1040-3590.8.4.341></mark>
+<mark>Embretson, S. E. (1996). The new rules of measurement. *Psychological Assessment*, *8*, 341–349. <https://doi.org/10.1037/1040-3590.8.4.341></mark>
 
-<mark>Krueger, R. F., Nichol, P. E., Hicks, B. M., Markon, K. E., Patrick, C. J., lacono, W. G., & McGue, M. (2004). Using latent trait modeling to conceptualize an alcohol problems continuum. *Psychological Assessment, 16*(2), 107–119. <https://doi.org/10.1037/1040-3590.16.2.107></mark>
+<mark>Krueger, R. F., Nichol, P. E., Hicks, B. M., Markon, K. E., Patrick, C. J., lacono, W. G., & McGue, M. (2004). Using latent trait modeling to conceptualize an alcohol problems continuum. *Psychological Assessment*, *16*(2), 107–119. <https://doi.org/10.1037/1040-3590.16.2.107></mark>
 
-Cooper, L. D., & Balsis, S. (2009). When less is more: How fewer diagnostic criteria can indicate greater severity. *Psychological Assessment, 21*(3), 285–293. <https://doi.org/10.1037/a0016698>
+Cooper, L. D., & Balsis, S. (2009). When less is more: How fewer diagnostic criteria can indicate greater severity. *Psychological Assessment*, *21*(3), 285–293. <https://doi.org/10.1037/a0016698>
 
-Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurement. *Annual Review of Clinical Psychology, 5*(1), 27–48. <https://doi.org/10.1146/annurev.clinpsy.032408.153553>
+Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurement. *Annual Review of Clinical Psychology*, *5*(1), 27–48. <https://doi.org/10.1146/annurev.clinpsy.032408.153553>
 
 ## Prediction {#sec-section8}
 
@@ -273,29 +273,29 @@ Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurem
 
 <mark>Treat, T. A., & Viken, R. J. (2023). Measuring test performance with signal detection theory techniques. In H. Cooper, M. N. Coutanche, L. M. McMullen, A. T. Panter, D. Rindskopf, & K. J. Sher (Eds.), *APA handbook of research methods in psychology: Foundations, planning, measures, and psychometrics* (2nd ed., Vol. 1, pp. 837–858). American Psychological Association. <https://doi.org/10.1037/0000318-038></mark>
 
-Swets, J. A., Dawes, R. M., & Monahan, J. (2000). Psychological science can improve diagnostic decisions. *Psychological Science in the Public Interest, 1*(1), 1–26. <https://doi.org/10.1111/1529-1006.001>
+Swets, J. A., Dawes, R. M., & Monahan, J. (2000). Psychological science can improve diagnostic decisions. *Psychological Science in the Public Interest*, *1*(1), 1–26. <https://doi.org/10.1111/1529-1006.001>
 
-Lindhiem, O., Petersen, I. T., Mentch, L. K., & Youngstrom, E. A. (2020). The importance of calibration in clinical psychology. *Assessment, 27*(4), 840–854. <https://doi.org/10.1177/1073191117752055>
+Lindhiem, O., Petersen, I. T., Mentch, L. K., & Youngstrom, E. A. (2020). The importance of calibration in clinical psychology. *Assessment*, *27*(4), 840–854. <https://doi.org/10.1177/1073191117752055>
 
 ### Clinical Judgment vs. Algorithmic Prediction {#sec-section10}
 
 #### <u>Section 10</u> {.unnumbered}
 
-Garb, H. N. (2005). Clinical judgment and decision making. *Annual Review of Clinical Psychology, 1*, 67–89. <https://doi.org/10.1146/annurev.clinpsy.1.102803.143810>
+Garb, H. N. (2005). Clinical judgment and decision making. *Annual Review of Clinical Psychology*, *1*, 67–89. <https://doi.org/10.1146/annurev.clinpsy.1.102803.143810>
 
-<mark>Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674. <https://doi.org/10.1126/science.2648573></mark>
+<mark>Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science*, *243*(4899), 1668–1674. <https://doi.org/10.1126/science.2648573></mark>
 
-<mark>Dawes, R. M. (1986). Representative thinking in clinical judgment. *Clinical Psychology Review, 6*, 425–441. <https://doi.org/10.1016/0272-7358(86)90030-9></mark>
+<mark>Dawes, R. M. (1986). Representative thinking in clinical judgment. *Clinical Psychology Review*, *6*, 425–441. <https://doi.org/10.1016/0272-7358(86)90030-9></mark>
 
-Youngstrom, E. A., Halverson, T. F., Youngstrom, J. K., Lindhiem, O., & Findling, R. L. (2018). Evidence-based assessment from simple clinical judgments to statistical learning: Evaluating a range of options using pediatric bipolar disorder as a diagnostic challenge. *Clinical Psychological Science, 6*(2), 243–265. <https://doi.org/10.1177/2167702617741845>
+Youngstrom, E. A., Halverson, T. F., Youngstrom, J. K., Lindhiem, O., & Findling, R. L. (2018). Evidence-based assessment from simple clinical judgments to statistical learning: Evaluating a range of options using pediatric bipolar disorder as a diagnostic challenge. *Clinical Psychological Science*, *6*(2), 243–265. <https://doi.org/10.1177/2167702617741845>
 
 ## General Issues in Clinical Assessment {#sec-section11}
 
 #### <u>Section 11</u> {.unnumbered}
 
-\*Benjamin, L. T. (2005). A history of clinical psychology as a profession in America (and a glimpse of its future). *Annual Review of Clinical Psychology, 1*, 1–30. <https://doi.org/10.1146/annurev.clinpsy.1.102803.143758>
+\*Benjamin, L. T. (2005). A history of clinical psychology as a profession in America (and a glimpse of its future). *Annual Review of Clinical Psychology*, *1*, 1–30. <https://doi.org/10.1146/annurev.clinpsy.1.102803.143758>
 
-<mark>Kazdin, A. E. (1995). Preparing and evaluating research reports. *Psychological Assessment, 7*(3), 228–237. <https://doi.org/10.1037/1040-3590.7.3.228></mark>
+<mark>Kazdin, A. E. (1995). Preparing and evaluating research reports. *Psychological Assessment*, *7*(3), 228–237. <https://doi.org/10.1037/1040-3590.7.3.228></mark>
 
 Sechrest, L., Stickle, T. R., & Stewart, M. (1998). The role of assessment in clinical psychology. In A. Bellack, M. Hersen, & C. R. Reynolds (Eds.), *Comprehensive clinical psychology* (Vol. 4: Assessment). Pergamon.
 
@@ -303,14 +303,14 @@ Sechrest, L., Stickle, T. R., & Stewart, M. (1998). The role of assessment in cl
 
 #### <u>Section 12</u> {.unnumbered}
 
-<mark>Hunsley, J., & Mash, E. J. (2007). Evidence-based assessment. *Annual Review of Clinical Psychology, 3*, 29–51. <https://doi.org/10.1146/annurev.clinpsy.3.022806.091419></mark>
+<mark>Hunsley, J., & Mash, E. J. (2007). Evidence-based assessment. *Annual Review of Clinical Psychology*, *3*, 29–51. <https://doi.org/10.1146/annurev.clinpsy.3.022806.091419></mark>
 
-Antony, M. M., & Rowa, K. (2005). Evidence-based assessment of anxiety disorders in adults. *Psychological Assessment, 17*(3), 256–266. <https://doi.org/10.1037/1040-3590.17.3.256>
+Antony, M. M., & Rowa, K. (2005). Evidence-based assessment of anxiety disorders in adults. *Psychological Assessment*, *17*(3), 256–266. <https://doi.org/10.1037/1040-3590.17.3.256>
 <mark style="background-color: lightblue">[This is a case study in evidence-based assessment—it's the general approach that matters, not what is specific about anxiety.]</mark>
 
-Youngstrom, E. A., & Van Meter, A. (2016). Empirically supported assessment of children and adolescents. *Clinical Psychology: Science and Practice, 23*(4), 327–347. <https://doi.org/10.1111/cpsp.12172>
+Youngstrom, E. A., & Van Meter, A. (2016). Empirically supported assessment of children and adolescents. *Clinical Psychology: Science and Practice*, *23*(4), 327–347. <https://doi.org/10.1111/cpsp.12172>
 
-<mark>Youngstrom, E. A., Van Meter, A., Frazier, T. W., Hunsley, J., Prinstein, M. J., Ong, M.-L., & Youngstrom, J. K. (2017). Evidence-based assessment as an integrative model for applying psychological science to guide the voyage of treatment. *Clinical Psychology: Science and Practice, 24*(4), 331–363. <https://doi.org/10.1111/cpsp.12207></mark>
+<mark>Youngstrom, E. A., Van Meter, A., Frazier, T. W., Hunsley, J., Prinstein, M. J., Ong, M.-L., & Youngstrom, J. K. (2017). Evidence-based assessment as an integrative model for applying psychological science to guide the voyage of treatment. *Clinical Psychology: Science and Practice*, *24*(4), 331–363. <https://doi.org/10.1111/cpsp.12207></mark>
 
 ## Ethical Issues in Assessment {#sec-section13}
 
@@ -325,7 +325,7 @@ Campbell, L., Vasquez, M., Behnke, S., & Kinscherff, R. (2010). Assessment. In L
 
 <mark>Bersoff, D. N., DeMatteo, D., & Foster, E. E. (2012). Assessment and testing. In S. J. Knapp (Ed.), *APA handbook of ethics in psychology* (Vol. 2: Practice, Teaching, and Research, pp. 45–74). American Psychological Association.</mark>
 
-\*Tackett, J. L., Brandes, C. M., & Reardon, K. W. (2019). Leveraging the Open Science Framework in clinical psychological assessment research. *Psychological Assessment, 31*(12), 1386–1394. <https://doi.org/10.1037/pas0000583>
+\*Tackett, J. L., Brandes, C. M., & Reardon, K. W. (2019). Leveraging the Open Science Framework in clinical psychological assessment research. *Psychological Assessment*, *31*(12), 1386–1394. <https://doi.org/10.1037/pas0000583>
 
 ## Intellectual Assessment {#sec-section15}
 
@@ -348,21 +348,21 @@ Campbell, L., Vasquez, M., Behnke, S., & Kinscherff, R. (2010). Assessment. In L
 
 #### <u>Section 17</u> {.unnumbered}
 
-<mark>Cole, N. S. (1981). Bias in testing. *American Psychologist, 36*(10), 1067–1077. <https://doi.org/10.1037/0003-066X.36.10.1067></mark>
+<mark>Cole, N. S. (1981). Bias in testing. *American Psychologist*, *36*(10), 1067–1077. <https://doi.org/10.1037/0003-066X.36.10.1067></mark>
 
-<mark>Sackett, P. R., & Wilk, S. L. (1994). Within-group norming and other forms of score adjustment in preemployment testing. *American Psychologist, 49*(11), 929–954. <https://doi.org/10.1037/0003-066X.49.11.929></mark>
+<mark>Sackett, P. R., & Wilk, S. L. (1994). Within-group norming and other forms of score adjustment in preemployment testing. *American Psychologist*, *49*(11), 929–954. <https://doi.org/10.1037/0003-066X.49.11.929></mark>
 
 #### <u>Section 18</u> {.unnumbered #sec-section18}
 
-<mark>Sackett, P. R., Schmitt, N., Ellingson, J. E., & Kabin, M. B. (2001). High-stakes testing in employment, credentialing, and higher education. *American Psychologist, 56*, 301–318. <https://doi.org/10.1037/0003-066X.56.4.302></mark>
+<mark>Sackett, P. R., Schmitt, N., Ellingson, J. E., & Kabin, M. B. (2001). High-stakes testing in employment, credentialing, and higher education. *American Psychologist*, *56*, 301–318. <https://doi.org/10.1037/0003-066X.56.4.302></mark>
 
-<mark>Sackett, P. R., Borneman, M. J., & Connelly, B. S. (2008). High stakes testing in higher education and employment: Appraising the evidence for validity and fairness. *American Psychologist, 63*, 215–227. <https://doi.org/10.1037/0003-066X.63.4.215></mark>
+<mark>Sackett, P. R., Borneman, M. J., & Connelly, B. S. (2008). High stakes testing in higher education and employment: Appraising the evidence for validity and fairness. *American Psychologist*, *63*, 215–227. <https://doi.org/10.1037/0003-066X.63.4.215></mark>
 
 ## The Interview and the DSM {#sec-section19}
 
 #### <u>Section 19</u> {.unnumbered}
 
-<mark>Faraone, S. V., & Tsuang, M. T. (1994). Measuring diagnostic accuracy in the absence of a "gold standard". *American Journal of Psychiatry, 151*, 650–657. <https://doi.org/10.1176/ajp.151.5.650></mark>
+<mark>Faraone, S. V., & Tsuang, M. T. (1994). Measuring diagnostic accuracy in the absence of a "gold standard". *American Journal of Psychiatry*, *151*, 650–657. <https://doi.org/10.1176/ajp.151.5.650></mark>
 
 \*Sullivan, H. S. (1970). *The psychiatric interview*. Norton. Chapters 1–4, 7
 <mark style="background-color: lightblue">[This is available in the UI library.
@@ -371,7 +371,7 @@ But you should read it at some point, as an example of a master clinician assess
 
 Summerfeldt, L. J., Kloosterman, P. H., & Antony, M. M. (2010). Structured and semistructured diagnostic interviews. In M. M. Antony & D. H. Barlow (Eds.), *Handbook of assessment and treatment planning for psychological disorders* (2nd ed., pp. 95–137). Guilford Press.
 
-Mullins-Sweatt, S. N., & Widiger, T. A. (2009). Clinical utility and DSM-V. *Psychological Assessment, 21*(3), 302–312. <https://doi.org/10.1037/a0016607>
+Mullins-Sweatt, S. N., & Widiger, T. A. (2009). Clinical utility and DSM-V. *Psychological Assessment*, *21*(3), 302–312. <https://doi.org/10.1037/a0016607>
 
 <mark>Sharp, K. L., Williams, A. J., Rhyner, K. T., & Ilardi, S. S. (2013). The clinical interview. In K. F. Geisinger, J. F. Carlson, J.-I. C. Hansen, N. R. Kuncel, S. P. Reise, & M. C. Rodriguez (Eds.), *APA handbook of testing and assessment in psychology* (Vol. 2: Testing and assessment in clinical and counseling psychology, pp. 103–117). American Psychological Association. <https://doi.org/10.1037/14048-007></mark>
 
@@ -381,11 +381,11 @@ Mullins-Sweatt, S. N., & Widiger, T. A. (2009). Clinical utility and DSM-V. *Psy
 
 #### <u>Section 20</u> {.unnumbered}
 
-<mark>Burisch, M. (1984). Approaches to personality inventory construction: A comparison of merits. *American Psychologist, 39*, 214–227. <https://doi.org/10.1037/0003-066X.39.3.214></mark>
+<mark>Burisch, M. (1984). Approaches to personality inventory construction: A comparison of merits. *American Psychologist*, *39*, 214–227. <https://doi.org/10.1037/0003-066X.39.3.214></mark>
 
-Clark, L. A., & Watson, D. (2019). Constructing validity: New developments in creating objective measuring instruments. *Psychological Assessment, 31*(12), 1412–1427. <https://doi.org/10.1037/pas0000626>
+Clark, L. A., & Watson, D. (2019). Constructing validity: New developments in creating objective measuring instruments. *Psychological Assessment*, *31*(12), 1412–1427. <https://doi.org/10.1037/pas0000626>
 
-<mark>Floyd, F. J., & Widaman, K. F. (1995). Factor analysis in the development and refinement of clinical assessment instruments. *Psychological Assessment, 7*, 286–299. <https://doi.org/10.1037/1040-3590.7.3.286></mark>
+<mark>Floyd, F. J., & Widaman, K. F. (1995). Factor analysis in the development and refinement of clinical assessment instruments. *Psychological Assessment*, *7*, 286–299. <https://doi.org/10.1037/1040-3590.7.3.286></mark>
 
 #### <u>Section 21</u> {.unnumbered #sec-section21}
 
@@ -393,27 +393,27 @@ Clark, L. A., & Watson, D. (2019). Constructing validity: New developments in cr
 <mark style="background-color: lightblue">[This is available in the clinic library.
 Get a feel for this measure and the way it was developed; you don't need to remember details about the scales.]</mark>
 
-Sellbom, M. (2019). The MMPI-2-Restructured Form (MMPI-2-RF): Assessment of personality and psychopathology in the twenty-first century. *Annual Review of Clinical Psychology, 15*(1), 149–177. <https://doi.org/10.1146/annurev-clinpsy-050718-095701>
+Sellbom, M. (2019). The MMPI-2-Restructured Form (MMPI-2-RF): Assessment of personality and psychopathology in the twenty-first century. *Annual Review of Clinical Psychology*, *15*(1), 149–177. <https://doi.org/10.1146/annurev-clinpsy-050718-095701>
 
 <mark>Wiggins, J. S. (1973). Structured techniques. In J. S. Wiggins (Ed.), *Personality and prediction: Principles of personality assessment* (pp. 380–440). Addison-Wesley.</mark>
 
 #### <u>Section 22</u> {.unnumbered #sec-section22}
 
-<mark>Dunning, D., Heath, C., & Suls, J. M. (2004). Flawed self-assessment: Implications for health, education, and the workplace. *Psychological Science in the Public Interest, 5*, 69–106. <https://doi.org/10.1111/j.1529-1006.2004.00018.x></mark>
+<mark>Dunning, D., Heath, C., & Suls, J. M. (2004). Flawed self-assessment: Implications for health, education, and the workplace. *Psychological Science in the Public Interest*, *5*, 69–106. <https://doi.org/10.1111/j.1529-1006.2004.00018.x></mark>
 
-<mark>Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology, 50*, 537–567. <https://doi.org/10.1146/annurev.psych.50.1.537></mark>
+<mark>Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*, 537–567. <https://doi.org/10.1146/annurev.psych.50.1.537></mark>
 
 ### Projective tests {#sec-section23}
 
 #### <u>Section 23</u> {.unnumbered}
 
-\*Frank, L. K. (1939). Projective methods for the study of personality. *Journal of Psychology, 8*, 389–413. <https://doi.org/10.1080/00223980.1939.9917671>
+\*Frank, L. K. (1939). Projective methods for the study of personality. *Journal of Psychology*, *8*, 389–413. <https://doi.org/10.1080/00223980.1939.9917671>
 
-\*Lindzey, G. (1952). Thematic Apperception Test: Interpretive assumptions and related empirical evidence. *Psychological Bulletin, 49*, 1–25. <https://doi.org/10.1037/h0062363>
+\*Lindzey, G. (1952). Thematic Apperception Test: Interpretive assumptions and related empirical evidence. *Psychological Bulletin*, *49*, 1–25. <https://doi.org/10.1037/h0062363>
 
-<mark>Lilienfeld, S. O., Wood, J. M., & Garb, H. N. (2000). The scientific status of projective techniques. *Psychological Science in the Public Interest, 1*, 27–66. <https://doi.org/10.1111/1529-1006.002></mark>
+<mark>Lilienfeld, S. O., Wood, J. M., & Garb, H. N. (2000). The scientific status of projective techniques. *Psychological Science in the Public Interest*, *1*, 27–66. <https://doi.org/10.1111/1529-1006.002></mark>
 
-\*Wood, J. M., Nezworski, M. T., & Stejskal, W. J. (1996). The comprehensive system for the Rorschach: A critical examination. *Psychological Science, 7*(1), 3–10. <https://doi.org/10.1111/j.1467-9280.1996.tb00658.x>.
+\*Wood, J. M., Nezworski, M. T., & Stejskal, W. J. (1996). The comprehensive system for the Rorschach: A critical examination. *Psychological Science*, *7*(1), 3–10. <https://doi.org/10.1111/j.1467-9280.1996.tb00658.x>.
 <mark style="background-color: lightblue">[See also the response from Exner and reply by Wood et al. on pp. 11–17.]</mark>
 
 ### Psychophysiological Measures and RDoC {#sec-section24}
@@ -424,47 +424,47 @@ Dubois, J., & Adolphs, R. (2016). Building a science of individual differences f
 <mark style="background-color: lightblue">[Students not working in imaging can skip over most of the technical details in this article.
 Read it as a model for taking measurement seriously in an emerging area of clinical research.]</mark>
 
-<mark>Haynes, S. N., & Yoshioka, D. T. (2007). Clinical assessment applications of ambulatory biosensors. *Psychological Assessment, 19*(1), 44–57. <https://doi.org/10.1037/1040-3590.19.1.44></mark>
+<mark>Haynes, S. N., & Yoshioka, D. T. (2007). Clinical assessment applications of ambulatory biosensors. *Psychological Assessment*, *19*(1), 44–57. <https://doi.org/10.1037/1040-3590.19.1.44></mark>
 
-<mark>Kozak, M. J., & Cuthbert, B. N. (2016). The NIMH research domain criteria initiative: Background, issues, and pragmatics. *Psychophysiology, 53*(3), 286–297. <https://doi.org/10.1111/psyp.12518></mark>&nbsp;
+<mark>Kozak, M. J., & Cuthbert, B. N. (2016). The NIMH research domain criteria initiative: Background, issues, and pragmatics. *Psychophysiology*, *53*(3), 286–297. <https://doi.org/10.1111/psyp.12518></mark>&nbsp;
 <mark style="background-color: lightblue">[Students already familiar with RDoC can skim this introduction.
 Our interest is in examining RDoC from a measurement perspective.]</mark>
 
-MacNamara, A., & Phan, K. L. (2016). Psychobiological operationalization of RDoC constructs: Methodological and conceptual opportunities and challenges. *Psychophysiology, 53*(3), 406–409. <https://doi.org/10.1111/psyp.12587>
+MacNamara, A., & Phan, K. L. (2016). Psychobiological operationalization of RDoC constructs: Methodological and conceptual opportunities and challenges. *Psychophysiology*, *53*(3), 406–409. <https://doi.org/10.1111/psyp.12587>
 
-Miller, G. A., Rockstroh, B. S., Hamilton, H. K., & Yee, C. M. (2016). Psychophysiology as a core strategy in RDoC. *Psychophysiology, 53*(3), 410–414. <https://doi.org/10.1111/psyp.12581>
+Miller, G. A., Rockstroh, B. S., Hamilton, H. K., & Yee, C. M. (2016). Psychophysiology as a core strategy in RDoC. *Psychophysiology*, *53*(3), 410–414. <https://doi.org/10.1111/psyp.12581>
 
-<mark>Miller, G. A., Elbert, T., Sutton, B. P., & Heller, W. (2007). Innovative clinical assessment technologies: Challenges and opportunities in neuroimaging. *Psychological Assessment, 19*(1), 58–73. <https://doi.org/10.1037/1040-3590.19.1.58></mark>
+<mark>Miller, G. A., Elbert, T., Sutton, B. P., & Heller, W. (2007). Innovative clinical assessment technologies: Challenges and opportunities in neuroimaging. *Psychological Assessment*, *19*(1), 58–73. <https://doi.org/10.1037/1040-3590.19.1.58></mark>
 
-\*Stone, A. A., Schneider, S., & Smyth, J. M. (2023). Evaluation of pressing issues in ecological momentary assessment. *Annual Review of Clinical Psychology, 19*(1), 107–131. <https://doi.org/10.1146/annurev-clinpsy-080921-083128>
+\*Stone, A. A., Schneider, S., & Smyth, J. M. (2023). Evaluation of pressing issues in ecological momentary assessment. *Annual Review of Clinical Psychology*, *19*(1), 107–131. <https://doi.org/10.1146/annurev-clinpsy-080921-083128>
 
 ### Computers and Adaptive Testing {#sec-section25}
 
 #### <u>Section 25</u> {.unnumbered}
 
-<mark>Buchanan, T. (2002). Online assessment: Desirable or dangerous? *Professional Psychology: Research and Practice, 33*(2), 148–154. <https://doi.org/10.1037/0735-7028.33.2.148></mark>
+<mark>Buchanan, T. (2002). Online assessment: Desirable or dangerous? *Professional Psychology: Research and Practice*, *33*(2), 148–154. <https://doi.org/10.1037/0735-7028.33.2.148></mark>
 
-\*Galatzer-Levy, I. R., & Onnela, J.-P. (2023). Machine learning and the digital measurement of psychological health. *Annual Review of Clinical Psychology, 19*, 133–154. <https://doi.org/10.1146/annurev-clinpsy-080921-073212>
+\*Galatzer-Levy, I. R., & Onnela, J.-P. (2023). Machine learning and the digital measurement of psychological health. *Annual Review of Clinical Psychology*, *19*, 133–154. <https://doi.org/10.1146/annurev-clinpsy-080921-073212>
 
-Garb, H. N. (2007). Computer-administered interviews and rating scales. *Psychological Assessment, 19*(1), 4–13. <https://doi.org/10.1037/1040-3590.19.1.4>
+Garb, H. N. (2007). Computer-administered interviews and rating scales. *Psychological Assessment*, *19*(1), 4–13. <https://doi.org/10.1037/1040-3590.19.1.4>
 
-Ruiz, M. A., Drake, E. B., Glass, A., Marcotte, D., & van Gorp, W. G. (2002). Trying to beat the system: Misuse of the internet to assist in avoiding the detection of psychological symptom dissimulation. *Professional Psychology: Research and Practice, 33*(3), 294–299. <https://doi.org/10.1037/0735-7028.33.3.294>
+Ruiz, M. A., Drake, E. B., Glass, A., Marcotte, D., & van Gorp, W. G. (2002). Trying to beat the system: Misuse of the internet to assist in avoiding the detection of psychological symptom dissimulation. *Professional Psychology: Research and Practice*, *33*(3), 294–299. <https://doi.org/10.1037/0735-7028.33.3.294>
 
-Forbey, J. D., & Ben-Porath, Y. S. (2007). Computerized adaptive personality testing: A review and illustration with the MMPI-2 computerized adaptive version. *Psychological Assessment, 19*(1), 14–24. <https://doi.org/10.1037/1040-3590.19.1.14>
+Forbey, J. D., & Ben-Porath, Y. S. (2007). Computerized adaptive personality testing: A review and illustration with the MMPI-2 computerized adaptive version. *Psychological Assessment*, *19*(1), 14–24. <https://doi.org/10.1037/1040-3590.19.1.14>
 
-<mark>Gibbons, R. D., Weiss, D. J., Frank, E., & Kupfer, D. (2016). Computerized adaptive diagnosis and testing of mental health disorders. *Annual Review of Clinical Psychology, 12*(1), 83–104. <https://doi.org/10.1146/annurev-clinpsy-021815-093634></mark>
+<mark>Gibbons, R. D., Weiss, D. J., Frank, E., & Kupfer, D. (2016). Computerized adaptive diagnosis and testing of mental health disorders. *Annual Review of Clinical Psychology*, *12*(1), 83–104. <https://doi.org/10.1146/annurev-clinpsy-021815-093634></mark>
 
 ## Behavioral Assessment {#sec-section26}
 
 #### <u>Section 26</u> {.unnumbered}
 
-<mark>Girard, J. M., & Cohn, J. F. (2016). A primer on observational measurement. *Assessment, 23*(4), 404–413. <https://doi.org/10.1177/1073191116635807></mark>
+<mark>Girard, J. M., & Cohn, J. F. (2016). A primer on observational measurement. *Assessment*, *23*(4), 404–413. <https://doi.org/10.1177/1073191116635807></mark>
 
-<mark>Haynes, S. N. (2001). Clinical applications of analogue behavioral observation: Dimensions of psychometric evaluation. *Psychological Assessment, 13*(1), 73–85.<https://doi.org/10.1037/1040-3590.13.1.73></mark>
+<mark>Haynes, S. N. (2001). Clinical applications of analogue behavioral observation: Dimensions of psychometric evaluation. *Psychological Assessment*, *13*(1), 73–85.<https://doi.org/10.1037/1040-3590.13.1.73></mark>
 
-Korotitsch, W. J., & Nelson-Gray, R. O. (1999). An overview of self-monitoring research in assessment and treatment. *Psychological Assessment, 11*(4), 415–425. <https://doi.org/10.1037/1040-3590.11.4.415>
+Korotitsch, W. J., & Nelson-Gray, R. O. (1999). An overview of self-monitoring research in assessment and treatment. *Psychological Assessment*, *11*(4), 415–425. <https://doi.org/10.1037/1040-3590.11.4.415>
 
-Piasecki, T. M., Hufford, M. R., Solhan, M., & Trull, T. J. (2007). Assessing clients in their natural environments with electronic diaries: Rationale, benefits, limitations, and barriers. *Psychological Assessment, 19*(1), 25–43. <https://doi.org/10.1037/1040-3590.19.1.25>
+Piasecki, T. M., Hufford, M. R., Solhan, M., & Trull, T. J. (2007). Assessing clients in their natural environments with electronic diaries: Rationale, benefits, limitations, and barriers. *Psychological Assessment*, *19*(1), 25–43. <https://doi.org/10.1037/1040-3590.19.1.25>
 
 ## Repeated Assessments across Time {#sec-section27}
 
@@ -472,19 +472,19 @@ Piasecki, T. M., Hufford, M. R., Solhan, M., & Trull, T. J. (2007). Assessing cl
 
 Sobell, L. C., & Sobell, M. B. (2008). Timeline followback (TLFB). In A. J. Rush Jr., M. B. First, & D. Blacker (Eds.), *Handbook of psychiatric measures* (2nd ed., pp. 466–468). American Psychiatric Publishing.
 
-<mark>Carpenter, R. W., Wycoff, A. M., & Trull, T. J. (2016). Ambulatory assessment: New adventures in characterizing dynamic processes. *Assessment, 23*(4), 414–424. <https://doi.org/10.1177/1073191116632341></mark>
+<mark>Carpenter, R. W., Wycoff, A. M., & Trull, T. J. (2016). Ambulatory assessment: New adventures in characterizing dynamic processes. *Assessment*, *23*(4), 414–424. <https://doi.org/10.1177/1073191116632341></mark>
 
-<mark>Matthews, M., Abdullah, S., Murnane, E., Voida, S., Choudhury, T., Gay, G., & Frank, E. (2016). Development and evaluation of a smartphone-based measure of social rhythms for bipolar disorder. *Assessment, 23*(4), 472–483. <https://doi.org/10.1177/1073191116656794></mark>&nbsp;
+<mark>Matthews, M., Abdullah, S., Murnane, E., Voida, S., Choudhury, T., Gay, G., & Frank, E. (2016). Development and evaluation of a smartphone-based measure of social rhythms for bipolar disorder. *Assessment*, *23*(4), 472–483. <https://doi.org/10.1177/1073191116656794></mark>&nbsp;
 <mark style="background-color: lightblue">[a case study in self-report across time.
 Specifics of their study are less important.]</mark>
 
 #### <u>Section 28</u> {.unnumbered #sec-section28}
 
-<mark>Hertzog, C., & Nesselroade, J. R. (2003). Assessing psychological change in adulthood: An overview of methodological issues. *Psychology and Aging, 18*(4), 639–657. <https://doi.org/10.1037/0882-7974.18.4.639></mark>
+<mark>Hertzog, C., & Nesselroade, J. R. (2003). Assessing psychological change in adulthood: An overview of methodological issues. *Psychology and Aging*, *18*(4), 639–657. <https://doi.org/10.1037/0882-7974.18.4.639></mark>
 
-Petersen, I. T., Choe, D. E., & LeBeau, B. (2020). Studying a moving target in development: The challenge and opportunity of heterotypic continuity. *Developmental Review, 58*, 100935. <https://doi.org/10.1016/j.dr.2020.100935>
+Petersen, I. T., Choe, D. E., & LeBeau, B. (2020). Studying a moving target in development: The challenge and opportunity of heterotypic continuity. *Developmental Review*, *58*, 100935. <https://doi.org/10.1016/j.dr.2020.100935>
 
-Beltz, A. M., Wright, A. G. C., Sprague, B. N., & Molenaar, P. C. M. (2016). Bridging the nomothetic and idiographic approaches to the analysis of clinical data. *Assessment, 23*(4), 447–458. <https://doi.org/10.1177/1073191116648209>
+Beltz, A. M., Wright, A. G. C., Sprague, B. N., & Molenaar, P. C. M. (2016). Bridging the nomothetic and idiographic approaches to the analysis of clinical data. *Assessment*, *23*(4), 447–458. <https://doi.org/10.1177/1073191116648209>
 <mark style="background-color: lightblue">[focus on the general issues of combining idiographic and nomothetic data.
 You don't need to know the technical details of their GIMME model.]</mark>
 
@@ -492,15 +492,15 @@ You don't need to know the technical details of their GIMME model.]</mark>
 
 #### <u>Section 29</u> {.unnumbered}
 
-\*Busemeyer, J. R., & Stout, J. C. (2002). A contribution of cognitive decision models to clinical assessment: Decomposing performance on the Bechara gambling task. *Psychological Assessment, 14*(3), 253–262. <https://doi.org/10.1037/1040-3590.14.3.253>
+\*Busemeyer, J. R., & Stout, J. C. (2002). A contribution of cognitive decision models to clinical assessment: Decomposing performance on the Bechara gambling task. *Psychological Assessment*, *14*(3), 253–262. <https://doi.org/10.1037/1040-3590.14.3.253>
 
 <mark>Dunkley, D. M., Segal, Z. V., & Blankstein, K. R. (2019). Cognitive assessment: Issues and methods. In K. S. Dobson & D. J. A. Dozois (Eds.), *Handbook of cognitive-behavioral therapies* (4th ed., pp. 85–119). Guilford Press.</mark>
 
-Davison, G. C., Vogel, R. S., & Coffman, S. G. (1997). Think-aloud approaches to cognitive assessment and the articulated thoughts in simulated situations paradigm. *Journal of Consulting and Clinical Psychology, 65*(6), 950–958. <https://doi.org/10.1037/0022-006X.65.6.950>
+Davison, G. C., Vogel, R. S., & Coffman, S. G. (1997). Think-aloud approaches to cognitive assessment and the articulated thoughts in simulated situations paradigm. *Journal of Consulting and Clinical Psychology*, *65*(6), 950–958. <https://doi.org/10.1037/0022-006X.65.6.950>
 
-Hurlburt, R. T. (1997). Randomly sampling thinking in the natural environment. *Journal of Consulting and Clinical Psychology, 65*(6), 941–949. <https://doi.org/10.1037/0022-006X.65.6.941>
+Hurlburt, R. T. (1997). Randomly sampling thinking in the natural environment. *Journal of Consulting and Clinical Psychology*, *65*(6), 941–949. <https://doi.org/10.1037/0022-006X.65.6.941>
 
-<mark>Rodebaugh, T. L., Scullin, R. B., Langer, J. K., Dixon, D. J., Huppert, J. D., Bernstein, A., Zvielli, A., & Lenze, E. J. (2016). Unreliability as a threat to understanding psychopathology: The cautionary tale of attentional bias. *Journal of Abnormal Psychology, 125*(6), 840–851. <https://doi.org/10.1037/abn0000184></mark>
+<mark>Rodebaugh, T. L., Scullin, R. B., Langer, J. K., Dixon, D. J., Huppert, J. D., Bernstein, A., Zvielli, A., & Lenze, E. J. (2016). Unreliability as a threat to understanding psychopathology: The cautionary tale of attentional bias. *Journal of Abnormal Psychology*, *125*(6), 840–851. <https://doi.org/10.1037/abn0000184></mark>
 
 Treat, T. A., McFall, R. M., Viken, R. J., Kruschke, J. K., Nosofsky, R. M., & Wang, S. S. (2007). Clinical cognitive science: Applying quantitative models of cognitive processing to examine cognitive aspects of psychopathology. In R. W. J. Neufeld (Ed.), *Advances in clinical cognitive science: Formal modeling of processes and symptoms* (pp. 179–205). American Psychological Association. <https://doi.org/10.1037/11556-006>
 
@@ -515,11 +515,11 @@ Also review relevant sections of the APA Standards for Educational and Psycholog
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
-Byrd, D. A., Rivera Mindt, M. M., Clark, U. S., Clarke, Y., Thames, A. D., Gammada, E. Z., & Manly, J. J. (2021). Creating an antiracist psychology by addressing professional complicity in psychological assessment. *Psychological Assessment, 33*(3), 279-285. <https://doi.org/10.1037/pas0000993>
+Byrd, D. A., Rivera Mindt, M. M., Clark, U. S., Clarke, Y., Thames, A. D., Gammada, E. Z., & Manly, J. J. (2021). Creating an antiracist psychology by addressing professional complicity in psychological assessment. *Psychological Assessment*, *33*(3), 279-285. <https://doi.org/10.1037/pas0000993>
 
-<mark>Okazaki, S., & Sue, S. (1995). Methodological issues in assessment research with ethnic minorities. *Psychological Assessment, 7*(3), 367–375. <https://doi.org/10.1037/1040-3590.7.3.367></mark>
+<mark>Okazaki, S., & Sue, S. (1995). Methodological issues in assessment research with ethnic minorities. *Psychological Assessment*, *7*(3), 367–375. <https://doi.org/10.1037/1040-3590.7.3.367></mark>
 
-Garb, H. N. (1997). Race bias, social class bias, and gender bias in clinical judgment. *Clinical Psychology: Science and Practice, 4*(2), 99–120. <https://doi.org/10.1111/j.1468-2850.1997.tb00104.x>
+Garb, H. N. (1997). Race bias, social class bias, and gender bias in clinical judgment. *Clinical Psychology: Science and Practice*, *4*(2), 99–120. <https://doi.org/10.1111/j.1468-2850.1997.tb00104.x>
 
 Leong, F. T. L., & Kalibatseva, Z. (2016). Threats to cultural validity in clinical diagnosis and assessment: Illustrated with the case of Asian Americans. In N. Zane, G. Bernal, & F. T. L. Leong (Eds.), *Evidence-based psychological practice with ethnic minorities: Culturally informed research and clinical strategies* (pp. 57–74). American Psychological Association.
 
