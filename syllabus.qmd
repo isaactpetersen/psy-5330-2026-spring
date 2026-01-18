@@ -264,7 +264,7 @@ Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurem
 
 #### <u>Section 8</u> {.unnumbered}
 
-Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin*, *52*(3), 194–216. <https://doi.org/10.1037/h0048070>&nbsp;
+<mark>Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin*, *52*(3), 194–216. <https://doi.org/10.1037/h0048070></mark>&nbsp;
 <mark style="background-color: lightblue">[This was also reprinted as Chapter 2 of Meehl's (1973) book, "Psychodiagnosis: Selected papers".]</mark>
 
 ### Signal Detection Theory {#sec-section9}
