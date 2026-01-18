@@ -218,8 +218,8 @@ Wiggins, J. S. (1973). Observational techniques: I. Generalizability and facets 
 
 Hayes, S. C., Nelson, R. O., & Jarrett, R. B. (1987). The treatment utility of assessment: A functional approach to evaluating assessment quality. *American Psychologist*, *42*, 963–974. <https://doi.org/10.1037/0003-066X.42.11.963>
 
-<mark>Meehl, P. E. (1973). Chapter 1. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark>&nbsp;
-<mark style="background-color: lightblue">[This is Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. *Psychological Bulletin, 52*(4), 281–302. <https://doi.org/10.1037/h0040957>]</mark>
+<mark>Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. *Psychological Bulletin*, *52*(4), 281–302. <https://doi.org/10.1037/h0040957></mark>&nbsp;
+<mark style="background-color: lightblue">[This was also reprinted as Chapter 1 of Meehl's (1973) book, "Psychodiagnosis: Selected papers".]</mark>
 
 #### <u>Section 5</u> {.unnumbered #sec-section5}
 
@@ -264,8 +264,8 @@ Reise, S. P., & Waller, N. G. (2009). Item response theory and clinical measurem
 
 #### <u>Section 8</u> {.unnumbered}
 
-<mark>Meehl, P. E. (1973). Chapter 2. *Psychodiagnosis: Selected papers*. University of Minnesota Press.</mark>&nbsp;
-<mark style="background-color: lightblue">[This is Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin, 52*(3), 194–216. <https://doi.org/10.1037/h0048070>]</mark>
+Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin*, *52*(3), 194–216. <https://doi.org/10.1037/h0048070>&nbsp;
+<mark style="background-color: lightblue">[This was also reprinted as Chapter 2 of Meehl's (1973) book, "Psychodiagnosis: Selected papers".]</mark>
 
 ### Signal Detection Theory {#sec-section9}
 
