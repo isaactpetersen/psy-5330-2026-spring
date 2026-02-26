@@ -319,7 +319,7 @@ Youngstrom, E. A., & Van Meter, A. (2016). Empirically supported assessment of c
 <mark>American Psychological Association. (2017). Ethical principles of psychologists and code of conduct. <https://www.apa.org/ethics/code></mark>&nbsp;
 <mark style="background-color: lightblue">(Sections 1, 2, 9).</mark>
 
-Nagy, T. F. (2011). Ethics in psychological assessment. In T. F. Nagy (Ed.), *Essential ethics for psychologists: a primer for understanding and mastering core issues* (pp. 171–183). American Psychological Association. <https://doi.org/10.1037/12345-009>
+Nagy, T. F. (2011). Ethics in psychological assessment. In T. F. Nagy (Ed.), *Essential ethics for psychologists: A primer for understanding and mastering core issues* (pp. 171–183). American Psychological Association. <https://doi.org/10.1037/12345-009>
 
 Campbell, L., Vasquez, M., Behnke, S., & Kinscherff, R. (2010). Assessment. In L. Campbell, M. Vasquez, S. Behnke, & R. Kinscherff (Eds.), *APA Ethics Code commentary and case illustrations*. American Psychological Association.
 
